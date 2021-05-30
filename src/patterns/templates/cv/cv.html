@@ -1,0 +1,102 @@
+<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1">
+
+	<header class="lrv-u-border-b-1 lrv-u-border-color-brand-primary lrv-u-padding-b-1">
+		<div class="lrv-u-flex lrv-u-align-items-center">
+			<img class="lrv-u-width-200 lrv-u-margin-r-1" src="{{data.basics.picture}}" alt="">
+			<div>
+				<h1>{{ data.basics.name }}</h1>
+				<em>{{ data.basics.label }}</em>
+				<p class="lrv-u-margin-tb-050">{{ data.basics.summary }}</p>
+				<p class="lrv-u-margin-tb-00">{{ data.basics.website }}</p>
+			</div>
+		</div>
+		<div class="lrv-a-grid lrv-a-cols3 lrv-u-align-items-center">
+			<p>
+				{{data.basics.location.address}}<br>
+				{{data.basics.location.city}}, {{data.basics.location.postalCode}}
+			</p>
+			<ul class="lrv-a-unstyle-list">
+				<li>{{data.basics.phone}}</li>
+				<li>{{ data.basics.email }}</li>
+				<li>{{ data.basics.address }}</li>
+			</ul>
+			<ul class="lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050">
+				{% for profile in data.basics.profiles %}
+					<li><a href="{{profile.url}}">{{ profile.network }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</header>
+
+	<section class="lrv-a-grid a-cols-content">
+		<header>
+			<h3>Research</h3>
+		</header>
+		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			{% for project in data.research %}
+				<li>
+					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
+						<h4>{{project.title}}</h4>
+						<em>{{project.startDate}} - {{project.endDate}}</em>
+					</div>
+					
+					<p>{{project.description}}</p>
+					
+					{% for link in project.links %}
+						<a href="{{link.url}}">{{ link.name }}</a>,
+					{% endfor %}
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
+	
+	<section class="lrv-a-grid a-cols-content">
+		<header>
+			<h3>Experience</h3>
+		</header>
+		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			{% for item in data.work %}
+				<li>
+					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
+						<h4>{{item.position}}</h4>
+						<h4>{{item.company}}</h4>
+						<em>{{item.startDate}} - {{item.endDate}}</em>
+					</div>
+					
+					<p>{{item.summary}}</p>
+					
+					<ul>
+						{% for highlight in item.highlights %}
+							<li>{{highlight}}</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
+	
+	<section class="lrv-a-grid a-cols-content">
+		<header>
+			<h3>Volunteer</h3>
+		</header>
+		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			{% for item in data.volunteer %}
+				<li>
+					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
+						<h4>{{item.position}}</h4>
+						<h4>{{item.organization}}</h4>
+						<em>{{item.startDate}} - {{item.endDate}}</em>
+					</div>
+					
+					<p>{{item.summary}}</p>
+					
+					<ul>
+						{% for highlight in item.highlights %}
+							<li>{{highlight}}</li>
+						{% endfor %}
+					</ul>
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
+</div>

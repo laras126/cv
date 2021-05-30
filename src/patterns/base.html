@@ -1,0 +1,21 @@
+{% extends "@larva/base.html" %}
+
+{% block stylesheets %}
+	<style>
+		:root {
+			--system-ui: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+			--color-brand-primary: #15598f;
+			--border-color-brand-primary: #15598f;
+			--font-family-basic: var(--system-ui);
+			--font-family-primary-fancy: var(--system-ui);
+			--font-family-secondary-fancy: var(--system-ui);
+			--site-max-width: 850px;
+		}
+		
+		@media(min-width: 700px) {
+			.a-cols-content {
+				grid-template-columns: 200px 1fr;
+			}
+		}
+	</style>
+{% endblock stylesheets %}

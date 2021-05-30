@@ -1,0 +1,166 @@
+{
+	"basics": {
+		"name": "Lara Schenck",
+		"label": "Doctoral Candidate",
+		"picture": "https://notlaura.com/wp-content/uploads/2020/07/lara-with-monster.jpg",
+		"email": "lara@notlaura.com",
+		"phone": "(724) 244-2491",
+		"website": "https://notlaura.com",
+		"summary": "Industry professional looking to make side research projects her career and fulfill her personal legend.",
+		"location": {
+			"address": "134 S. Graham St. #1",
+			"postalCode": "PA 15206",
+			"city": "Pittsburgh",
+			"countryCode": "US",
+			"region": "Pennsylvania"
+		},
+		"profiles": [{
+			"network": "Twitter",
+			"username": "laras126",
+			"url": "http://twitter.com/laras126"
+		},
+		{
+			"network": "Github",
+			"username": "laras126",
+			"url": "http://github.com/laras126"
+		},
+		{
+			"network": "CodePen",
+			"username": "laras126",
+			"url": "http://codepen.io/laras126"
+		}]
+	},
+	"work": [{
+		"company": "Penske Media Corporation",
+		"position": "Senior Software Engineer",
+		"website": "http://company.com",
+		"startDate": "June 2018",
+		"endDate": "present",
+		"summary": "Full stack development on enterprise WordPress websites.",
+		"highlights": [
+			"Built design system",
+			"Improved culture"
+		]
+	}],
+	"research": [
+		{
+			"title": "CSS Algorithms",
+			"startDate": "2017",
+			"endDate": "present",
+			"description": "CSS is a programming language. What does it look like to program algorithms in CSS?",
+			"links": [
+				{
+					"name": "Article: Is CSS Turing Complete?",
+					"url": "#"
+				},
+				{
+					"name": "CSS Is A Declarative, Domain-Specific Programming Language",
+					"url": "#"
+				},
+				{
+					"name": "Writing CSS Algorithms",
+					"url": "#"
+				},
+				{
+					"name": "Conference Speaking",
+					"url": "#"
+				}
+			]
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "WordPress Core",
+			"position": "Open Source Contributor",
+			"website": "https://whatsuppgh.org/",
+			"startDate": "2019",
+			"endDate": "present",
+			"summary": "Description...",
+			"highlights": [
+				"Lead weekly meetings on Core CSS",
+				"Devise and oversee long term projects",
+				"Contribute code to WordPress Core"
+			]
+		},
+		{
+			"organization": "What's Up Pittsburgh",
+			"position": "Volunteer",
+			"website": "https://whatsuppgh.org/",
+			"startDate": "2019",
+			"endDate": "present",
+			"summary": "Description...",
+			"highlights": [
+				"Led session on racial justice in tech",
+				"Participated in core organizing group",
+				"Advise on website"
+			]
+		},
+		{
+			"organization": "Center for Artistic Activism",
+			"position": "Volunteer",
+			"website": "http://c4aa.org/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Description...",
+			"highlights": [
+				"Redesigned website and implemented donation platform"
+			]
+		}
+	],	
+	"education": [{
+		"institution": "School of the Museum of Fine Arts at Tufts University",
+		"area": "Fine Arts",
+		"studyType": "Bachelor",
+		"startDate": "2007",
+		"endDate": "2011"
+	}],
+	"skills": [{
+		"name": "Programming",
+		"keywords": [
+			"CSS",
+			"HTML",
+			"JavaScript",
+			"PHP",
+			"Python",
+			"Standard ML"
+		]
+	},
+	{
+		"name": "Frameworks",
+		"keywords": [
+			"React",
+			"WordPress"
+		]
+	}],
+	"languages": [{
+			"language": "English",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "Spanish",
+			"fluency": "Intermediate"
+		}
+	],
+	"interests": [{
+		"name": "Running",
+		"keywords": [
+			"Ferrets",
+			"Unicorns"
+		]
+	}],
+	"references": [
+		{
+			"name": "Felienne Hermans",
+			"reference": "Reference..."
+		},
+		{
+			"name": "Aaron Jorbin",
+			"reference": "Reference..."
+		},
+		{
+			"name": "Andre Jacobs",
+			"reference": "Reference..."
+		}
+	]
+
+}
