@@ -11,10 +11,7 @@
 			</div>
 		</div>
 		<div class="lrv-a-grid lrv-a-cols3 lrv-u-align-items-center">
-			<p>
-				{{data.basics.location.address}}<br>
-				{{data.basics.location.city}}, {{data.basics.location.postalCode}}
-			</p>
+			<p>{{data.basics.location}}</p>
 			<ul class="lrv-a-unstyle-list">
 				<li>{{data.basics.phone}}</li>
 				<li>{{ data.basics.email }}</li>
@@ -33,16 +30,16 @@
 			<h3>Research</h3>
 		</header>
 		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
-			{% for project in data.research %}
+			{% for item in data.research %}
 				<li>
 					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
-						<h4>{{project.title}}</h4>
-						<em>{{project.startDate}} - {{project.endDate}}</em>
+						<h4>{{item.title}}</h4>
+						<em>{{item.startDate}} - {{item.endDate}}</em>
 					</div>
 					
-					<p>{{project.description}}</p>
+					<p class="lrv-u-margin-tb-00">{{item.summary}}</p>
 					
-					{% for link in project.links %}
+					{% for link in item.links %}
 						<a href="{{link.url}}">{{ link.name }}</a>,
 					{% endfor %}
 				</li>
@@ -63,13 +60,9 @@
 						<em>{{item.startDate}} - {{item.endDate}}</em>
 					</div>
 					
-					<p>{{item.summary}}</p>
+					<p class="lrv-u-margin-tb-00">{{item.summary}}</p>
 					
-					<ul>
-						{% for highlight in item.highlights %}
-							<li>{{highlight}}</li>
-						{% endfor %}
-					</ul>
+					{% include "templates/cv/partials/highlights.twig" with item.highlights %}
 				</li>
 			{% endfor %}
 		</ul>
@@ -88,13 +81,30 @@
 						<em>{{item.startDate}} - {{item.endDate}}</em>
 					</div>
 					
+					<p class="lrv-u-margin-tb-00">{{item.summary}}</p>
+					
+					{% include "templates/cv/partials/highlights.twig" with item.highlights %}
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
+	
+	<section class="lrv-a-grid a-cols-content">
+		<header>
+			<h3>Education</h3>
+		</header>
+		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			{% for item in data.education %}
+				<li>
+					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
+						<h4>{{item.institution}}</h4>
+						<h4>{{item.degree}}</h4>
+						<em>{{item.startDate}} - {{item.endDate}}</em>
+					</div>
+					
 					<p>{{item.summary}}</p>
 					
-					<ul>
-						{% for highlight in item.highlights %}
-							<li>{{highlight}}</li>
-						{% endfor %}
-					</ul>
+					{% include "templates/cv/partials/highlights.twig" with item.highlights %}
 				</li>
 			{% endfor %}
 		</ul>
