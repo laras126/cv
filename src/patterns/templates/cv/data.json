@@ -2,188 +2,184 @@
 	"basics": {
 		"name": "Lara Schenck",
 		"label": "Prospective Ph.D. Student",
-		"picture": "https://notlaura.com/wp-content/uploads/2020/07/lara-with-monster.jpg",
+		"picture": "https://notlaura.com/wp-content/uploads/2021/07/lara.png",
 		"email": "lara@notlaura.com",
 		"phone": "(724) 244-2491",
-		"website": "https://notlaura.com",
-		"summary": "Artist, programmer, teacher, and activist seeking a career change from software engineering to computing education research.",
+		"summary": "Industry leader in web development seeking to transition from software engineering to computing education research. Research interests include:",
 		"location": "Pittsburgh, PA",
 		"interests": [
-			"Vocational training for adults, e.g. web development boot-camps",
-			"Unplugged educational materials accessible to under-served communities"
+			"Notional machines for web development",
+			"Unplugged CS instructional methods for adult learners",
+			"Broadening participation in computing"
 		],
-		"profiles": [{
-			"network": "Twitter",
-			"username": "laras126",
-			"url": "http://twitter.com/laras126"
-		},
+		"profiles": [
 		{
 			"network": "Github",
-			"username": "laras126",
 			"url": "http://github.com/laras126"
 		},
 		{
-			"network": "CodePen",
-			"username": "laras126",
-			"url": "http://codepen.io/laras126"
+			"network": "LinkedIn",
+			"url": "http://linkedin.com/notlaura"
 		}]
 	},
-	"work": [{
-		"company": "Penske Media Corporation",
-		"position": "Senior Software Engineer",
-		"website": "http://company.com",
-		"startDate": "June 2018",
-		"endDate": "present",
-		"summary": "Full stack development on enterprise WordPress websites.",
-		"highlights": [
-			"Built design system",
-			"Improved culture"
-		]
-	},
-	{
-		"company": "Lara Schenck, LLC",
-		"position": "Independent Consultant",
-		"startDate": "2011",
-		"endDate": "2017",
-		"summary": "Full stack development on enterprise WordPress websites.",
-		"highlights": [
-			"Built design system",
-			"Improved culture"
-		]
-	},
-	{
-		"company": "Pratt Institute of Design",
-		"position": "Adjunct Professor",
-		"startDate": "2011",
-		"endDate": "2017",
-		"summary": "Developed curriculum and instructed web development continuing education courses for designers.",
-		"highlights": [
-			"Developed curriculum for con",
-			"Improved culture"
-		]
-	},
-	{
-		"company": "Institute of Play",
-		"position": "Design Assistant",
-		"startDate": "2012",
-		"endDate": "2013",
-		"summary": ""
-	}],
 	"research": [
 		{
-			"title": "CSS Algorithms",
+			"position": "CSS Algorithms",
+			"company": "Independent",
 			"startDate": "2017",
-			"endDate": "2020",
-			"summary": "CSS is a programming language. What does it look like to program algorithms in CSS?",
-			"links": [
-				{
-					"name": "Is CSS Turing Complete?",
-					"url": "#"
-				},
-				{
-					"name": "CSS Is A Declarative, Domain-Specific Programming Language",
-					"url": "#"
-				},
-				{
-					"name": "Writing CSS Algorithms",
-					"url": "#"
-				},
-				{
-					"name": "Conference Speaking",
-					"url": "#"
-				}
+			"endDate": "Present",
+			"summary": "Independent research into what is a programming language vs. what developers think is a programming language. Invented the concept of CSS algorithms to promote inclusive understanding of programming.",
+			"highlights": [
+				"Paper (unpublished): <em>Is C more of a Programming Language that Python? Exploring Cognitive Bias In Programming Language Perception</em> – Collaboration with Felienne Hermans to report results of <a href=\"https://laras126.github.io/pls-webapp/\">an experimental survey</a>.",
+				"Conference Speaking: <em><a href=\"https://notlaura.com/speaking/\">CSS Algorithms</a></em> presented at 10 conferences internationally from 2018-2019.",
+				"Workshop: <a href=\"https://notlaura.com/speaking/generative-art-with-fizzbuzz-in-css/\">Generative Art With FizzBuzz in CSS</a> – Designed 1 hour workshop for intermediate-level high school students attending Code Day 2021 online. Developed pre-post survey to evaluate effectiveness of learning objectives.",
+				"Tutorials & Articles: <em><a href=\"notlaura.com/css-is-a-programming-language/\">CSS Is A Declarative, Domain-Specific Programming Language</a></em>, <em><a href=\"https://notlaura.com/is-css-turing-complete/\">Is CSS Turing Complete?</a></em>, <em><a href=\"notlaura.com/writing-css-algorithms/\">Writing CSS Algorithms</a></em>"
 			]
 		},
 		{
-			"title": "Larva Design System",
+			"position": "Larva Design System",
+			"company": "Penske Media Corporation",
 			"startDate": "2018",
-			"endDate": "2020",
-			"summary": "",
-			"links": [
+			"endDate": "Present",
+			"summary": "At Penske Media Corporation, conceived of and implemented a front-end UI framework (design system) to speed up front-end development and reduce technical debt. Implemented the concept of CSS algorithms.",
+			"highlights": [
+				"Conducted need-finding interviews with engineers, designers, and product managers",
+				"Presented design system value and concepts to executives; got buy-in",
+				"Created and tested prototypes to inform architecture",
+				"Implemented CSS algorithms as a core piece of the CSS architecture along with utility-forward CSS library",
+				"Conducted monthly \"Larva Chats\" with engineering and product for knowledge sharing and feedback collection",
+				"Outlined development of design system in informal blog post series entitled <a href=\"\"><em>Designgineering Chronicles</em></a>",
+				"Created proof-of-concept for visual regression testing; currently working to automate it",
+				"Devised and developed tools for product and designers to communicate more effectively with engineering using the system nomenclature"
 			]
+		}
+	],
+	"work": [
+		{
+		"company": "Penske Media Corporation",
+		"position": "Senior Software Engineer",
+		"website": "http://pmc.com",
+		"startDate": "June 2018",
+		"endDate": "Present",
+		"summary": "Full stack web engineering for high-traffic, enterprise WordPress websites. Successfully led re-platform and upgrade initiatives across a network of 25 sites. Advocate for equity and inclusion in team culture, hiring, and compensation."
+		},
+		{
+			"company": "Lara Schenck, LLC",
+			"position": "Independent Consultant",
+			"startDate": "2011",
+			"endDate": "2017",
+			"summary": "Contract front-end and WordPress development and training for startups and small to large businesses and web development agencies."
+		},
+		{
+			"company": "",
+			"position": "Web Development Instructor",
+			"startDate": "2013",
+			"endDate": "2018",
+			"summary": "Developed curriculum and instructed web development in the forms of one-on-one tutoring, independently organized courses, and for a variety of institutions.",
+			"highlights": [
+				"Pratt Institute of Design – UI/UX Prototyping in Code, Coding I-II",
+				"University of Southern California – WordPress Development",
+				"<a href=\"https://tacklebox.teachable.com/\">Tacklebox School</a> – Independently organized online courses in WordPress and web development, recorded and published online",
+				"Girl Develop It – <a href=\"https://www.meetup.com/de-DE/Girl-Develop-It-Pittsburgh/events/232896917/\">Hands-on Sass Fundamentals</a>, <a href=\"https://www.meetup.com/de-DE/Girl-Develop-It-Pittsburgh/events/232896917/\">Coding for WordPress</a>, <a href=\"https://www.meetup.com/Girl-Develop-It-Pittsburgh/events/225218452/\">Building Custom WordPress Websites</a> and Intro to HTML/CSS",
+				"Noble Desktop – WordPress.org",
+				"Decoded – Code in A Day Facilitator",
+				"General Assembly – Front-end Web Development",
+				"CSS-Tricks – \"Office Hours\" instruction program organizer",
+				"Saxifrage School – Intro to Web Development"
+			]
+		},
+		{
+			"company": "Institute of Play",
+			"position": "Design Assistant",
+			"startDate": "2013",
+			"endDate": "2014",
+			"summary": "Support for the development of game-like curricular materials in the Mission Lab at Quest to Learn, a NYC public middle and high school that focuses on systems thinking and game-like learning. Produce and design digital and non-digital game assets, collaborate with teams of game designers and educators to develop class materials."
 		}
 	],
 	"volunteer": [
 		{
-			"organization": "WordPress Core",
+			"company": "Supreme Network Global",
+			"position": "Technical Advisor & Web Developer",
+			"website": "https://supremenetwork.org",
+			"startDate": "2021",
+			"endDate": "Present",
+			"summary": "Provide technical guidance and education for founder and returning citizen Andre Jacobs as he launches Supreme Network, a membership company that empowers inmates and returning citizens with mentorship, education, and financial opportunities."
+		},
+		{
+			"company": "WordPress Core",
 			"position": "Open Source Contributor",
-			"website": "https://whatsuppgh.org/",
+			"website": "https://make.wordpress.org/core/tag/core-css/",
 			"startDate": "2019",
-			"endDate": "present",
-			"summary": "Description...",
-			"highlights": [
-				"Lead weekly meetings on Core CSS",
-				"Devise and oversee long term projects",
-				"Contribute code to WordPress Core"
-			]
+			"endDate": "Present",
+			"summary": "Facility weekly meetings of the Core CSS team, devise and oversee and contribute code to long term projects improving the health and maintainability of the WordPress Core CSS code-base."
 		},
 		{
-			"organization": "What's Up Pittsburgh",
-			"position": "Volunteer",
+			"company": "What's Up Pittsburgh",
+			"position": "Racial Justice Activist",
 			"website": "https://whatsuppgh.org/",
 			"startDate": "2019",
-			"endDate": "present",
-			"summary": "Member of the core organizing group for the local chapter of Showing Up for Racial Justice."
+			"endDate": "Present",
+			"summary": "Participate in the core organizing group of the local Pittsburgh chapter of Showing Up for Racial Justice. Co-organized and led Racial Justice Muscle Building session focused on racial justice in tech."
 		},
 		{
-			"organization": "Center for Artistic Activism",
-			"position": "Volunteer",
+			"company": "Center for Artistic Activism",
+			"position": "Web Developer",
 			"website": "http://c4aa.org/",
-			"startDate": "2012-01-01",
-			"endDate": "2013-01-01",
-			"summary": "Description...",
+			"startDate": "2017",
+			"endDate": "Present",
+			"summary": "Development, ongoing maintenance, and technical advice for the C4AA WordPress website."
+		},
+		{
+			"company": "",
+			"position": "Meetup Organizer and Mentor",
+			"website": "http://c4aa.org/",
+			"startDate": "2014",
+			"endDate": "Present",
+			"summary": "Active member of local software development communities, volunteering time to mentor and tutor people entering the tech industry.",
 			"highlights": [
-				"Redesigned website and implemented donation platform"
+				"Global Diversity CFP Day Pittsburgh – Co-Organizer",
+				"Global Diversity CFP Day LA – Mentor",
+				"Write Speak Code LA – Mentor",
+				"WordCamp LA Co-Organizer – Held position of Volunteer Wrangler, and conceived and organized Two-Minute Tech Talks in collaboration with Learn Teach Code LA",
+				"Learn Teach Code LA – Regular mentor attendee and occasional host of mentorship nights",
+				"CSS.la – Founded CSS meetup and planned monthly meetups from 2017-2019",
+				"CodePen NYC – Founded NYC chapter of CodePeb meetup and planned monthly meetups from 2014-2016",
+				"WordPress NYC – Regular presenter and mentor for the help desk, a technical support area during meetups."
 			]
 		}
 	],	
 	"education": [{
-		"institution": "School of the Museum of Fine Arts at Tufts University",
-		"area": "Digital Art",
-		"highlights": [
-			"Self-directed, studio-based curriculum",
-			"Experimented with educational game design, comics, and animation",
-			"Elective coursework in Game Development and Reasoning & Critical Thinking",
-			"Internship in web development."
-		],
-		"degree": "Bachelor of Fine Arts; GPA 3.6",
+		"position": "B.F.A. School of the Museum of Fine Arts at Tufts University",
+		"company": "GPA 3.6",
+		"summary": "Self-directed, studio-based curriculum focused in animation and educational game design; Elective coursework in Python Game Development and Reasoning & Critical Thinking; Internship in web development.",
 		"startDate": "2007",
 		"endDate": "2011"
 	}],
-	"skills": [{
-		"name": "Programming",
-		"keywords": [
-			"CSS",
-			"HTML",
-			"JavaScript",
-			"PHP",
-			"Python",
-			"Standard ML"
-		]
-	},
-	{
-		"name": "Frameworks",
-		"keywords": [
-			"React",
-			"WordPress"
-		]
-	}],
-	"languages": [{
-			"language": "English",
-			"fluency": "Native speaker"
-		},
-		{
-			"language": "Spanish",
-			"fluency": "Intermediate"
-		}
+	"skills": [
+		"CSS",
+		"HTML",
+		"JavaScript",
+		"Node.js",
+		"React",
+		"PHP",
+		"WordPress",
+		"Webpack",
+		"Gulp",
+		"Accessibility",
+		"Responsive Design",
+		"Design Systems"
 	],
-	"interests": [{
-		"name": "Running",
-		"keywords": [
-			"Ferrets",
-			"Unicorns"
-		]
-	}],
+	"hobbies": [
+		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",
+		"Running",
+		"Biking",
+		"Gardening",
+		"Language learning (Spanish & Nepali)",
+		"Zines",
+		"Hiking",
+		"Camping",
+		"Tennis"
+	],
 	"references": [
 		{
 			"name": "Felienne Hermans",

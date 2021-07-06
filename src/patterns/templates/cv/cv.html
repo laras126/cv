@@ -1,112 +1,64 @@
-<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1">
+<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-tb-1">
 
-	<header class="lrv-u-border-b-1 lrv-u-border-color-brand-primary lrv-u-padding-b-1">
-		<div class="lrv-u-flex lrv-u-align-items-center">
-			<img class="lrv-u-width-200 lrv-u-margin-r-1" src="{{data.basics.picture}}" alt="">
-			<div>
-				<h1>{{ data.basics.name }}</h1>
+	<header>
+		<div class="lrv-a-grid a-cols-content">
+			<div class="lrv-a-crop-3x4">
+				<img class="lrv-u-background-color-grey-lightest lrv-a-crop-3x4-img lrv-u-width-200 lrv-u-margin-r-1" src="{{data.basics.picture}}" alt="">
+			</div>
+			<div class="lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
+				<div class="lrv-u-flex lrv-u-align-items-center lrv-a-space-children-horizontal lrv-a-space-children--1">
+					<h1>{{ data.basics.name }}</h1>
+					<a href="https://notlaura.com">notlaura.com</a>
+				</div>
 				<em>{{ data.basics.label }}</em>
 				<p class="lrv-u-margin-tb-050">{{ data.basics.summary }}</p>
-				<p class="lrv-u-margin-tb-00">{{ data.basics.website }}</p>
+				<ul>
+					{% for item in data.basics.interests %}
+						<li>{{item}}</li>
+					{% endfor %}
+				</ul>
+				<ul class="lrv-u-margin-t-auto lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap">
+					<li class="lrv-a-icon-after lrv-a-icon-bullet">{{ data.basics.email }}</li>
+					<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.phone}}</li>
+					<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li>
+					{% for profile in data.basics.profiles %}
+						<li class="lrv-a-icon-after {{ loop.index != data.basics.profiles|length ? 'lrv-a-icon-bullet' }}"><a href="{{profile.url}}">{{ profile.network }}</a></li>
+					{% endfor %}
+				</ul>
 			</div>
 		</div>
-		<div class="lrv-a-grid lrv-a-cols3 lrv-u-align-items-center">
-			<p>{{data.basics.location}}</p>
-			<ul class="lrv-a-unstyle-list">
-				<li>{{data.basics.phone}}</li>
-				<li>{{ data.basics.email }}</li>
-				<li>{{ data.basics.address }}</li>
-			</ul>
-			<ul class="lrv-a-unstyle-list lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050">
-				{% for profile in data.basics.profiles %}
-					<li><a href="{{profile.url}}">{{ profile.network }}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
 	</header>
+	
+	{% include "templates/cv/partials/section.twig" with {
+		data: data.research,
+		title: 'Research'
+	} %}
+	
+	{% include "templates/cv/partials/section.twig" with {
+		data: data.work,
+		title: 'Experience'
+	} %}
+	
+	{% include "templates/cv/partials/section.twig" with {
+		data: data.volunteer,
+		title: 'Volunteer'
+	} %}
+	
+	{% include "templates/cv/partials/section.twig" with {
+		data: data.education,
+		title: 'Education'
+	} %}
+	
+	{% include "templates/cv/partials/section.twig" with {
+		data: data.skills,
+		title: 'Skills',
+		simple: true
+	} %}
+	
+	{% include "templates/cv/partials/section.twig" with {
+		data: data.hobbies,
+		title: 'Hobbies',
+		simple: true
+	} %}
 
-	<section class="lrv-a-grid a-cols-content">
-		<header>
-			<h3>Research</h3>
-		</header>
-		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
-			{% for item in data.research %}
-				<li>
-					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
-						<h4>{{item.title}}</h4>
-						<em>{{item.startDate}} - {{item.endDate}}</em>
-					</div>
-					
-					<p class="lrv-u-margin-tb-00">{{item.summary}}</p>
-					
-					{% for link in item.links %}
-						<a href="{{link.url}}">{{ link.name }}</a>,
-					{% endfor %}
-				</li>
-			{% endfor %}
-		</ul>
-	</section>
-	
-	<section class="lrv-a-grid a-cols-content">
-		<header>
-			<h3>Experience</h3>
-		</header>
-		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
-			{% for item in data.work %}
-				<li>
-					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
-						<h4>{{item.position}}</h4>
-						<h4>{{item.company}}</h4>
-						<em>{{item.startDate}} - {{item.endDate}}</em>
-					</div>
-					
-					<p class="lrv-u-margin-tb-00">{{item.summary}}</p>
-					
-					{% include "templates/cv/partials/highlights.twig" with item.highlights %}
-				</li>
-			{% endfor %}
-		</ul>
-	</section>
-	
-	<section class="lrv-a-grid a-cols-content">
-		<header>
-			<h3>Volunteer</h3>
-		</header>
-		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
-			{% for item in data.volunteer %}
-				<li>
-					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
-						<h4>{{item.position}}</h4>
-						<h4>{{item.organization}}</h4>
-						<em>{{item.startDate}} - {{item.endDate}}</em>
-					</div>
-					
-					<p class="lrv-u-margin-tb-00">{{item.summary}}</p>
-					
-					{% include "templates/cv/partials/highlights.twig" with item.highlights %}
-				</li>
-			{% endfor %}
-		</ul>
-	</section>
-	
-	<section class="lrv-a-grid a-cols-content">
-		<header>
-			<h3>Education</h3>
-		</header>
-		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
-			{% for item in data.education %}
-				<li>
-					<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
-						<h4>{{item.institution}}</h4>
-						<h4>{{item.degree}}</h4>
-						<em>{{item.startDate}} - {{item.endDate}}</em>
-					</div>
-					
-					<p>{{item.summary}}</p>
-					
-					{% include "templates/cv/partials/highlights.twig" with item.highlights %}
-				</li>
-			{% endfor %}
-		</ul>
-	</section>
 </div>

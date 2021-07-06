@@ -15,17 +15,67 @@
 			--system-ui: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 			--color-brand-primary: #15598f;
 			--border-color-brand-primary: #15598f;
+			--color-brand-secondary: #27A9E0;
+			--border-color-brand-secondary: #27A9E0;
 			--font-family-basic: var(--system-ui);
 			--font-family-primary-fancy: var(--system-ui);
 			--font-family-secondary-fancy: var(--system-ui);
-			--site-max-width: 850px;
+			--site-max-width: 1000px;
+		}
+		
+		a {
+			text-decoration: underline;
 		}
 		
 		@media(min-width: 700px) {
 			.a-cols-content {
 				grid-template-columns: 200px 1fr;
+				grid-gap: 1.5rem;
 			}
 		}
+		
+		.a-toggle + label + .a-toggle-content {
+			height: 0;
+			overflow: hidden;
+			display: none;
+		}
+		
+		.a-toggle:checked + label {
+			font-weight: bold;
+		}
+		
+		.a-toggle:checked + label + .a-toggle-content {
+			height: auto;
+			display: block;
+		}
+		
+		@media print {
+			div, section {
+				break-before: avoid;
+				break-after: avoid;
+				break-inside: avoid;
+			}
+			
+			.a-toggle + label + .a-toggle-content {
+				height: auto;
+				display: block;
+			}
+			
+			.a-toggle, .a-toggle + label {
+				display: none;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			a::after {
+				font-size: 10px;
+				content: ' ('attr(href)')';
+			}	
+		}
+		
+		
 	</style>
 
 		<script>

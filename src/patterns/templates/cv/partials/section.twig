@@ -1,0 +1,38 @@
+<section class="lrv-a-grid a-cols-content lrv-u-border-t-1 lrv-u-padding-t-050 lrv-u-border-color-brand-secondary">
+	<header>
+		<h3 class="lrv-u-color-grey lrv-u-font-size-20">{{title}}</h3>
+	</header>
+	
+	{% if simple %}
+		<div class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			{% for item in data %}
+				{{item|raw}}{{ loop.index != data.hobbies|length ? ', '}}
+			{% endfor %}
+		</div>
+	{% else %}
+		<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			{% for item in data %}
+				<li>
+					<div class="lrv-u-flex@desktop lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
+						<h4><span class="lrv-u-font-size-18">{{item.position}}</span> <span class="lrv-u-font-weight-normal lrv-u-font-style-italic">{{item.company ? ' – ' ~ item.company}}</span></h4>
+						<em class="lrv-u-margin-l-auto">{{item.startDate}} - {{item.endDate}}</em>
+					</div>
+					
+					<p class="lrv-u-margin-tb-00">{{item.summary}}</p>
+					
+					{% if item.highlights %}
+						{% set hash = random(1000) %}
+						<input class="a-toggle" id="toggle-{{hash}}" type="checkbox" />
+						<label for="toggle-{{hash}}" class="lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer">Highlights</label>
+						<ul class="a-toggle-content">
+							{% for highlight in item.highlights %}
+								<li>{{highlight|raw}}</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+</section>
