@@ -1,0 +1,27 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+	{% if 'components' == type or 'modules' == type or 'objects' == type %}
+		{% set ext = '.twig' %}
+	{% else %}
+		{% set ext = '.html' %}
+	{% endif %}
+
+	{% set path = type ~"/" ~ name ~ "/" ~ name ~ ext %}
+
+	{% if data.error %}
+		<div class="lrv-a-wrapper">
+			<h2 style="color: red;">
+				{{ data.message|raw }}
+			</h2>
+			<code>{{ data.error.message }}</code>
+			<pre>
+				{{ data.error.stack }}
+			</pre>
+		</div>
+	{% else %}
+		{% include path with data %}
+	{% endif %}
+
+{% endblock %}
