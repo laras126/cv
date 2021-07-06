@@ -1,4 +1,4 @@
-<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-tb-1">
+<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-t-1 lrv-u-margin-b-2">
 
 	<header>
 		<div class="lrv-a-grid a-cols-content">
@@ -30,6 +30,11 @@
 	</header>
 	
 	{% include "templates/cv/partials/section.twig" with {
+		data: data.education,
+		title: 'Education'
+	} %}
+	
+	{% include "templates/cv/partials/section.twig" with {
 		data: data.research,
 		title: 'Research'
 	} %}
@@ -42,11 +47,6 @@
 	{% include "templates/cv/partials/section.twig" with {
 		data: data.volunteer,
 		title: 'Volunteer'
-	} %}
-	
-	{% include "templates/cv/partials/section.twig" with {
-		data: data.education,
-		title: 'Education'
 	} %}
 	
 	{% include "templates/cv/partials/section.twig" with {
