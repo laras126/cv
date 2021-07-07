@@ -14,8 +14,10 @@
 			--system-ui: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 			--color-brand-primary: #15598f;
 			--border-color-brand-primary: #15598f;
+			--background-color-brand-primary: #15598f;
 			--color-brand-secondary: #27A9E0;
 			--border-color-brand-secondary: #27A9E0;
+			--background-color-brand-secondary: #27A9E0;
 			--font-family-basic: var(--system-ui);
 			--font-family-primary-fancy: var(--system-ui);
 			--font-family-secondary-fancy: var(--system-ui);
@@ -39,8 +41,32 @@
 			display: none;
 		}
 		
+		.a-toggle {
+			
+			
+		}
+		
+		.a-toggle + label {
+			/* background-color: var(--color-brand-primary);
+	 */
+			/* color: white; */
+			/* position: relative; */
+			/* font-weight: bold; */
+			/* display: flex;
+			align-items: center; */
+		}
+/* 		
+		.a-toggle + label::before {
+			content: '';
+			width: 8px;
+			height: 8px;
+			display: inline-block;
+			border-bottom: 3px solid;
+			border-left: 3px solid;
+			transform: translateX(-100%) rotate(-45deg);
+		}
+		 */
 		.a-toggle:checked + label {
-			font-weight: bold;
 		}
 		
 		.a-toggle:checked + label + .a-toggle-content {

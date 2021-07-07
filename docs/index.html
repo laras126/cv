@@ -14,8 +14,10 @@
 			--system-ui: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 			--color-brand-primary: #15598f;
 			--border-color-brand-primary: #15598f;
+			--background-color-brand-primary: #15598f;
 			--color-brand-secondary: #27A9E0;
 			--border-color-brand-secondary: #27A9E0;
+			--background-color-brand-secondary: #27A9E0;
 			--font-family-basic: var(--system-ui);
 			--font-family-primary-fancy: var(--system-ui);
 			--font-family-secondary-fancy: var(--system-ui);
@@ -39,8 +41,32 @@
 			display: none;
 		}
 		
+		.a-toggle {
+			
+			
+		}
+		
+		.a-toggle + label {
+			/* background-color: var(--color-brand-primary);
+	 */
+			/* color: white; */
+			/* position: relative; */
+			/* font-weight: bold; */
+			/* display: flex;
+			align-items: center; */
+		}
+/* 		
+		.a-toggle + label::before {
+			content: '';
+			width: 8px;
+			height: 8px;
+			display: inline-block;
+			border-bottom: 3px solid;
+			border-left: 3px solid;
+			transform: translateX(-100%) rotate(-45deg);
+		}
+		 */
 		.a-toggle:checked + label {
-			font-weight: bold;
 		}
 		
 		.a-toggle:checked + label + .a-toggle-content {
@@ -83,7 +109,7 @@
 	</style>
 					
 	
-			<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-t-1 lrv-u-margin-b-2">
+			<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-t-1 lrv-u-margin-b-2 lrv-u-padding-lr-1">
 
 	<header>
 		<div class="lrv-a-grid a-cols-content">
@@ -96,11 +122,12 @@
 					<a href="https://notlaura.com">notlaura.com</a>
 				</div>
 				<em>Prospective Ph.D. Student</em>
-				<p class="lrv-u-margin-tb-050">Industry leader in web development seeking to transition from software engineering to computing education research. Research interests include:</p>
-				<ul>
+				<p class="lrv-u-margin-tb-050">Industry leader in web development seeking to transition from software engineering to computing education research.</p>
+				<p class="lrv-u-margin-t-00">Research interests include:</p>
+				<ul class="lrv-u-margin-t-00">
 											<li>Notional machines for web development</li>
-											<li>Unplugged CS instructional methods for adult learners</li>
-											<li>Broadening participation in computing</li>
+											<li>Unplugged CS for underserved adult learners</li>
+											<li>Broadening participation in computing through vocational training</li>
 									</ul>
 				<ul class="lrv-u-margin-t-auto lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap">
 					<li class="lrv-a-icon-after lrv-a-icon-bullet">lara@notlaura.com</li>
@@ -145,11 +172,11 @@
 					
 					<p class="lrv-u-margin-tb-00">Independent research into what is a programming language vs. what developers think is a programming language. Invented the concept of CSS algorithms to promote inclusive understanding of programming.</p>
 					
-																	<input class="a-toggle" id="toggle-125" type="checkbox" />
-						<label for="toggle-125" class="lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer">Highlights</label>
+																	<input class="a-toggle lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary" id="toggle-86" type="checkbox" />
+						<label for="toggle-86" class="lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer lrv-u-display-inline-block lrv-u-margin-tb-050">Show Details</label>
 						<ul class="a-toggle-content">
 															<li>Paper (unpublished): <em>Is C more of a Programming Language that Python? Exploring Cognitive Bias In Programming Language Perception</em> – Collaboration with Felienne Hermans to report results of <a href="https://laras126.github.io/pls-webapp/">an experimental survey</a>.</li>
-															<li>Conference Speaking: <em><a href="https://notlaura.com/speaking/">CSS Algorithms</a></em> presented at 10 conferences internationally from 2018-2019.</li>
+															<li>Conferences: Presented research at conferences internationally from 2018-2019. <a href="https://notlaura.com/speaking/">Video here</a>.</li>
 															<li>Workshop: <a href="https://notlaura.com/speaking/generative-art-with-fizzbuzz-in-css/">Generative Art With FizzBuzz in CSS</a> – Designed 1 hour workshop for intermediate-level high school students attending Code Day 2021 online. Developed pre-post survey to evaluate effectiveness of learning objectives.</li>
 															<li>Tutorials & Articles: <em><a href="notlaura.com/css-is-a-programming-language/">CSS Is A Declarative, Domain-Specific Programming Language</a></em>, <em><a href="https://notlaura.com/is-css-turing-complete/">Is CSS Turing Complete?</a></em>, <em><a href="notlaura.com/writing-css-algorithms/">Writing CSS Algorithms</a></em></li>
 													</ul>
@@ -162,8 +189,8 @@
 					
 					<p class="lrv-u-margin-tb-00">At Penske Media Corporation, conceived of and implemented a front-end UI framework (design system) to speed up front-end development and reduce technical debt. Implemented the concept of CSS algorithms. This page is built with Larva.</p>
 					
-																	<input class="a-toggle" id="toggle-416" type="checkbox" />
-						<label for="toggle-416" class="lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer">Highlights</label>
+																	<input class="a-toggle lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary" id="toggle-694" type="checkbox" />
+						<label for="toggle-694" class="lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer lrv-u-display-inline-block lrv-u-margin-tb-050">Show Details</label>
 						<ul class="a-toggle-content">
 															<li>Conducted need-finding interviews with engineers, designers, and product managers</li>
 															<li>Presented design system concepts and value proposition to executives; got buy-in</li>
@@ -195,12 +222,34 @@
 									</li>
 							<li>
 					<div class="lrv-u-flex@desktop lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
-						<h4><span class="lrv-u-font-size-18">Independent Consultant</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14 lrv-u-font-weight-normal"> – Lara Schenck, LLC</span></h4>
-						<span class="lrv-u-margin-l-auto lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14">2011 - 2017</span>
+						<h4><span class="lrv-u-font-size-18">Conference Speaker</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14 lrv-u-font-weight-normal"> – International</span></h4>
+						<span class="lrv-u-margin-l-auto lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14">2014 - Present</span>
 					</div>
 					
-					<p class="lrv-u-margin-tb-00">Contract front-end and WordPress development and training for startups and small to large businesses and web development agencies.</p>
+					<p class="lrv-u-margin-tb-00">Compelling presentation of CSS algorithms research and educational topics at industry conferences.</p>
 					
+																	<input class="a-toggle lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary" id="toggle-120" type="checkbox" />
+						<label for="toggle-120" class="lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer lrv-u-display-inline-block lrv-u-margin-tb-050">Show Details</label>
+						<ul class="a-toggle-content">
+															<li><em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021</li>
+															<li><em>CSS Algorithms at Frontend United</em> (invited, canceled) – Minsk, 2020</li>
+															<li><em>CSS Algorithms at StrangeLoop</em> – St. Louis, 2019</li>
+															<li><em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019</li>
+															<li><em>CSS Algorithms</em> at JS Conf US – San Diego, 2019</li>
+															<li><em>Writing CSS Algorithms</em> at CSS Camp – Barcelona, 2019</li>
+															<li><em>Algorithms of CSS</em> at CSS Day (invited) – Amsterdam, 2019</li>
+															<li><em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019</li>
+															<li><em>Bridging the Gap Between Design & Development with CSS Algorithms</em> at WordCamp US – Nashville, 2018</li>
+															<li><em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018</li>
+															<li><em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018</li>
+															<li><em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018</li>
+															<li><em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018</li>
+															<li><em>The Five-figure WordPress Website</em> at Abstractions – Pittsburgh, 2016</li>
+															<li><em>Vetting and Choosing Themes</em> at WordCamp Pittsburgh – Pittsburgh, 2016</li>
+															<li><em>Why the Designer Failed FizzBuzz</em> at SassConf – Austin, 2015</li>
+															<li><em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014</li>
+															<li><em>Freelancing, Real Talk</em> at WordCamp NYC – New York City, 2014</li>
+													</ul>
 									</li>
 							<li>
 					<div class="lrv-u-flex@desktop lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
@@ -210,8 +259,8 @@
 					
 					<p class="lrv-u-margin-tb-00">Developed curriculum and instructed web development in the forms of one-on-one tutoring, independently organized courses, and for a variety of institutions.</p>
 					
-																	<input class="a-toggle" id="toggle-890" type="checkbox" />
-						<label for="toggle-890" class="lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer">Highlights</label>
+																	<input class="a-toggle lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary" id="toggle-796" type="checkbox" />
+						<label for="toggle-796" class="lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer lrv-u-display-inline-block lrv-u-margin-tb-050">Show Details</label>
 						<ul class="a-toggle-content">
 															<li>Pratt Institute of Design – UI/UX Prototyping in Code, Coding I-II</li>
 															<li>University of Southern California – WordPress Development</li>
@@ -223,6 +272,15 @@
 															<li>CSS-Tricks – "Office Hours" instruction program organizer</li>
 															<li>Saxifrage School – Intro to Web Development</li>
 													</ul>
+									</li>
+							<li>
+					<div class="lrv-u-flex@desktop lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
+						<h4><span class="lrv-u-font-size-18">Independent Consultant</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14 lrv-u-font-weight-normal"> – Lara Schenck, LLC</span></h4>
+						<span class="lrv-u-margin-l-auto lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14">2011 - 2017</span>
+					</div>
+					
+					<p class="lrv-u-margin-tb-00">Contract front-end and WordPress development and training for startups and small to large businesses and web development agencies.</p>
+					
 									</li>
 							<li>
 					<div class="lrv-u-flex@desktop lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
@@ -277,8 +335,8 @@
 					
 					<p class="lrv-u-margin-tb-00">Active member of local software development communities, volunteering time to mentor and tutor people entering the tech industry.</p>
 					
-																	<input class="a-toggle" id="toggle-21" type="checkbox" />
-						<label for="toggle-21" class="lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer">Highlights</label>
+																	<input class="a-toggle lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary" id="toggle-128" type="checkbox" />
+						<label for="toggle-128" class="lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer lrv-u-display-inline-block lrv-u-margin-tb-050">Show Details</label>
 						<ul class="a-toggle-content">
 															<li>Global Diversity CFP Day Pittsburgh – Co-Organizer</li>
 															<li>Global Diversity CFP Day LA – Mentor</li>
@@ -313,14 +371,18 @@
 							JavaScript, 
 							Node.js, 
 							React, 
-							bash, 
 							PHP, 
 							WordPress, 
+							Shell Scripting, 
+							PHPUnit, 
+							Jest, 
 							Webpack, 
 							Gulp, 
 							Accessibility, 
-							Responsive Design, 
-							Design Systems
+							Mobile-first Development, 
+							Design Systems, 
+							Navigating large code-bases, 
+							Learning new tools/frameworks/languages
 					</div>
 	
 </section>	
@@ -333,12 +395,14 @@
 							<a href="https://notlaura.com/monsters/">Illustrating monsters</a>, 
 							Running, 
 							Biking, 
+							Hiking, 
 							Gardening, 
 							Language learning (Spanish & Nepali), 
 							Zines, 
-							Hiking, 
-							Camping, 
-							Tennis
+							Reading, 
+							Tennis, 
+							Learning logic and abstract math (category theory, graph theory, set theory), 
+							Experimenting with new programming languages (Elm, Standard ML, Rust)
 					</div>
 	
 </section>

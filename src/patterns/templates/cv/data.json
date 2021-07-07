@@ -5,12 +5,12 @@
 		"picture": "https://notlaura.com/wp-content/uploads/2021/07/lara.png",
 		"email": "lara@notlaura.com",
 		"phone": "(724) 244-2491",
-		"summary": "Industry leader in web development seeking to transition from software engineering to computing education research. Research interests include:",
+		"summary": "Industry leader in web development seeking to transition from software engineering to computing education research.",
 		"location": "Pittsburgh, PA",
 		"interests": [
 			"Notional machines for web development",
-			"Unplugged CS instructional methods for adult learners",
-			"Broadening participation in computing"
+			"Unplugged CS for underserved adult learners",
+			"Broadening participation in computing through vocational training"
 		],
 		"profiles": [
 		{
@@ -31,7 +31,7 @@
 			"summary": "Independent research into what is a programming language vs. what developers think is a programming language. Invented the concept of CSS algorithms to promote inclusive understanding of programming.",
 			"highlights": [
 				"Paper (unpublished): <em>Is C more of a Programming Language that Python? Exploring Cognitive Bias In Programming Language Perception</em> – Collaboration with Felienne Hermans to report results of <a href=\"https://laras126.github.io/pls-webapp/\">an experimental survey</a>.",
-				"Conference Speaking: <em><a href=\"https://notlaura.com/speaking/\">CSS Algorithms</a></em> presented at 10 conferences internationally from 2018-2019.",
+				"Conferences: Presented research at conferences internationally from 2018-2019. <a href=\"https://notlaura.com/speaking/\">Video here</a>.",
 				"Workshop: <a href=\"https://notlaura.com/speaking/generative-art-with-fizzbuzz-in-css/\">Generative Art With FizzBuzz in CSS</a> – Designed 1 hour workshop for intermediate-level high school students attending Code Day 2021 online. Developed pre-post survey to evaluate effectiveness of learning objectives.",
 				"Tutorials & Articles: <em><a href=\"notlaura.com/css-is-a-programming-language/\">CSS Is A Declarative, Domain-Specific Programming Language</a></em>, <em><a href=\"https://notlaura.com/is-css-turing-complete/\">Is CSS Turing Complete?</a></em>, <em><a href=\"notlaura.com/writing-css-algorithms/\">Writing CSS Algorithms</a></em>"
 			]
@@ -64,12 +64,34 @@
 		"summary": "Full stack web engineering for high-traffic, enterprise WordPress websites. Successfully led re-platform and upgrade initiatives across a network of 25 sites. Advocate for equity and inclusion in team culture, hiring, and compensation."
 		},
 		{
-			"company": "Lara Schenck, LLC",
-			"position": "Independent Consultant",
-			"startDate": "2011",
-			"endDate": "2017",
-			"summary": "Contract front-end and WordPress development and training for startups and small to large businesses and web development agencies."
+			"company": "International",
+			"position": "Conference Speaker",
+			"website": "",
+			"startDate": "2014",
+			"endDate": "Present",
+			"summary": "Compelling presentation of CSS algorithms research and educational topics at industry conferences.",
+			"highlights": [
+				"<em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021",
+				"<em>CSS Algorithms at Frontend United</em> (invited, canceled) – Minsk, 2020",
+				"<em>CSS Algorithms at StrangeLoop</em> – St. Louis, 2019",
+				"<em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019",
+				"<em>CSS Algorithms</em> at JS Conf US – San Diego, 2019",
+				"<em>Writing CSS Algorithms</em> at CSS Camp – Barcelona, 2019",
+				"<em>Algorithms of CSS</em> at CSS Day (invited) – Amsterdam, 2019",
+				"<em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019",
+				"<em>Bridging the Gap Between Design & Development with CSS Algorithms</em> at WordCamp US – Nashville, 2018",
+				"<em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018",
+				"<em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018",
+				"<em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018",
+				"<em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018",
+				"<em>The Five-figure WordPress Website</em> at Abstractions – Pittsburgh, 2016",
+				"<em>Vetting and Choosing Themes</em> at WordCamp Pittsburgh – Pittsburgh, 2016",
+				"<em>Why the Designer Failed FizzBuzz</em> at SassConf – Austin, 2015",
+				"<em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014",
+				"<em>Freelancing, Real Talk</em> at WordCamp NYC – New York City, 2014"
+			]
 		},
+
 		{
 			"company": "",
 			"position": "Web Development Instructor",
@@ -87,6 +109,13 @@
 				"CSS-Tricks – \"Office Hours\" instruction program organizer",
 				"Saxifrage School – Intro to Web Development"
 			]
+		},
+		{
+			"company": "Lara Schenck, LLC",
+			"position": "Independent Consultant",
+			"startDate": "2011",
+			"endDate": "2017",
+			"summary": "Contract front-end and WordPress development and training for startups and small to large businesses and web development agencies."
 		},
 		{
 			"company": "Institute of Play",
@@ -161,24 +190,30 @@
 		"JavaScript",
 		"Node.js",
 		"React",
-		"bash",
 		"PHP",
 		"WordPress",
+		"Shell Scripting",
+		"PHPUnit",
+		"Jest",
 		"Webpack",
 		"Gulp",
 		"Accessibility",
-		"Responsive Design",
-		"Design Systems"
+		"Mobile-first Development",
+		"Design Systems",
+		"Navigating large code-bases",
+		"Learning new tools/frameworks/languages"
 	],
 	"hobbies": [
 		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",
 		"Running",
 		"Biking",
+		"Hiking",
 		"Gardening",
 		"Language learning (Spanish & Nepali)",
 		"Zines",
-		"Hiking",
-		"Camping",
-		"Tennis"
+		"Reading",
+		"Tennis",
+		"Learning logic and abstract math (category theory, graph theory, set theory)",
+		"Experimenting with new programming languages (Elm, Standard ML, Rust)"
 	]
 }

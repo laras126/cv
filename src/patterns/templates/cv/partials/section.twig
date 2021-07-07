@@ -22,8 +22,8 @@
 					
 					{% if item.highlights %}
 						{% set hash = random(1000) %}
-						<input class="a-toggle" id="toggle-{{hash}}" type="checkbox" />
-						<label for="toggle-{{hash}}" class="lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer">Highlights</label>
+						<input class="a-toggle lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary" id="toggle-{{hash}}" type="checkbox" />
+						<label for="toggle-{{hash}}" class="lrv-u-color-white lrv-u-font-weight-bold lrv-u-padding-a-050 lrv-u-border-radius-5 lrv-u-background-color-brand-secondary lrv-u-text-transform-uppercase lrv-u-font-size-12 lrv-u-cursor-pointer lrv-u-display-inline-block lrv-u-margin-tb-050">Show Details</label>
 						<ul class="a-toggle-content">
 							{% for highlight in item.highlights %}
 								<li>{{highlight|raw}}</li>

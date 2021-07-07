@@ -1,4 +1,4 @@
-<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-t-1 lrv-u-margin-b-2">
+<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-t-1 lrv-u-margin-b-2 lrv-u-padding-lr-1">
 
 	<header>
 		<div class="lrv-a-grid a-cols-content">
@@ -12,7 +12,8 @@
 				</div>
 				<em>{{ data.basics.label }}</em>
 				<p class="lrv-u-margin-tb-050">{{ data.basics.summary }}</p>
-				<ul>
+				<p class="lrv-u-margin-t-00">Research interests include:</p>
+				<ul class="lrv-u-margin-t-00">
 					{% for item in data.basics.interests %}
 						<li>{{item}}</li>
 					{% endfor %}
