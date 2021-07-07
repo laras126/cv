@@ -22,6 +22,6 @@
 				"write-json": "larva write-json larva && larva write-json",
 				"build-icons": "larva build-icons",
 				"build-html": "larva build-html",
-				"build-cv": "sh build-cv.sh"
+				"deploy": "sh deploy.sh"
 		}
 }
