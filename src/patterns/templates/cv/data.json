@@ -9,8 +9,8 @@
 		"location": "Pittsburgh, PA",
 		"interests": [
 			"Notional machines for web development",
-			"Unplugged CS for underserved adult learners",
-			"Broadening participation in computing through vocational training"
+			"Vocational training curricula e.g. coding bootcamps",
+			"Declarative and domain-specific programming languages"
 		],
 		"profiles": [
 		{
@@ -189,7 +189,7 @@
 		{
 			"position": "University of Colorado at Boulder",
 			"company": "",
-			"summary": "Fine Arts major with a focus in Printmaking; Transferred after sophomore year in order to have more flexibility in curriculum and opportunities to work in digital media.",
+			"summary": "Fine Arts major with a focus in Printmaking; Transferred after sophomore year in order to have more flexibility in curriculum in order to pursue an interest in digital media within a B.F.A.",
 			"startDate": "2007",
 			"endDate": "2009"
 		}
@@ -224,6 +224,6 @@
 		"Zines",
 		"Reading",
 		"Tennis",
-		"Independent study of programming languages and abstract math (category theory, graph theory, set theory, Standard ML, Rust, Elm, Future of Coding)"
+		"Independent study of programming languages and abstract math (category theory, graph theory, set theory, ML, Rust, Elm, Future of Coding)"
 	]
 }
