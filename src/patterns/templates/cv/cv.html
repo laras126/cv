@@ -1,11 +1,11 @@
-<div class="lrv-a-wrapper lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-margin-t-1 lrv-u-margin-b-2 lrv-u-padding-lr-1">
+<div class="lrv-a-wrapper lrv-u-margin-t-1 lrv-u-margin-b-2 lrv-u-padding-lr-1">
 
 	<header>
-		<div class="lrv-a-grid a-cols-content">
-			<div class="lrv-a-crop-3x4">
-				<img class="lrv-u-background-color-grey-lightest lrv-a-crop-3x4-img lrv-u-width-200 lrv-u-margin-r-1" src="{{data.basics.picture}}" alt="">
+		<div class="lrv-a-grid a-cols-content a-cols-content-header">
+			<div class="lrv-a-crop-3x4 lrv-u-width-200">
+				<img class="lrv-u-background-color-grey-lightest u-max-height-300@print lrv-a-crop-3x4-img lrv-u-margin-r-1" src="{{data.basics.picture}}" alt="">
 			</div>
-			<div class="lrv-u-flex lrv-u-flex-direction-column lrv-u-height-100p">
+			<div class="">
 				<div class="lrv-u-flex lrv-u-align-items-center lrv-a-space-children-horizontal lrv-a-space-children--1">
 					<h1>{{ data.basics.name }}</h1>
 					<a href="https://notlaura.com">notlaura.com</a>
@@ -18,7 +18,7 @@
 						<li>{{item}}</li>
 					{% endfor %}
 				</ul>
-				<ul class="lrv-u-margin-t-auto lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap">
+				<ul class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap">
 					<li class="lrv-a-icon-after lrv-a-icon-bullet">{{ data.basics.email }}</li>
 					<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.phone}}</li>
 					<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li>
@@ -30,40 +30,41 @@
 		</div>
 	</header>
 	
-	{% include "templates/cv/partials/section.twig" with {
-		data: data.education,
-		title: 'Education'
-	} %}
-	
-	{% include "templates/cv/partials/section.twig" with {
-		data: data.research,
-		title: 'Research'
-	} %}
-	
-	{% include "templates/cv/partials/section.twig" with {
-		data: data.work,
-		title: 'Experience'
-	} %}
-	
-	{% include "templates/cv/partials/section.twig" with {
-		data: data.volunteer,
-		title: 'Volunteer'
-	} %}
-	
-	{% include "templates/cv/partials/section.twig" with {
-		data: data.skills,
-		title: 'Skills',
-		simple: true
-	} %}
-	
-	{% include "templates/cv/partials/section.twig" with {
-		data: data.hobbies,
-		title: 'Hobbies',
-		simple: true
-	} %}
-
+	<div style="page-break-before: avoid;">
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.education,
+			title: 'Education'
+		} %}
+		
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.research,
+			title: 'Research'
+		} %}
+		
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.work,
+			title: 'Experience'
+		} %}
+		
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.volunteer,
+			title: 'Volunteer'
+		} %}
+		
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.skills,
+			title: 'Skills',
+			simple: true
+		} %}
+		
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.hobbies,
+			title: 'Hobbies',
+			simple: true
+		} %}
+	</div>
 </div>
 
-<footer class="lrv-a-wrapper lrv-u-padding-tb-1 lrv-u-text-align-right">
-	<small class="lrv-u-color-grey">This site is built with <a href="https://github.com/laras126/larva">Larva</a> and deployed with Github Pages. See <a href="https://github.com/laras126/cv">the source code here.</small>
+<footer class="lrv-a-wrapper lrv-u-padding-tb-1">
+	<small class="lrv-u-color-grey lrv-u-font-size-12">This site is built with <a href="https://github.com/laras126/larva">Larva</a> and deployed with Github Pages. Visit <a href="https://github.com/laras126/cv">the source code.</a></small>
 </footer>
