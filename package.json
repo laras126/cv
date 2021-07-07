@@ -1,26 +1,27 @@
 {
-  "name": "resume",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@penskemediacorp/larva": "^0.2.4"
-  },
-  "scripts": {
-	"prod": "larva prod-scss & larva prod-js",
-	"prod:scss": "larva prod-scss",
-	"prod:js": "larva prod-js",
-	"dev": "larva dev-js & larva dev-scss",
-	"dev:scss": "larva dev-scss",
-	"dev:js": "larva dev-js",
-	"lint": "larva lint-scss & larva lint-js",
-	"lint:scss": "larva lint-scss",
-	"lint:js": "larva lint-js ./",
-	"lint-fix": "larva lint-scss --fix & npm run lint:js --fix",
-	"lint-fix:scss": "larva lint-scss --fix",
-	"lint-fix:js": "larva lint-js --fix",
-	"larva": "larva server --watch ./src -e twig,js,html,json,css",
-	"write-json": "larva write-json larva && larva write-json",
-	"build-icons": "larva build-icons",
-	"build-html": "larva build-html"
-  }
+		"name": "resume",
+		"version": "0.1.0",
+		"private": true,
+		"dependencies": {
+				"@penskemediacorp/larva": "^0.2.4"
+		},
+		"scripts": {
+				"prod": "larva prod-scss & larva prod-js",
+				"prod:scss": "larva prod-scss",
+				"prod:js": "larva prod-js",
+				"dev": "larva dev-js & larva dev-scss",
+				"dev:scss": "larva dev-scss",
+				"dev:js": "larva dev-js",
+				"lint": "larva lint-scss & larva lint-js",
+				"lint:scss": "larva lint-scss",
+				"lint:js": "larva lint-js ./",
+				"lint-fix": "larva lint-scss --fix & npm run lint:js --fix",
+				"lint-fix:scss": "larva lint-scss --fix",
+				"lint-fix:js": "larva lint-js --fix",
+				"larva": "larva server --watch ./src -e twig,js,html,json,css",
+				"write-json": "larva write-json larva && larva write-json",
+				"build-icons": "larva build-icons",
+				"build-html": "larva build-html",
+				"build-cv": "sh build-cv.sh"
+		}
 }
