@@ -54,15 +54,27 @@
 
 		@media print {	
 
+			html {
+				font-size: 75%; 
+			}
+			
 			a {
 				text-decoration: none;
 			}
 			
 			.a-cols-content {
-				display: block;
+				display: flex;
+				grid-template-columns: unset;
+				flex-wrap: nowrap;
+				align-items: flex-start;
 			}
 			
-			.a-cols-content-header .lrv-a-crop-3x4,
+			.a-cols-content-header {
+				width: 100px;
+				flex-shrink: 0;
+			}
+			
+			.u-display-none\@print,
 			footer { 
 				display: none;
 			}
