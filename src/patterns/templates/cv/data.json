@@ -81,6 +81,7 @@
 				"<em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019",
 				"<em>Bridging the Gap Between Design & Development with CSS Algorithms</em> at WordCamp US – Nashville, 2018",
 				"<em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018",
+				"<em>The Algorithms of CSS</em> at js.la – Los Angeles, 2018",
 				"<em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018",
 				"<em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018",
 				"<em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018",
@@ -97,17 +98,17 @@
 			"position": "Web Development Instructor",
 			"startDate": "2013",
 			"endDate": "2018",
-			"summary": "Developed curriculum and instructed web development in the forms of one-on-one tutoring, independently organized courses, and for a variety of institutions.",
+			"summary": "Developed curriculum and instructed web development in the forms of one-on-one tutoring, independently organized courses, and workshops for a variety of institutions.",
 			"highlights": [
-				"Pratt Institute of Design – UI/UX Prototyping in Code, Coding I-II",
-				"University of Southern California – WordPress Development",
-				"<a href=\"https://tacklebox.teachable.com/\">Tacklebox School</a> – Independently organized online courses in WordPress and web development, recorded and published online",
-				"Girl Develop It – <a href=\"https://www.meetup.com/de-DE/Girl-Develop-It-Pittsburgh/events/232896917/\">Hands-on Sass Fundamentals</a>, <a href=\"https://www.meetup.com/de-DE/Girl-Develop-It-Pittsburgh/events/232896917/\">Coding for WordPress</a>, <a href=\"https://www.meetup.com/Girl-Develop-It-Pittsburgh/events/225218452/\">Building Custom WordPress Websites</a> and Intro to HTML/CSS",
-				"Noble Desktop – WordPress.org",
-				"Decoded – Code in A Day Facilitator",
-				"General Assembly – Front-end Web Development",
-				"CSS-Tricks – \"Office Hours\" instruction program organizer",
-				"Saxifrage School – Intro to Web Development"
+				"University of Southern California, WordPress Development – Los Angeles, 2018",
+				"Girl Develop It, Workshop Instructor  – National, 2015-2018",
+				"Pratt Institute of Design, UI/UX Prototyping in Code and Coding I-II  – New York City, 2015-2016",
+				"<a href=\"https://tacklebox.teachable.com/\">Tacklebox School</a>, independently organized courses and tutoring – online, 2015-2016",
+				"Decoded, Code in A Day Facilitator – New York City, 2014-2016",
+				"Noble Desktop, WordPress.org and Tutoring – New York City, 2015",
+				"CSS-Tricks, \"Office Hours\" Facilitator and Organizer – online, 2015",
+				"General Assembly, Front-end Web Development Lead Instructor  – New York City, 2014",
+				"Saxifrage School, Intro to Web Development Co-Instructor – Pittsburgh, 2013"
 			]
 		},
 		{
@@ -152,20 +153,20 @@
 		},
 		{
 			"company": "",
-			"position": "Meetup Organizer and Mentor",
+			"position": "Community Organizer and Mentor",
 			"website": "http://c4aa.org/",
 			"startDate": "2014",
 			"endDate": "Present",
 			"summary": "Active member of local software development communities, volunteering time to mentor and tutor people entering the tech industry.",
 			"highlights": [
-				"Global Diversity CFP Day Pittsburgh – Co-Organizer",
-				"Global Diversity CFP Day LA – Mentor",
-				"Write Speak Code LA – Mentor",
-				"WordCamp LA Co-Organizer – Held position of Volunteer Wrangler, and conceived and organized Two-Minute Tech Talks in collaboration with Learn Teach Code LA",
-				"Learn Teach Code LA – Regular mentor attendee and occasional host of mentorship nights",
-				"CSS.la – Founded CSS meetup and planned monthly meetups from 2017-2019",
-				"CodePen NYC – Founded NYC chapter of CodePeb meetup and planned monthly meetups from 2014-2016",
-				"WordPress NYC – Regular presenter and mentor for the help desk, a technical support area during meetups."
+				"Learn Teach Code, Mentor – Los Angeles and online, 2017-Present",
+				"Global Diversity CFP Day, Co-Organizer – Pittsburgh, 2019",
+				"Write Speak Code, Mentor – Los Angeles 2017-2019",
+				"Global Diversity CFP Day, Mentor – Los Angeles, 2018",
+				"WordCamp LA, Volunteer coordinator and organized collaboration with Learn Teach Code – Los Angeles, 2018",
+				"CSS.la, Founder and organizer – Los Angeles, 2017-2019",
+				"CodePen Meetup NYC, Founder and organizer – New York City, 2014-2016",
+				"WordPress NYC, Regular presenter and mentor – New York City, 2014-2016"
 			]
 		},
 		{
@@ -213,7 +214,6 @@
 		"Zines",
 		"Reading",
 		"Tennis",
-		"Learning logic and abstract math (category theory, graph theory, set theory)",
-		"Experimenting with new programming languages (Elm, Standard ML, Rust)"
+		"Independent study of programming languages and abstract math (category theory, graph theory, set theory, Standard ML, Rust, Elm, Future of Coding)"
 	]
 }
