@@ -178,13 +178,22 @@
 			"summary": "Development, ongoing maintenance, and technical advising for the C4AA on their WordPress website."
 		}
 	],	
-	"education": [{
-		"position": "B.F.A. School of the Museum of Fine Arts at Tufts University",
-		"company": "GPA 3.6",
-		"summary": "Self-directed, studio-based curriculum focused in animation and educational game design; Elective coursework in Python Game Development and Reasoning & Critical Thinking; Internship in web development.",
-		"startDate": "2007",
-		"endDate": "2011"
-	}],
+	"education": [
+		{
+			"position": "B.F.A. School of the Museum of Fine Arts at Tufts University",
+			"company": "GPA 3.2",
+			"summary": "Self-directed, studio-based curriculum focused in animation and game design; Elective coursework in Python Game Development and Reasoning & Critical Thinking; Internship in open source web development.",
+			"startDate": "2009",
+			"endDate": "2011"
+		},
+		{
+			"position": "University of Colorado at Boulder",
+			"company": "",
+			"summary": "Fine Arts major with a focus in Printmaking; Transferred after sophomore year in order to have more flexibility in curriculum and opportunities to work in digital media.",
+			"startDate": "2007",
+			"endDate": "2009"
+		}
+	],
 	"skills": [
 		"CSS",
 		"HTML",
@@ -193,14 +202,15 @@
 		"React",
 		"PHP",
 		"WordPress",
+		"Git",
 		"Shell Scripting",
 		"PHPUnit",
 		"Jest",
 		"Webpack",
 		"Gulp",
 		"Accessibility",
-		"Mobile-first Development",
-		"Design Systems",
+		"Mobile-first development",
+		"Design systems",
 		"Navigating large code-bases",
 		"Learning new tools/frameworks/languages"
 	],
