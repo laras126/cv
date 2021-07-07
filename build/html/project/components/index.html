@@ -29,21 +29,18 @@
 		}
 		
 		@media(min-width: 700px) {
+			
 			.a-cols-content {
 				grid-template-columns: 200px 1fr;
 				grid-gap: 1.5rem;
 			}
+		
 		}
 		
 		.a-toggle + label + .a-toggle-content {
 			height: 0;
 			overflow: hidden;
 			display: none;
-		}
-		
-		.a-toggle {
-			
-			
 		}
 		
 		.a-toggle:checked + label + .a-toggle-content {
@@ -54,25 +51,30 @@
 		.js-LarvaUiToggle-button {
 			display: none;
 		}
-		
-		@media print {
-			div, section {
-				break-before: avoid;
-				break-after: avoid;
-				break-inside: avoid;
+
+		@media print {	
+
+			a {
+				text-decoration: none;
 			}
 			
-			.a-toggle + label + .a-toggle-content {
-				height: auto;
+			.a-cols-content {
 				display: block;
 			}
 			
-			.a-toggle, .a-toggle + label {
+			.a-cols-content-header .lrv-a-crop-3x4,
+			footer { 
 				display: none;
 			}
 			
-			a {
-				text-decoration: none;
+			.a-toggle, 
+			.a-toggle + label {
+				display: none;
+			}
+			
+			.a-toggle-content {
+				height: auto !important;
+				display: block !important;
 			}
 			
 			a::after {
