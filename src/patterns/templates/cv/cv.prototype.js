@@ -1,5 +1,10 @@
+const { statSync } = require('fs');
+const path = require('path');
+
 const data = require( './data.json');
+const { mtime } = statSync( path.join( process.cwd(), 'docs/index.html') );
 
 module.exports = {
-	data
+	data,
+	mtime
 };

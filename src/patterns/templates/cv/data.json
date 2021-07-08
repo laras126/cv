@@ -8,8 +8,8 @@
 		"summary": "Industry leader in web development seeking to transition from software engineering to computing education research.",
 		"location": "Pittsburgh, PA",
 		"interests": [
-			"Notional machines for web development",
-			"Vocational training curricula e.g. coding bootcamps",
+			"Notional machines as educational games",
+			"Unplugged CS for under-served adult communities",
 			"Declarative and domain-specific programming languages"
 		],
 		"profiles": [
@@ -182,14 +182,14 @@
 		{
 			"position": "B.F.A. School of the Museum of Fine Arts at Tufts University",
 			"company": "GPA 3.62",
-			"summary": "Self-directed, studio-based curriculum focused in animation and game design; Elective coursework in Python Game Development and Reasoning & Critical Thinking; Internship in open source web development.",
+			"summary": "Self-directed, studio-based curriculum focused in animation and educational game design; Elective coursework in Python Game Development and Reasoning & Critical Thinking; Internship in open source web development.",
 			"startDate": "2009",
 			"endDate": "2011"
 		},
 		{
 			"position": "University of Colorado at Boulder",
 			"company": "",
-			"summary": "Fine Arts major with a focus in Printmaking; Transferred after sophomore year in order to have more flexibility in curriculum in order to pursue an interest in digital media within a B.F.A.",
+			"summary": "Fine arts major with a focus in printmaking; Transferred after sophomore year for more flexibility in fine arts curriculum in order to pursue interest in games and digital media.",
 			"startDate": "2007",
 			"endDate": "2009"
 		}
