@@ -37,15 +37,31 @@
 			title: 'Education'
 		} %}
 		
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.research,
-			title: 'Research'
-		} %}
-		
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.work,
-			title: 'Professional'
-		} %}
+		{% if 'job' == variant %}
+			
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.work,
+				title: 'Professional'
+			} %}
+			
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.research,
+				title: 'Research'
+			} %}
+			
+		{% else %}
+			
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.research,
+				title: 'Research'
+			} %}
+			
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.work,
+				title: 'Professional'
+			} %}
+			
+		{% endif %}
 		
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.volunteer,
