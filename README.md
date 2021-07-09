@@ -18,8 +18,14 @@ Things to note:
 * Data for the CV is in data.json in src/patterns/templates/cv.
 * base.html and pattern.html are overridden to remove the pattern library UI.
 
-While working on this, I had some ideas about how to use Larva for more generic purposes such as a single page deployment with data separated from the markup. Those ideas are written haphazardly in notes.txt.
+## Variations
 
-## Future improvements:
+To add a new variation, in src/patterns/templates/cv, create a new variant file e.g. cv.{variant_name}.js and extend the base CV data by requiring `cv.prototype.js` and overwriting data properties on that object for that variant.
+
+Next, copy lines 15-20 in deploy.sh and replace `job` with the name of the new variant.
+## Future improvements
+
+While working on this, I had some ideas about how to use Larva for more generic purposes such as a single page deployment with data separated from the markup. Those ideas are written haphazardly in notes.txt. Here are some other improvements for this repo:
 
 * Exit deploy script if server is not running, or start it in the background, [example here](https://github.com/laras126/larva/blob/master/scripts/build-vercel.sh#L10).
+* Iterate through an array of variants in deploy.sh

@@ -6,5 +6,6 @@ const { mtime } = statSync( path.join( process.cwd(), 'docs/index.html') );
 
 module.exports = {
 	data,
-	mtime
+	mtime,
+	crop_class : 'lrv-a-crop-3x4'
 };
