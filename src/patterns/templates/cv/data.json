@@ -28,7 +28,7 @@
 			"company": "Independent",
 			"startDate": "2017",
 			"endDate": "Present",
-			"summary": "Independent research into what is a programming language vs. what developers think is a programming language. Invented the concept of CSS algorithms to promote inclusive understanding of programming.",
+			"summary": "Independent research into what is a programming language vs. what developers think is a programming language. Invented the concept of CSS algorithms to teach the declarative paradigm and to encourage an inclusive understanding of programming among industry developers.",
 			"highlights": [
 				"Paper (draft): <em>Is C more of a Programming Language that Python? Exploring Cognitive Bias In Programming Language Perception</em> – Collaboration with Felienne Hermans to report results of <a href=\"https://laras126.github.io/pls-webapp/\">an experimental survey</a>.",
 				"Conferences: Presented research at conferences internationally from 2018-2019. <a href=\"https://notlaura.com/speaking/\">Video here</a>.",
@@ -37,18 +37,18 @@
 			]
 		},
 		{
-			"position": "Larva Design System",
+			"position": "Larva UI Framework",
 			"company": "Penske Media Corporation",
 			"startDate": "2018",
 			"endDate": "Present",
-			"summary": "At Penske Media Corporation, conceived of and implemented a front-end UI framework (design system) to speed up front-end development and reduce technical debt. Implemented the concept of CSS algorithms. This page is built with Larva.",
+			"summary": "Conceived of and implemented a UI system, suite of build tools, and standards to speed up front-end development, reduce technical debt, and to deploy shared modules across a network of sites. Implemented the concept of CSS algorithms.",
 			"highlights": [
 				"Conducted need-finding interviews with engineers, designers, and product managers",
 				"Presented design system concepts and value proposition to executives; got buy-in",
 				"Created and tested prototypes to inform architecture",
 				"Implemented CSS algorithms as a core piece of the CSS architecture along with utility-forward CSS library",
 				"Conducted monthly \"Larva Chats\" with engineering and product for knowledge sharing and feedback collection",
-				"Outlined development of design system in informal blog post series entitled <a href=\"https://notlaura.com/designgineering-chronicles/\"><em>Designgineering Chronicles</em></a>",
+				"Outlined development of system in informal blog post series entitled <a href=\"https://notlaura.com/designgineering-chronicles/\"><em>Designgineering Chronicles</em></a>",
 				"Created proof-of-concept for visual regression testing; currently working to automate it",
 				"Devised and developed tools for product and designers to communicate more effectively with engineering using the system nomenclature"
 			]
@@ -61,7 +61,7 @@
 		"website": "http://pmc.com",
 		"startDate": "2018",
 		"endDate": "Present",
-		"summary": "Full stack web engineering for high-traffic, enterprise WordPress websites. Successfully led and deployed re-platform and upgrade initiatives across a network of 25 sites. Advocate for equity and inclusion in team culture, hiring, and compensation."
+		"summary": "Full stack web engineering for high-traffic, enterprise WordPress websites on a product and engineering team of about 80 people. Successfully led and deployed re-platform and upgrade initiatives across a network of 25 sites. Advocate for diversity, equity, and inclusion in team culture, hiring, and compensation."
 		},
 		{
 			"company": "International",
@@ -212,6 +212,7 @@
 		"Mobile-first development",
 		"Design systems",
 		"Navigating large code-bases",
+		"Working in legacy code",
 		"Learning new tools/frameworks/languages"
 	],
 	"hobbies": [
