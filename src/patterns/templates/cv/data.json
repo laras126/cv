@@ -9,8 +9,8 @@
 		"location": "Pittsburgh, PA",
 		"interests": [
 			"Computing education for under-served adult communities",
-			"Declarative and domain-specific programming languages",
-			"Unplugged CS and educational games"
+			"Critical perspectives on CS education",
+			"Declarative and domain-specific programming languages"
 		],
 		"profiles": [
 		{
@@ -64,36 +64,6 @@
 		"summary": "Full stack web engineering for high-traffic, enterprise WordPress websites on a product and engineering team of about 80 people. Successfully led and deployed re-platform and upgrade initiatives across a network of 25 sites. Advocate for diversity, equity, and inclusion in team culture, hiring, and compensation."
 		},
 		{
-			"company": "International",
-			"position": "Conference Speaker",
-			"website": "",
-			"startDate": "2014",
-			"endDate": "Present",
-			"summary": "Compelling presentation of CSS algorithms research and educational topics at industry conferences.",
-			"highlights": [
-				"<em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021",
-				"<em>CSS Algorithms</em> at Frontend United (invited, canceled) – Minsk, 2020",
-				"<em>CSS Algorithms</em> at StrangeLoop – St. Louis, 2019",
-				"<em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019",
-				"<em>CSS Algorithms</em> at JS Conf US – San Diego, 2019",
-				"<em>Writing CSS Algorithms</em> at CSS Camp – Barcelona, 2019",
-				"<em>Algorithms of CSS</em> at CSS Day (invited) – Amsterdam, 2019",
-				"<em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019",
-				"<em>Bridging the Gap Between Design & Development with CSS Algorithms</em> at WordCamp US – Nashville, 2018",
-				"<em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018",
-				"<em>The Algorithms of CSS</em> at js.la – Los Angeles, 2018",
-				"<em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018",
-				"<em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018",
-				"<em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018",
-				"<em>The Five-figure WordPress Website</em> at Abstractions – Pittsburgh, 2016",
-				"<em>Vetting and Choosing Themes</em> at WordCamp Pittsburgh – Pittsburgh, 2016",
-				"<em>Why the Designer Failed FizzBuzz</em> at SassConf – Austin, 2015",
-				"<em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014",
-				"<em>Freelancing, Real Talk</em> at WordCamp NYC – New York City, 2014"
-			]
-		},
-
-		{
 			"company": "",
 			"position": "Web Development Instructor",
 			"startDate": "2013",
@@ -133,7 +103,36 @@
 			"website": "https://supremenetwork.org",
 			"startDate": "2021",
 			"endDate": "Present",
-			"summary": "Provide technical guidance and education for founder and returning citizen Andre Jacobs as he launches Supreme Network, a membership company that empowers inmates and returning citizens with mentorship, education, and financial opportunities."
+			"summary": "Provide technical guidance and web development support for <a href=\"https://supremenetwork.org\">Supreme Network Global</a>, a startup membership company that empowers inmates and returning citizens with mentorship, education, and financial opportunities."
+		},
+		{
+			"company": "International",
+			"position": "Conference Speaker",
+			"website": "",
+			"startDate": "2014",
+			"endDate": "Present",
+			"summary": "Compelling presentation of CSS algorithms research and educational topics at industry conferences.",
+			"highlights": [
+				"<em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021",
+				"<em>CSS Algorithms</em> at Frontend United (invited, canceled) – Minsk, 2020",
+				"<em>CSS Algorithms</em> at StrangeLoop – St. Louis, 2019",
+				"<em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019",
+				"<em>CSS Algorithms</em> at JS Conf US – San Diego, 2019",
+				"<em>Writing CSS Algorithms</em> at CSS Camp – Barcelona, 2019",
+				"<em>Algorithms of CSS</em> at CSS Day (invited) – Amsterdam, 2019",
+				"<em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019",
+				"<em>Bridging the Gap Between Design & Development with CSS Algorithms</em> at WordCamp US – Nashville, 2018",
+				"<em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018",
+				"<em>The Algorithms of CSS</em> at js.la – Los Angeles, 2018",
+				"<em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018",
+				"<em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018",
+				"<em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018",
+				"<em>The Five-figure WordPress Website</em> at Abstractions – Pittsburgh, 2016",
+				"<em>Vetting and Choosing Themes</em> at WordCamp Pittsburgh – Pittsburgh, 2016",
+				"<em>Why the Designer Failed FizzBuzz</em> at SassConf – Austin, 2015",
+				"<em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014",
+				"<em>Freelancing, Real Talk</em> at WordCamp NYC – New York City, 2014"
+			]
 		},
 		{
 			"company": "WordPress Core",
@@ -152,14 +151,6 @@
 			"summary": "Participate in the core organizing group and mentorship program of the local Pittsburgh chapter of Showing Up for Racial Justice. Co-organized and led group session focused on racial justice in tech."
 		},
 		{
-			"company": "Center for Artistic Activism",
-			"position": "Web Developer",
-			"website": "http://c4aa.org/",
-			"startDate": "2017",
-			"endDate": "Present",
-			"summary": "Development, ongoing maintenance, and technical advising for the C4AA on their WordPress website and donation platform."
-		},
-		{
 			"company": "",
 			"position": "Tech Meetup Organizer and Mentor",
 			"website": "http://c4aa.org/",
@@ -176,7 +167,15 @@
 				"CodePen Meetup NYC, Founder and organizer – New York City, 2014-2016",
 				"WordPress NYC, Regular presenter and mentor – New York City, 2014-2016"
 			]
-		}		
+		},
+		{
+			"company": "Center for Artistic Activism",
+			"position": "Web Developer",
+			"website": "http://c4aa.org/",
+			"startDate": "2017",
+			"endDate": "Present",
+			"summary": "Development, ongoing maintenance, and technical advising for the C4AA on their WordPress website and donation platform."
+		}
 	],	
 	"education": [
 		{

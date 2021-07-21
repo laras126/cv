@@ -48,8 +48,18 @@
 				data: data.research,
 				title: 'Research'
 			} %}
+					
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.volunteer,
+				title: 'Community'
+			} %}
 			
 		{% else %}
+				
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.volunteer,
+				title: 'Community'
+			} %}
 			
 			{% include "templates/cv/partials/section.twig" with {
 				data: data.research,
@@ -62,11 +72,6 @@
 			} %}
 			
 		{% endif %}
-		
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.volunteer,
-			title: 'Community'
-		} %}
 		
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.skills,
