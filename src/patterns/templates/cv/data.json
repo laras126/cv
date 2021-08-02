@@ -99,11 +99,27 @@
 	"volunteer": [
 		{
 			"company": "Supreme Network Global",
-			"position": "Technical Advisor & Web Developer",
+			"position": "Mentorship Program Coordinator",
 			"website": "https://supremenetwork.org",
 			"startDate": "2021",
 			"endDate": "Present",
-			"summary": "Provide technical guidance and web development support for <a href=\"https://supremenetwork.org\">Supreme Network Global</a>, a startup membership company that empowers inmates and returning citizens with mentorship, education, and financial opportunities."
+			"summary": "Develop program to connect mentors with formerly incarcerated individuals as they learn computer and entrepreneurship skills. "
+		},
+		{
+			"company": "WordPress Core",
+			"position": "Open Source Contributor",
+			"website": "https://make.wordpress.org/core/tag/core-css/",
+			"startDate": "2019",
+			"endDate": "Present",
+			"summary": "Facilitate weekly meetings of the Core CSS team, devise and oversee and contribute code to long term projects improving the health and maintainability of the WordPress Core CSS code-base."
+		},
+		{
+			"company": "What's Up Pittsburgh",
+			"position": "Racial Justice Organizing",
+			"website": "https://whatsuppgh.org/",
+			"startDate": "2019",
+			"endDate": "Present",
+			"summary": "Participate in the core organizing group and mentorship program of the local Pittsburgh chapter of Showing Up for Racial Justice. Co-organized and led group session focused on racial justice in tech."
 		},
 		{
 			"company": "International",
@@ -133,22 +149,6 @@
 				"<em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014",
 				"<em>Freelancing, Real Talk</em> at WordCamp NYC – New York City, 2014"
 			]
-		},
-		{
-			"company": "WordPress Core",
-			"position": "Open Source Contributor",
-			"website": "https://make.wordpress.org/core/tag/core-css/",
-			"startDate": "2019",
-			"endDate": "Present",
-			"summary": "Facilitate weekly meetings of the Core CSS team, devise and oversee and contribute code to long term projects improving the health and maintainability of the WordPress Core CSS code-base."
-		},
-		{
-			"company": "What's Up Pittsburgh",
-			"position": "Racial Justice Organizing",
-			"website": "https://whatsuppgh.org/",
-			"startDate": "2019",
-			"endDate": "Present",
-			"summary": "Participate in the core organizing group and mentorship program of the local Pittsburgh chapter of Showing Up for Racial Justice. Co-organized and led group session focused on racial justice in tech."
 		},
 		{
 			"company": "",
