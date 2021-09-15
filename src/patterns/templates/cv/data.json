@@ -5,11 +5,11 @@
 		"picture": "https://notlaura.com/wp-content/uploads/2021/07/lara.png",
 		"email": "lara@notlaura.com",
 		"phone": "(724) 244-2491",
-		"summary": "Industry leader in web development seeking to transition from software engineering to computing education research.",
+		"summary": "Industry leader in web development seeking to transition from a software engineering career to HCI and computing education research.",
 		"location": "Pittsburgh, PA",
 		"interests": [
-			"Computing education for marginalized adult communities",
-			"Critical perspectives on CS education",
+			"Computing education in marginalized adult communities",
+			"Community-based participatory research",
 			"Declarative and domain-specific programming languages"
 		],
 		"profiles": [
@@ -99,11 +99,11 @@
 	"volunteer": [
 		{
 			"company": "Supreme Network Global",
-			"position": "Mentorship Program Coordinator",
+			"position": "Technical Advisor & Web Developer",
 			"website": "https://supremenetwork.org",
 			"startDate": "2021",
 			"endDate": "Present",
-			"summary": "Develop program to connect mentors with formerly incarcerated individuals as they learn computer and entrepreneurship skills. "
+			"summary": "Develop web platform and provide instruction around digital literacy for a membership network empowering formerly-incarcerated people with financial empowerment and mentorship opportunities."
 		},
 		{
 			"company": "WordPress Core",
