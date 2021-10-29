@@ -98,6 +98,14 @@
 	],
 	"volunteer": [
 		{
+			"company": "TEALS Program",
+			"position": "Volunteer",
+			"website": "https://tealsk12.org",
+			"startDate": "2021",
+			"endDate": "Present",
+			"summary": "Provide instructor support twice per week for Intro to Computer Science at an urban high school in Pittsburgh."
+		},
+		{
 			"company": "Supreme Network Global",
 			"position": "Technical Advisor & Web Developer",
 			"website": "https://supremenetwork.org",
