@@ -1,7 +1,7 @@
 {
 	"basics": {
 		"name": "Lara L. Schenck",
-		"label": "Ph.D. Student",
+		"label": "she/her",
 		"picture": "https://notlaura.com/wp-content/uploads/2021/07/lara.png",
 		"email": "lara@notlaura.com",
 		"phone": "(724) 244-2491",
@@ -9,8 +9,7 @@
 		"location": "Atlanta, GA",
 		"interests": [
 			"Broadening participation in computing",
-			"Workforce development",
-			"Adult learning and communities of practice"
+			"Workforce development and communities of practice"
 		],
 		"profiles": [
 		{
