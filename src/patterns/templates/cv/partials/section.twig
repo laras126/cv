@@ -6,20 +6,22 @@
 		
 		{% if simple %}
 			<div class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
-				{% for item in data %}
-					{{item|raw}}{{ loop.index != data|length ? ', '}}
-				{% endfor %}
+			{% for item in data %}
+				{{item|raw}}{{ loop.index != data|length ? separator ~ ' ' }}
+			{% endfor %}
 			</div>
 		{% else %}
-			<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1">
 				{% for item in data %}
 					<li>
-						<div class="lrv-u-flex@desktop lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
-							<h4><span class="lrv-u-font-size-18">{{item.position}}</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14 lrv-u-font-weight-normal">{{item.company ? ' – ' ~ item.company}}</span></h4>
-							<span class="lrv-u-margin-l-auto lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14">{{item.startDate}} - {{item.endDate}}</span>
+						<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
+							<h4><span class="lrv-u-font-size-18">{{item.position}}</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14 lrv-u-font-weight-normal">{{item.company ? ' – ' ~ item.company : ''}}</span></h4>
+							<span class="lrv-u-margin-l-auto lrv-u-margin-t-025 lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14">{{item.startDate}} {{item.endDate ? ' - ' ~ item.endDate : '' }}</span>
 						</div>
 						
-						<p class="lrv-u-margin-tb-00">{{item.summary|raw}}</p>
+						{% if item.summary %}
+							<p class="lrv-u-margin-tb-00">{{item.summary|raw}}</p>
+						{% endif %}
 						
 						{% if item.highlights %}
 							{% set hash = random(1000) %}

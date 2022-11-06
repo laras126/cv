@@ -2,9 +2,6 @@
 		"name": "resume",
 		"version": "0.1.0",
 		"private": true,
-		"dependencies": {
-				"@penskemediacorp/larva": "^0.2.4"
-		},
 		"scripts": {
 				"prod": "larva prod-scss & larva prod-js",
 				"prod:scss": "larva prod-scss",
@@ -23,5 +20,8 @@
 				"build-icons": "larva build-icons",
 				"build-html": "larva build-html",
 				"deploy": "sh deploy.sh"
+		},
+		"dependencies": {
+				"@penskemediacorp/larva": "^1.35.0"
 		}
 }
