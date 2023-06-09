@@ -41,12 +41,17 @@
 			
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.research,
-			title: 'Research'
+			title: 'Research Experience'
 		} %}
-		
+
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.awards,
 			title: 'Awards'
+		} %}
+
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.publications,
+			title: 'Publications'
 		} %}
 
 		{% include "templates/cv/partials/section.twig" with {

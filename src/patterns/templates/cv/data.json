@@ -163,16 +163,29 @@
 	],
 	"awards": [
 		{
+			"position": "Graduate Research Fellowshop",
+			"company": "National Science Foundation",
+			"startDate": "2023"
+		},
+		{
 			"position": "President's Fellowship",
 			"company": "Georgia Institute of Technology",
 			"startDate": "2022"
+		}
+	],
+	"publications": [
+		{
+			"position": "ICER 2023",
+			"company": "Poster & Lightning Talk",
+			"summary": "Lara L. Schenck and Betsy DiSalvo. \"From Data Work to Data Science: Getting Past the Gatekeepers\".",
+			"startDate": "2023"
 		}
 	],
 	"education": [
 		{
 			"position": "Georgia Institute of Technology",
 			"company": "",
-			"summary": "<em>P.h.D. in Human-Centered Computing</em><ul><li>Advisor: Dr. Betsy DiSalvo</li></li><li>Focus: learning sciences, broadening participation in computing, workforce development</li></ul>",
+			"summary": "<em>Ph.D. in Human-Centered Computing</em><ul><li>Advisor: Dr. Betsy DiSalvo</li></li><li>Focus: learning sciences, broadening participation in computing, workforce development</li></ul>",
 			"startDate": "2022",
 			"endDate": "Present"
 		},

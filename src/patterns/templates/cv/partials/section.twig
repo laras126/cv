@@ -1,7 +1,7 @@
 <section class="lrv-u-border-t-1 lrv-u-padding-t-050 lrv-u-border-color-brand-secondary lrv-u-margin-t-2 lrv-u-display-block">
 	<div class="lrv-a-grid a-cols-content">
 		<header class="a-cols-content-header">
-			<h3 class="lrv-u-text-transform-uppercase lrv-u-color-grey lrv-u-font-size-18">{{title}}</h3>
+			<h3 class="lrv-u-text-transform-uppercase lrv-u-color-grey lrv-u-font-size-16">{{title}}</h3>
 		</header>
 		
 		{% if simple %}
@@ -15,7 +15,7 @@
 				{% for item in data %}
 					<li>
 						<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1 lrv-u-margin-b-050">
-							<h4><span class="lrv-u-font-size-18">{{item.position}}</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14 lrv-u-font-weight-normal">{{item.company ? ' – ' ~ item.company : ''}}</span></h4>
+							<h4><span class="lrv-u-font-size-16">{{item.position}}</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14 lrv-u-font-weight-normal">{{item.company ? ' – ' ~ item.company : ''}}</span></h4>
 							<span class="lrv-u-margin-l-auto lrv-u-margin-t-025 lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-14">{{item.startDate}} {{item.endDate ? ' - ' ~ item.endDate : '' }}</span>
 						</div>
 						
