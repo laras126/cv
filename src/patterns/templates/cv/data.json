@@ -14,7 +14,11 @@
 		"profiles": [
 		{
 			"network": "Github",
-			"url": "http://github.com/laras126"
+			"url": "https://github.com/laras126"
+		},
+		{
+			"network": "LinkedIn",
+			"url": "https://linkedin.com/in/notlaura"
 		}]
 	},
 	"research": [
