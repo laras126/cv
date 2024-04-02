@@ -12,7 +12,6 @@
 			<div class="lrv-u-flex lrv-u-align-items-center lrv-a-space-children-horizontal lrv-a-space-children--1">
 				<h1>{{ data.basics.name }}</h1>
 				<em>{{ data.basics.label }}</em>
-				<a href="https://notlaura.com">notlaura.com</a>
 			</div>
 			<p class="lrv-u-margin-tb-050">{{ data.basics.summary }}</p>
 			{% if data.basics.interests|length > 0 %}
@@ -24,11 +23,14 @@
 			{% endif %}
 			<ul class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap">
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{ data.basics.email }}</li>
-				{# <li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.phone}}</li>
-				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li> #}
-				{% for profile in data.basics.profiles %}
-					<li class="lrv-a-icon-after {{ loop.index != data.basics.profiles|length ? 'lrv-a-icon-bullet' }}"><a href="{{profile.url}}">{{ profile.network }}</a></li>
-				{% endfor %}
+				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.phone}}</li>
+				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li>
+				<li class="">https://notlaura.com</li>
+				{% if not hide_profiles %}
+					{% for profile in data.basics.profiles %}
+						<li class="lrv-a-icon-before {{ loop.index != data.basics.profiles|length ? 'lrv-a-icon-bullet' }}"><a href="{{profile.url}}">{{ profile.network }}</a></li>
+					{% endfor %}
+				{% endif %}
 			</ul>
 		</div>
 	</header>
@@ -49,14 +51,39 @@
 			title: 'Awards'
 		} %}
 
-		{% include "templates/cv/partials/section.twig" with {
+		{% include "templates/cv/partials/publications.twig" with {
 			data: data.publications,
 			title: 'Publications'
 		} %}
 
+		{% if not hide_service %}
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.service,
+				title: 'Service',
+				simple: false,
+				simple_spaced: true,
+				separator: ','
+			} %}
+		{% endif %}
+
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.work,
-			title: 'Professional'
+			title: data.work_title ?: 'Professional'
+		} %}
+
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.speaking,
+			title: data.speaking_title ?: 'Speaking',
+			simple: true,
+			separator: ''
+		} %}
+
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.skills,
+			title: 'Technical Skills',
+			simple: true,
+			simple_spaced: true,
+			separator: ','
 		} %}
 
 		{% include "templates/cv/partials/section.twig" with {
@@ -65,32 +92,20 @@
 		} %}
 		
 		{% include "templates/cv/partials/section.twig" with {
-			data: data.speaking,
-			title: 'Speaking',
-			simple: true,
-			separator: ';'
-		} %}
-
-		{% include "templates/cv/partials/section.twig" with {
 			data: data.outreach,
-			title: 'Community Outreach',
+			title: data.outreach_title ?: 'Community Outreach',
 			simple: true,
 			separator: ';'
 		} %}
 		
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.skills,
-			title: 'Technical Skills',
-			simple: true,
-			separator: ','
-		} %}
-		
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.hobbies,
-			title: 'Hobbies',
-			simple: true,
-			separator: ','
-		} %}
+		{% if not hide_hobbies %}
+			{% include "templates/cv/partials/section.twig" with {
+				data: data.hobbies,
+				title: 'Hobbies',
+				simple: true,
+				separator: ','
+			} %}
+		{% endif %}
 	</div>
 </div>
 

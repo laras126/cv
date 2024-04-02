@@ -8,5 +8,6 @@ module.exports = {
 	variant: 'prototype',
 	data,
 	mtime,
+	hide_service: true,
 	crop_class : 'lrv-a-crop-1x1'
 };

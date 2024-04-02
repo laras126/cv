@@ -5,11 +5,11 @@
 		</header>
 		
 		{% if simple %}
-			<div class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
+			<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
 			{% for item in data %}
-				{{item|raw}}{{ loop.index != data|length ? separator ~ ' ' }}
+				<li class="lrv-u-margin-tb-00 {{ simple_spaced ? 'lrv-u-display-inline' : ''}}">{{item|raw}}{{ loop.index != data|length ? separator ~ ' ' }}</li>
 			{% endfor %}
-			</div>
+			</ul>
 		{% else %}
 			<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1">
 				{% for item in data %}

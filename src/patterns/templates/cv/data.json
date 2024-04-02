@@ -23,11 +23,15 @@
 	},
 	"research": [
 		{
-			"position": "Culture & Technology Lab",
+			"position": "CAT (Culture & Technology) Lab",
 			"company": "Georgia Institute of Technology",
 			"startDate": "2022",
 			"endDate": "Present",
-			"summary": "Graduate Research Assistant working on <a href='https://dataworkforce.gatech.edu'>DataWorks</a>."
+			"summary": "Graduate Research Assistant working on DataWorks.",
+			"highlights": [
+				"Develop curriculum in job search and professional networking.",
+				"Lead ongoing \"Career Dev\" program with data workers."
+			]
 		},
 		{
 			"position": "Independent",
@@ -177,28 +181,56 @@
 			"startDate": "2022"
 		}
 	],
-	"publications": [
-		{
-			"position": "ICER 2023",
-			"company": "Poster & Lightning Talk",
-			"summary": "Lara L. Schenck and Betsy DiSalvo. \"From Data Work to Data Science: Getting Past the Gatekeepers\".",
-			"startDate": "2023"
-		}
-	],
+	"publications": {
+		"peerReviewed": [
+			{
+				"cite": "Carl DiSalvo, Annabel Rothschild, <strong>Lara L. Schenck</strong>, Ben Shapiro, and Betsy DiSalvo. 2024. “When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work”. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 23 pages.",
+				"status": "Accepted for CSCW 2024."
+			},
+			{
+				"cite": "<strong>Lara L. Schenck</strong>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husein, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. 2018. \"Working Around LinkedIn's Mixed Signals: How Career Changers Navigate 'Professional' Social Networking Online.\"",
+				"status": "Under review for CSCW 2024."
+			},
+			{
+				"cite": "<strong>Lara L. Schenck</strong>, Sabine Verdult, Felienne Hermans, and Betsy DiSalvo. \"Stop the Gatekeepers: Expanding Our Ideas of 'Real' Programming.\" ACM Transactions on Computing Education.",
+				"status": "Revise and resubmit; Under revision."
+			}
+		],
+		"posters": [
+			{
+				"cite": "Lara L. Schenck and Betsy DiSalvo. 2023. \"From Data Work to Data Science: Getting Past the Gatekeepers.\" In Proceedings of the 2023 ACM Conference on International Computing Education Research - Volume 2 (ICER '23), Vol. 2. Association for Computing Machinery, New York, NY, USA, 1–2. https://doi.org/10.1145/3568812.3603468",
+				"status": "Poster and Lightning Talk"
+			},
+			{
+				"cite": "Lara L. Schenck and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" IPaT Industry Innovation Day and the GVU Research Showcase, April 2023.",
+				"status": "Poster"
+			},
+			{
+				"cite": "Lara L. Schenck and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" CRA Grad Cohort for Women, April 2023.",
+				"status": "Poster"
+			}
+		]
+	},
 	"education": [
 		{
 			"position": "Georgia Institute of Technology",
-			"company": "",
-			"summary": "<em>Ph.D. in Human-Centered Computing</em><ul><li>Advisor: Dr. Betsy DiSalvo</li></li><li>Focus: learning sciences, broadening participation in computing, workforce development</li></ul>",
+			"company": "Ph.D. Human-Centered Computing",
+			"summary": "<ul><li>Advisor: Dr. Betsy DiSalvo</li></li><li>Focus: learning sciences, broadening participation in computing, workforce development</li></ul>",
 			"startDate": "2022",
 			"endDate": "Present"
 		},
 		{
 			"position": "School of the Museum of Fine Arts at Tufts University",
-			"company": "GPA 3.62",
-			"summary": "<em>Bachelor of Fine Arts</em><ul><li>Focus: animation, educational game design</li><li>Internship in open source web development</li></ul>",
+			"company": "Bachelor of Fine Arts",
+			"summary": "<ul><li>Mentor: Steve Lambert</li><li>Focus: animation, printmaking and bookmaking, game design, open source web development</li></ul>",
 			"startDate": "2009",
 			"endDate": "2011"
+		}
+	],
+	"service": [
+		{
+			"position": "Conference Reviewing",
+			"summary": "CSCW 2024, SIGCSE 2024, ACM Transactions in Computing Education (2023), DIS 2023"
 		}
 	],
 	"skills": [

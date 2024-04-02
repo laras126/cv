@@ -8,6 +8,8 @@ npm install
 npm run larva
 ```
 
+Once the server is running, navigate to http://localhost:3000/project/templates/cv
+
 And to build and deploy it (make sure the larva server is running in another shell with `npm run larva`):
 ```
 npm run deploy
