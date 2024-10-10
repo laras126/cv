@@ -27,21 +27,20 @@
 			"company": "Georgia Institute of Technology",
 			"startDate": "2022",
 			"endDate": "Present",
-			"summary": "Graduate Research Assistant working on DataWorks.",
+			"summary": "Community-based participatory research to understand how data work can be a pathway to technical career growth. Assume the role of Career Development Coordinator for <a href=\"https://dataworkforce.gatech.edu\">DataWorks</a> at Georgia Tech.",
 			"highlights": [
-				"Develop curriculum in job search and professional networking.",
-				"Lead ongoing \"Career Dev\" program with data workers."
+				"Develop workplace curriculum in job search and professional networking for career transitioning adults without Bachelor's degrees.",
+				"Focus on informal learning and catalyzing self-sustaining workplace communities of practice."
 			]
 		},
 		{
 			"position": "Independent",
 			"company": "",
 			"startDate": "2017",
-			"endDate": "2022",
-			"summary": "Independently organized research into programming languages and gatekeeping in CS. Collaboration with Dr. Felienne Hermans.",
+			"endDate": "Present",
+			"summary": "Independently organized research into programming languages and gatekeeping in industry computing communities. Collaboration with Dr. Felienne Hermans.",
 			"highlights": [
-				"Presented research at conferences internationally.",
-				"Designed a survey with Dr. Hermans and collected responses to understand how developers construct their understanding of what is and is not programming."
+				"Mixed methods research to understand how developers construct their understanding of programming."
 			]
 		}
 	],
@@ -54,8 +53,8 @@
 			"endDate": "2022",
 			"summary": "Full stack web engineering and technical leadership on a product and engineering team of 80 people maintaining a network of 25+ high traffic websites.",
 			"highlights": [
-				"Conceived of and developed UI system, build tools, testing, and standards to speed up front-end development, reduce technical debt, and deploy shared modules across the network.",
-				"Developed tools to improve product and design communication with engineering.",
+				"Architected modular user interface system, build tools, testing, and coding standards to speed up development time, reduce technical debt, and deploy shared packages across network of high-traffic websites.",
+				"Developed workflows to improve engineering team's communication with product and design.",
 				"Led and deployed re-platform and upgrade initiatives across the network.",
 				"Advocated for diversity, equity, and inclusion in team culture, hiring, and compensation.", 
 				"Promoted from Senior Software Engineer."
@@ -66,7 +65,7 @@
 			"position": "Lead Instructor",
 			"startDate": "2013",
 			"endDate": "2018",
-			"summary": "Developed curriculum and instructed web development courses for adult learners with nontraditional backgrounds.",
+			"summary": "Developed curriculum and instructed web development courses for adult learners with non-traditional backgrounds.",
 			"highlights": [
 				"<b>University of Southern California</b>, WordPress Development – Los Angeles, 2018",
 				"<b>Girl Develop It</b>, multiple workshops – National, 2015-2018",
@@ -83,13 +82,6 @@
 			"startDate": "2011",
 			"endDate": "2017",
 			"summary": "Contract front-end and WordPress development and training for startups and small to large businesses and web development agencies."
-		},
-		{
-			"company": "Institute of Play",
-			"position": "Game Design Assistant",
-			"startDate": "2013",
-			"endDate": "2014",
-			"summary": "Supported the development of game-like curricular materials at a public middle and high school. Collaborated with game designers and educators to produce digital and non-digital game assets."
 		}
 	],
 	"volunteer": [
@@ -117,7 +109,9 @@
 			"endDate": "2022",
 			"summary": "Active member, organizer, and contributor in open source WordPress communities.",
 			"highlights": [
-				"Facilitated weekly Core CSS team meetings to oversee and contribute code to long-term projects improving the maintainability of the WordPress Core CSS code-base – 2019-2022"
+				"Facilitated weekly Core CSS team meetings to oversee and contribute code to long-term projects improving the maintainability of the WordPress Core CSS code-base.",
+				"Contribute code updates to WordPress Core.",
+				"Organize community meetups and conferences vital to maintaining and growing the open-source community."
 			]
 		},
 		{
@@ -171,6 +165,11 @@
 	],
 	"awards": [
 		{
+			"position": "Pathbreakers Fellowship",
+			"company": "Georgia Institute of Technology",
+			"startDate": "2024"
+		},
+		{
 			"position": "Graduate Research Fellowshop",
 			"company": "National Science Foundation",
 			"startDate": "2023"
@@ -184,16 +183,19 @@
 	"publications": {
 		"peerReviewed": [
 			{
-				"cite": "Carl DiSalvo, Annabel Rothschild, <strong>Lara L. Schenck</strong>, Ben Shapiro, and Betsy DiSalvo. 2024. “When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work”. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 23 pages.",
-				"status": "Accepted for CSCW 2024."
+				"cite": "<strong>Lara L. Schenck</strong>, Gabe DuBose, Zajerria Godfrey, Dana Priest, Annabel Rothschild, Benjamin Rydal Shapiro, Betsy DiSalvo. \"A Window into Data Apprenticeship: Developing an Integrated Work-Training Curriculum for Novice Adults.\"",
+				"status": "Accepted for SIGCSE 2025."
 			},
 			{
-				"cite": "<strong>Lara L. Schenck</strong>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husein, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. 2018. \"Working Around LinkedIn's Mixed Signals: How Career Changers Navigate 'Professional' Social Networking Online.\"",
-				"status": "Under review for CSCW 2024."
+				"cite": "Carl DiSalvo, Annabel Rothschild, <strong>Lara L. Schenck</strong>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. https://doi.org/10.1145/3637433"
 			},
 			{
-				"cite": "<strong>Lara L. Schenck</strong>, Sabine Verdult, Felienne Hermans, and Betsy DiSalvo. \"Stop the Gatekeepers: Expanding Our Ideas of 'Real' Programming.\" ACM Transactions on Computing Education.",
-				"status": "Revise and resubmit; Under revision."
+				"cite": "<strong>Lara L. Schenck</strong>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husein, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. \"Working Around LinkedIn's Mixed Signals: How Career Changers Navigate 'Professional' Social Networking Online.\"",
+				"status": "(in revision) CSCW 2025."
+			},
+			{
+				"cite": "<strong>Lara L. Schenck</strong>, Sabine Verdult, Felienne Hermans, and Betsy DiSalvo. \"Stop the Gatekeepers: Expanding Our Ideas of 'Real' Programming.\"",
+				"status": "(in revision) ACM Transactions on Computing Education."
 			}
 		],
 		"posters": [
@@ -202,11 +204,7 @@
 				"status": "Poster and Lightning Talk"
 			},
 			{
-				"cite": "Lara L. Schenck and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" IPaT Industry Innovation Day and the GVU Research Showcase, April 2023.",
-				"status": "Poster"
-			},
-			{
-				"cite": "Lara L. Schenck and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" CRA Grad Cohort for Women, April 2023.",
+				"cite": "Lara L. Schenck and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" IPaT Industry Innovation Day and the GVU Research Showcase, April 2023; CRA Grad Cohort for Women, April 2023.",
 				"status": "Poster"
 			}
 		]
@@ -234,20 +232,9 @@
 		}
 	],
 	"skills": [
-		"WordPress",
-		"JavaScript",
-		"HTML & CSS",
-		"Node.js",
-		"React",
-		"PHP",
-		"Python",
-		"Git",
-		"Shell scripting",
-		"Unit test & build tools",
-		"Accessibility",
-		"Mobile-friendly development",
-		"Design systems",
-		"Software architecture"
+		"<strong>Technical:</strong> Full-stack web development, software engineering, data analysis with Python and Excel",
+		"<br><strong>Research:</strong> Qualitative analysis, ethnography, engaged scholarship",
+		"<br><strong>Languages:</strong> English (native), Nepali (B1)"
 	],
 	"hobbies": [
 		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",

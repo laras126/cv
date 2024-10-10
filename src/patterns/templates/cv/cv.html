@@ -36,11 +36,17 @@
 	</header>
 	
 	<div style="page-break-before: avoid;">
+
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.education,
 			title: 'Education'
 		} %}
 			
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.work,
+			title: data.work_title ?: 'Professional'
+		} %}
+
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.research,
 			title: 'Research Experience'
@@ -67,11 +73,6 @@
 		{% endif %}
 
 		{% include "templates/cv/partials/section.twig" with {
-			data: data.work,
-			title: data.work_title ?: 'Professional'
-		} %}
-
-		{% include "templates/cv/partials/section.twig" with {
 			data: data.speaking,
 			title: data.speaking_title ?: 'Speaking',
 			simple: true,
@@ -80,12 +81,12 @@
 
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.skills,
-			title: 'Technical Skills',
+			title: 'Skills',
 			simple: true,
 			simple_spaced: true,
-			separator: ','
+			separator: ';'
 		} %}
-
+		
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.volunteer,
 			title: 'Volunteer'
