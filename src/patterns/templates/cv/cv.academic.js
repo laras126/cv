@@ -1,14 +1,16 @@
 const clonedeep = require( 'lodash.clonedeep' );
 
-const cv_prototype = require( './cv.prototype' );
+const cv_prototype = require( './cv.prototype-orig' );
 const cv = clonedeep( cv_prototype );
 
 cv.variant = 'academic';
+
 
 cv.hide_hobbies = true;
 cv.hide_service = false;
 cv.hide_profiles = true;
 
+cv.data.basics.name = "Lara Karki";
 cv.data.basics.picture = false;
 cv.data.basics.email = 'lschenck@gatech.edu';
 cv.data.basics.label = '';

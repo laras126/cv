@@ -1,13 +1,6 @@
-const { statSync } = require('fs');
-const path = require('path');
+const clonedeep = require( 'lodash.clonedeep' );
 
-const data = require( './data.json');
-const { mtime } = statSync( path.join( process.cwd(), 'docs/index.html') );
+const cv_prototype = require( './cv.academic' );
+const cv = clonedeep( cv_prototype );
 
-module.exports = {
-	variant: 'prototype',
-	data,
-	mtime,
-	hide_service: true,
-	crop_class : 'lrv-a-crop-1x1'
-};
+module.exports = cv;

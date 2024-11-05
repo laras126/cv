@@ -1,6 +1,6 @@
 const clonedeep = require( 'lodash.clonedeep' );
 
-const cv_prototype = require( './cv.prototype' );
+const cv_prototype = require( './cv.prototype-orig' );
 const cv = clonedeep( cv_prototype );
 
 cv.variant = 'simple';
