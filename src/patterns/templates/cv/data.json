@@ -1,12 +1,13 @@
 {
 	"basics": {
-		"name": "Lara L. Schenck",
+		"name": "Lara Karki <span class=\"lrv-u-color-grey\">(Schenck)</span>",
 		"label": "she/her",
 		"picture": "https://notlaura.com/wp-content/uploads/2021/07/lara.png",
 		"email": "lara@notlaura.com",
 		"phone": "(724) 244-2491",
 		"summary": "Artist and software developer now researching nontraditional pathways to computing careers.",
 		"location": "Atlanta, GA",
+		"website": "larakarki.com | notlaura.com",
 		"interests": [
 			"Broadening participation in computing",
 			"Workforce development and communities of practice"
@@ -27,9 +28,9 @@
 			"company": "Georgia Institute of Technology",
 			"startDate": "2022",
 			"endDate": "Present",
-			"summary": "Community-based participatory research to understand how data work can be a pathway to technical career growth. Assume the role of Career Development Coordinator for <a href=\"https://dataworkforce.gatech.edu\">DataWorks</a> at Georgia Tech.",
+			"summary": "Community-based participatory research to understand how mid-skill data work can be a pathway to technical career growth. Assume the role of Career Development Coordinator for <a href=\"https://dataworkforce.gatech.edu\">DataWorks</a> at Georgia Tech.",
 			"highlights": [
-				"Develop workplace curriculum in job search and professional networking for career transitioning adults without Bachelor's degrees.",
+				"Develop workplace curriculum in job search and professional networking for career transitioning adults.",
 				"Focus on informal learning and catalyzing self-sustaining workplace communities of practice."
 			]
 		},
@@ -38,9 +39,9 @@
 			"company": "",
 			"startDate": "2017",
 			"endDate": "Present",
-			"summary": "Independently organized research into programming languages and gatekeeping in industry computing communities. Collaboration with Dr. Felienne Hermans.",
+			"summary": "Investigation into gatekeeping practices that affect informally trained developers in industry computing communities. Collaboration with Dr. Felienne Hermans.",
 			"highlights": [
-				"Mixed methods research to understand how developers construct their understanding of programming."
+				"Mixed methods research to understand how developers construct their understanding of \"real\" programming."
 			]
 		}
 	],
@@ -53,11 +54,10 @@
 			"endDate": "2022",
 			"summary": "Full stack web engineering and technical leadership on a product and engineering team of 80 people maintaining a network of 25+ high traffic websites.",
 			"highlights": [
-				"Architected modular user interface system, build tools, testing, and coding standards to speed up development time, reduce technical debt, and deploy shared packages across network of high-traffic websites.",
-				"Developed workflows to improve engineering team's communication with product and design.",
+				"Architected modular user interface system, build tools, testing, and coding standards to speed up development time, reduce technical debt, and deploy shared packages across network.",
+				"Developed workflows to improve inter-departmental communication with engineering.",
 				"Led and deployed re-platform and upgrade initiatives across the network.",
-				"Advocated for diversity, equity, and inclusion in team culture, hiring, and compensation.", 
-				"Promoted from Senior Software Engineer."
+				"Advocated for diversity, equity, and inclusion in team culture, hiring, and compensation."
 			]
 		},
 		{
@@ -70,8 +70,7 @@
 				"<b>University of Southern California</b>, WordPress Development – Los Angeles, 2018",
 				"<b>Girl Develop It</b>, multiple workshops – National, 2015-2018",
 				"<b>Pratt Institute of Design</b>, UI/UX Prototyping in Code and Coding I-II – NYC, 2015-2016",
-				"<b>Decoded</b>, Code in A Day – NYC, 2014-2016",
-				"<a href=\"https://tacklebox.teachable.com/\"><b>Tacklebox School</b></a>, online courses, 2015-2016",
+				"<b>Decoded</b>, Code in A Day Workshop Facilitator – NYC, 2014-2016",
 				"<b>Noble Desktop</b>, WordPress.org – NYC, 2015",
 				"<b>General Assembly</b>, Front-end Web Development Lead Instructor – NYC, 2014"
 			]
@@ -133,7 +132,6 @@
 	],
 	"speaking": [
 		"<em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021",
-		"<em>CSS Algorithms</em> at Frontend United (invited, canceled) – Minsk, 2020",
 		"<em>CSS Algorithms</em> at StrangeLoop – St. Louis, 2019",
 		"<em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019",
 		"<em>CSS Algorithms</em> at JS Conf US – San Diego, 2019",
@@ -160,7 +158,6 @@
 		"<b>Co-Organizer</b>, WordCamp LA – Los Angeles, 2018",
 		"<b>Founder and organizer</b>, CSS.la – Los Angeles, 2017-2019",
 		"<b>Founder and organizer</b>, CodePen Meetup NYC – NYC, 2014-2016",
-		"<b>Facilitator</b> CSS-Tricks, \"Office Hours\" – online, 2015",
 		"<b>Mentor, Presenter</b>, WordPress NYC Meetup – NYC, 2014-2016"
 	],
 	"awards": [
@@ -187,15 +184,15 @@
 			},
 			{
 				"cite": "<strong>Lara Karki</strong>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husein, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. \"“I get hives when I come on here”: Persisting Through Platform-Delivered Microaggressions on LinkedIn.\"",
-				"status": "Under Review for CSCW 2025."
+				"status": "Revision Under Review for CSCW 2025."
 			},
 			{
-				"cite": "Carl DiSalvo, Annabel Rothschild, <strong>Lara L. Schenck</strong>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. \"When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work\". Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. <a href=\"https://doi.org/10.1145/3637433\">DOI</a>.",
-				"status": "DEI Recognition"
+				"cite": "<strong>Lara Karki</strong>, Idel Martinez-Ramos, Sabine Verdult, Dana Priest, Asher Brown, Felienne Hermans, and Betsy DiSalvo. \"There Is No \"Real\" Programming; There Is Only Mythology of Programming.\"",
+				"status": "Revision Under Review for ACM Transactions on Computing Education."
 			},
 			{
-				"cite": "<strong>Lara L. Schenck</strong>, Sabine Verdult, Felienne Hermans, and Betsy DiSalvo. \"Stop the Gatekeepers: Expanding Our Ideas of 'Real' Programming.\"",
-				"status": "In Revision for ACM Transactions on Computing Education."
+				"cite": "Carl DiSalvo, Annabel Rothschild, <strong>Lara L. Schenck</strong>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. \"When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work\". Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. <a href=\"https://doi.org/10.1145/3637433\">DOI</a>. <i>DEI Recognition</i>.",
+				"status": ""
 			}
 		],
 		"posters": [
@@ -232,9 +229,9 @@
 		}
 	],
 	"skills": [
-		"<strong>Technical:</strong> Full-stack web development, software engineering, data analysis with Python and Excel",
-		"<br><strong>Research:</strong> Qualitative analysis, ethnography, engaged scholarship",
-		"<br><strong>Languages:</strong> English (native), Nepali (B2)"
+		"<strong>Technical:</strong> Full-stack web development, software engineering and architecture, Python and pandas",
+		"<br><strong>Research:</strong> Qualitative analysis, mixed-methods, ethnography, engaged scholarship",
+		"<br><strong>Languages:</strong> English (Native), Nepali (Advanced)"
 	],
 	"hobbies": [
 		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",
