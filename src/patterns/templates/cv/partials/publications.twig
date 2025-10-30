@@ -5,21 +5,23 @@
 		</header>
 		<div class="">
 			<h4>Peer-Reviewed Conference and Journal</h4>
-			<ol class="lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1">
+			{# <ol class="lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1"> #}
 				{% for item in data.peerReviewed %}
-					<li>
+					{# <li> #}
 						<p>{{item.cite|raw}} <br/><em>{{item.status}}</em></p>
-					</li>
+					{# </li> #}
 				{% endfor %}
-			</ol>
-			<h4>Short Papers/Posters</h4>
-			<ol class="lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1">
-				{% for item in data.posters %}
-					<li>
-						<p>{{item.cite|raw}}</p>
-					</li>
-				{% endfor %}
-			</ol>
+			{# </ol> #}
+			{% if data.posters != [] %}
+				<h4>Short Papers/Posters</h4>
+				<ol class="lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1">
+					{% for item in data.posters %}
+						<li>
+							<p>{{item.cite|raw}}</p>
+						</li>
+					{% endfor %}
+				</ol>
+			{% endif %}
 		</div>
 	</div>
 </section>

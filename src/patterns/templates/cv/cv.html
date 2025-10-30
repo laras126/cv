@@ -59,7 +59,7 @@
 
 		{% include "templates/cv/partials/publications.twig" with {
 			data: data.publications,
-			title: 'Publications'
+			title: data.publications_title ?: 'Publications'
 		} %}
 
 		{% if not hide_service %}

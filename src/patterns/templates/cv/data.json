@@ -47,8 +47,22 @@
 	],
 	"work": [
 		{
+			"company": "Merck",
+			"position": "Intern - Commercial AI Capabilities",
+			"website": "http://merck.com",
+			"startDate": "Summer 2024",
+			"endDate": "",
+			"summary": "Initiated human-centered AI research initiative to drive pharmaceutical sales product innovation, translating complex business challenges into actionable research frameworks and technology adoption strategies; delivered strategic recommendations to VP and executive leadership.",
+			"highlights": [
+				"Architected modular user interface system, build tools, testing, and coding standards to speed up development time, reduce technical debt, and deploy shared packages across network.",
+				"Developed workflows to improve inter-departmental communication with engineering.",
+				"Led and deployed re-platform and upgrade initiatives across the network.",
+				"Advocated for diversity, equity, and inclusion in team culture, hiring, and compensation."
+			]
+		},
+		{
 			"company": "Penske Media Corporation",
-			"position": "Senior Principal Software Engineer",
+			"position": "Principal Software Engineer",
 			"website": "http://pmc.com",
 			"startDate": "2018",
 			"endDate": "2022",
@@ -180,28 +194,22 @@
 	"publications": {
 		"peerReviewed": [
 			{
-				"cite": "<strong>Lara Karki</strong>, Gabe DuBose, Zajerria Godfrey, Dana Priest, Annabel Rothschild, Benjamin Rydal Shapiro, Betsy DiSalvo. 2025. “A Window into Data Apprenticeship: Developing an Integrated Work-Training Curriculum for Novice Adults”. In SIGCSE TS 2025."
+				"cite": "Lara Karki, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husen, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. 2025.  'I get hives when I come on here': Persisting Through Platform-Delivered Microaggressions on LinkedIn. Proc. ACM Hum.-Comput. Interact. 9, 7, Article CSCW232 (November 2025), 36 pages. https://doi.org/10.1145/3757413"
 			},
 			{
-				"cite": "<strong>Lara Karki</strong>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husein, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. \"“I get hives when I come on here”: Persisting Through Platform-Delivered Microaggressions on LinkedIn.\"",
-				"status": "Revision Under Review for CSCW 2025."
+				"cite": "Lara Karki, Dana Priest, James G. Dubose, Zajerria Godfrey, Annabel Rothschild, Ben Rydal Shapiro, and Betsy DiSalvo. 2025. A Window into DataWorks: Developing an Integrated Work-Training Curriculum for Novice Adults. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSETS 2025). Association for Computing Machinery, New York, NY, USA, 568–574. https://doi.org/10.1145/3641554.3701826"
 			},
 			{
-				"cite": "<strong>Lara Karki</strong>, Idel Martinez-Ramos, Sabine Verdult, Dana Priest, Asher Brown, Felienne Hermans, and Betsy DiSalvo. \"There Is No \"Real\" Programming; There Is Only Mythology of Programming.\"",
-				"status": "Revision Under Review for ACM Transactions on Computing Education."
-			},
-			{
-				"cite": "Carl DiSalvo, Annabel Rothschild, <strong>Lara L. Schenck</strong>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. \"When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work\". Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. <a href=\"https://doi.org/10.1145/3637433\">DOI</a>. <i>DEI Recognition</i>.",
-				"status": ""
+				"cite": "Carl DiSalvo, Annabel Rothschild, Lara L. Schenck, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. https://doi.org/10.1145/3637433."
 			}
 		],
 		"posters": [
 			{
-				"cite": "Lara L. Schenck and Betsy DiSalvo. 2023. \"From Data Work to Data Science: Getting Past the Gatekeepers.\" In Proceedings of the 2023 ACM Conference on International Computing Education Research - Volume 2 (ICER '23), Vol. 2. Association for Computing Machinery, New York, NY, USA, 1–2. https://doi.org/10.1145/3568812.3603468",
+				"cite": "<b>Lara L. Schenck</b> and Betsy DiSalvo. 2023. \"From Data Work to Data Science: Getting Past the Gatekeepers.\" In ICER 2023. <a href=\"https://doi.org/10.1145/3568812.3603468\">DOI</a>.",
 				"status": "Poster and Lightning Talk"
 			},
 			{
-				"cite": "Lara L. Schenck and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" IPaT Industry Innovation Day and the GVU Research Showcase, April 2023; CRA Grad Cohort for Women, April 2023.",
+				"cite": "<b>Lara L. Schenck</b> and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" IPaT Industry Innovation Day and the GVU Research Showcase. 2023.",
 				"status": "Poster"
 			}
 		]
@@ -229,9 +237,10 @@
 		}
 	],
 	"skills": [
-		"<strong>Technical:</strong> Full-stack web development, software engineering and architecture, Python and pandas",
-		"<br><strong>Research:</strong> Qualitative analysis, mixed-methods, ethnography, engaged scholarship",
-		"<br><strong>Languages:</strong> English (Native), Nepali (Advanced)"
+		"<strong>Artificial Intelligence:</strong> Responsible AI, human-centered AI, AI product adoption and applications, workforce impacts",
+		"<br><strong>Development:</strong> Full-stack web engineering (PHP, JS, React, HTML/CSS), software architecture (design systems), Python (pandas)",
+		"<br><strong>Research:</strong> Applied research, qualitative analysis, mixed-methods, ethnography, engaged scholarship",
+		"<br><strong>Languages:</strong> English (Native), Nepali (Fluent), Spanish (Advanced Beginner)"
 	],
 	"hobbies": [
 		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",
