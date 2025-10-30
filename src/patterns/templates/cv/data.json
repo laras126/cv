@@ -76,6 +76,13 @@
 		},
 		{
 			"company": "",
+			"position": "Speaking, Community Organizing, & Thought Leadership",
+			"startDate": "2011",
+			"endDate": "2022",
+			"summary": "[stuff]]."
+		},
+		{
+			"company": "",
 			"position": "Lead Instructor",
 			"startDate": "2013",
 			"endDate": "2018",
@@ -194,13 +201,13 @@
 	"publications": {
 		"peerReviewed": [
 			{
-				"cite": "Lara Karki, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husen, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. 2025.  'I get hives when I come on here': Persisting Through Platform-Delivered Microaggressions on LinkedIn. Proc. ACM Hum.-Comput. Interact. 9, 7, Article CSCW232 (November 2025), 36 pages. https://doi.org/10.1145/3757413"
+				"cite": "<b>Lara Karki</b>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husen, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. 2025.  'I get hives when I come on here': Persisting Through Platform-Delivered Microaggressions on LinkedIn. Proc. ACM Hum.-Comput. Interact. 9, 7, Article CSCW232 (November 2025), 36 pages. https://doi.org/10.1145/3757413"
 			},
 			{
-				"cite": "Lara Karki, Dana Priest, James G. Dubose, Zajerria Godfrey, Annabel Rothschild, Ben Rydal Shapiro, and Betsy DiSalvo. 2025. A Window into DataWorks: Developing an Integrated Work-Training Curriculum for Novice Adults. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSETS 2025). Association for Computing Machinery, New York, NY, USA, 568–574. https://doi.org/10.1145/3641554.3701826"
+				"cite": "<b>Lara Karki</b>, Dana Priest, James G. Dubose, Zajerria Godfrey, Annabel Rothschild, Ben Rydal Shapiro, and Betsy DiSalvo. 2025. A Window into DataWorks: Developing an Integrated Work-Training Curriculum for Novice Adults. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSETS 2025). Association for Computing Machinery, New York, NY, USA, 568–574. https://doi.org/10.1145/3641554.3701826"
 			},
 			{
-				"cite": "Carl DiSalvo, Annabel Rothschild, Lara L. Schenck, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. https://doi.org/10.1145/3637433."
+				"cite": "Carl DiSalvo, Annabel Rothschild, <b>Lara L. Schenck</b>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. https://doi.org/10.1145/3637433."
 			}
 		],
 		"posters": [

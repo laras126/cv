@@ -1,0 +1,277 @@
+{
+	"basics": {
+		"name": "Lara Karki <span class=\"lrv-u-color-grey\">(Schenck)</span>",
+		"label": "she/her",
+		"picture": "https://notlaura.com/wp-content/uploads/2021/07/lara.png",
+		"email": "lara@notlaura.com",
+		"linkedin": "linkedin.com/in/notlaura",
+		"phone": "(724) 244-2491",
+		"summary": "Researcher with a hybrid technical and social science background and proven track record of thought leadership, applied research initiatives resulting in product and process change addressing real world business challenges in multiple industries, translating research and technical challenges into executive communication and developing initiatives independently while embedded in team environments.",
+		"location": "Atlanta, GA",
+		"website": "larakarki.com",
+		"interests": [
+			"Broadening participation in computing",
+			"Workforce development and communities of practice"
+		],
+		"profiles": [
+		{
+			"network": "Github",
+			"url": "https://github.com/laras126"
+		},
+		{
+			"network": "LinkedIn",
+			"url": "https://linkedin.com/in/notlaura"
+		}]
+	},
+	"work": [
+		{
+			"company": "Merck",
+			"position": "Intern - Commercial AI Capabilities",
+			"startDate": "2025-05",
+			"endDate": "2025-08",
+			"summary": "",
+			"highlights": [
+				"Initiated efforts to expand approach to AI product development from a sole focus on automation to include human-AI collaboration",
+				"Identified business challenges through ethnographic participant-observation and interviews with 16 employees including product designers, data scientists, analysts, leadership, and sales management across business units",
+				"Delivered branded framework for conceptualizing human-centered approaches to AI products with accompanying research agendas across four verticals, developed according to interviews with 18 stakeholders and participant-observation of product meetings",
+				"Applied foundational research principles to theorize causes for adoption bottlenecks in generative AI products",
+				"Developed compliant survey and interview protocols to understand the impacts of gen AI products on the workforce and causes of adoption bottlenecks",
+				"Presented frameworks and approach to department leadership and expanded stakeholder groups across Merck, socializing approach with Animal Health and R&D",
+				"Translated academic perspectives on AI's effects on cognition for a general audience, presenting to 150 employees in Responsible AI interest group"
+			]
+		},
+		{
+			"company": "Georgia Institute of Technology",
+			"position": "Research Assistant",
+			"startDate": "2022",
+			"endDate": "2024",
+			"summary": "",
+			"highlights": [
+				"Initiated and facilitated career development program for an upskilling/reskilling program in data work, supporting integrated skill development through work-based learning among career changing adults",
+				"Developed curriculum to address program gaps addressing job search skills; Increased employment outcomes for participants by 50%",
+				"Conducted interview and field notes research to evaluate qualitative program outcomes which include increased confidence, technical skill competency, and targeted career direction",
+				"Formed research teams with program participants as co-researchers, increasing rigor of results by incorporating participants' first-person perspectives",
+				"Conducted detailed investigation into LinkedIn to understand how aspects of the platform limited users' ability to build social capital",
+				"Published research in peer reviewed conferences and journals"
+			]
+		},
+		{
+			"company": "Penske Media Corporation",
+			"position": "Principal Software Engineer",
+			"startDate": "2018",
+			"endDate": "2022",
+			"summary": "",
+			"highlights": [
+				"Conducted applied research study with 18 stakeholders across product, design, and engineering to identify business challenges in brand re-platforming; translated findings into framework and recommendations for C-suite, securing CEO buy-in for platform innovation initiative",
+				"Aligned prototypes development with resource-constrained and deadline-driven engineering environment, evolving prototype into production code framework",
+				"Collaborated closely with engineering, design, and product to maintain product alignment",
+				"Developed continuous integration workflows to ensure code quality and reliable deployments",
+				"Integrated product-design-engineering processes through tools to streamline communication with brand stakeholders",
+				"Deployed component system across five brands, increasing productivity for re-platforming brand acquisitions by 60%",
+				"Developed documentation, training, and communication channels for ongoing support in using the platform on a team of 80 product and engineering"
+			]
+		},
+		{
+			"company": "Lara Schenck, LLC",
+			"position": "Independent Consultant",
+			"startDate": "2011",
+			"endDate": "2018",
+			"summary": "",
+			"highlights": [
+				"Serviced a range of clients including the weather channel, barnes and noble, web development agencies, startups, and small businesses",
+				"Developed customized training plans and end-to-end product designs and builds",
+				"Implemented front-end component systems and design language to enable cross-functional design-development collaboration"
+			]
+		},
+		{
+			"company": "Pratt Institute",
+			"position": "Adjunct Instructor",
+			"startDate": "2014",
+			"endDate": "2016",
+			"summary": "",
+			"highlights": [
+				"Founding instructor of the 'UI/UX prototyping in code' continuing education certificate program",
+				"Developed curricula for two sequential classes to teach programming fundamentals and application of programming to prototyping and technical communication",
+				"Taught classes of 12-15 working professionals from areas include sales, graphic design, and marketing"
+			]
+		},
+		{
+			"company": "Decoded",
+			"position": "Executive Education Facilitator",
+			"startDate": "2014",
+			"endDate": "2016",
+			"summary": "",
+			"highlights": [
+				"Facilitated 'Code in a Day' workshop targeting non-technical executives",
+				"Provided individualized support to executives to explain technical concepts",
+				"Explained the application of technical concepts to everyday business use cases and communication needs"
+			]
+		}
+	],
+	"volunteer": [
+		{
+			"company": "International",
+			"position": "Conference Speaker & Thought Leader",
+			"website": "https://supremenetwork.org",
+			"startDate": "2013",
+			"endDate": "present",
+			"highlights": [
+				"Developed conference talk to highlight gatekeeping culture around programming languages in industry",
+				"Presented at 13 conferences internationally to crowds between 25-500+ people",
+				"Recorded conference talks have upwards of 40k views",
+				"Presented research in academic conferences and industry communities"
+			]
+		},
+		{
+			"company": "Small Non-Profits",
+			"position": "Technical Advisor & Developer",
+			"website": "https://supremenetwork.org",
+			"startDate": "2018",
+			"endDate": "2024",
+			"highlights": [
+				"Advised non-profit leadership on technical decision making for web platforms",
+				"Developed websites with the goal of reducing maintenance efforts as much as possible",
+				"Educated employees on website maintenance and usage"
+			]			
+		},
+		{
+			"company": "Microsoft TEALS",
+			"position": "CS Classroom Volunteer",
+			"website": "https://tealsk12.org",
+			"startDate": "2021",
+			"endDate": "2022",
+			"highlights": [
+				"Provide instructor support twice per week for Intro to Computer Science at a public school in an underserved neighborhood of Pittsburgh."
+			]
+		},
+		{
+			"company": "WordPress Core",
+			"position": "Open Source Contributor",
+			"website": "https://make.wordpress.org/core/tag/core-css/",
+			"startDate": "2011",
+			"endDate": "2022",
+			"highlights": [
+				"Facilitated weekly Core CSS team meetings to oversee and contribute code to long-term projects improving the maintainability of the WordPress Core CSS code-base.",
+				"Contributed code updates to WordPress Core",
+				"Organized meetups and conferences vital to maintaining and growing the open-source community",
+				"Participated in conference planning and led volunteers for WordCamp Los Angeles"
+			]
+		},
+		{
+			"company": "National",
+			"position": "Mentorship & Community Organizing",
+			"website": "http://c4aa.org/",
+			"startDate": "2011",
+			"endDate": "Present",
+			"summary": "Development, ongoing maintenance, and technical advising for the C4AA on their WordPress website and donation platform.",
+			"highlights": [
+				""
+			]
+		}
+	],
+	"speaking": [
+		"<em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021",
+		"<em>CSS Algorithms</em> at StrangeLoop – St. Louis, 2019",
+		"<em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019",
+		"<em>CSS Algorithms</em> at JS Conf US – San Diego, 2019",
+		"<em>Writing CSS Algorithms</em> at CSS Camp – Barcelona, 2019",
+		"<em>Algorithms of CSS</em> at CSS Day (invited) – Amsterdam, 2019",
+		"<em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019",
+		"<em>Bridging the Gap Between Design & Development</em> at WordCamp US – Nashville, 2018",
+		"<em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018",
+		"<em>The Algorithms of CSS</em> at js.la – Los Angeles, 2018",
+		"<em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018",
+		"<em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018",
+		"<em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018",
+		"<em>The Five-figure WordPress Website</em> at Abstractions – Pittsburgh, 2016",
+		"<em>Vetting and Choosing Themes</em> at WordCamp Pittsburgh – Pittsburgh, 2016",
+		"<em>Why the Designer Failed FizzBuzz</em> at SassConf – Austin, 2015",
+		"<em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014",
+		"<em>Freelancing, Real Talk</em> at WordCamp NYC – NYC, 2014"
+	],
+	"outreach": [
+		"<b>Mentor</b>, Learn Teach Code – Los Angeles and online, 2017-2021",
+		"<b>Co-Organizer</b>, Global Diversity CFP Day – Pittsburgh, 2019",
+		"<b>Mentor</b>, Write Speak Code – Los Angeles, 2017-2019",
+		"<b>Mentor</b>, Global Diversity CFP Day – Los Angeles, 2018",
+		"<b>Co-Organizer</b>, WordCamp LA – Los Angeles, 2018",
+		"<b>Founder and organizer</b>, CSS.la – Los Angeles, 2017-2019",
+		"<b>Founder and organizer</b>, CodePen Meetup NYC – NYC, 2014-2016",
+		"<b>Mentor, Presenter</b>, WordPress NYC Meetup – NYC, 2014-2016"
+	],
+	"awards": [
+		{
+			"position": "Pathbreakers Fellowship",
+			"company": "Georgia Institute of Technology",
+			"startDate": "2024"
+		},
+		{
+			"position": "Graduate Research Fellowshop",
+			"company": "National Science Foundation",
+			"startDate": "2023"
+		},
+		{
+			"position": "President's Fellowship",
+			"company": "Georgia Institute of Technology",
+			"startDate": "2022"
+		}
+	],
+	"publications": {
+		"peerReviewed": [
+			{
+				"cite": "<b>Lara Karki</b>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husen, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. 2025.  'I get hives when I come on here': Persisting Through Platform-Delivered Microaggressions on LinkedIn. Proc. ACM Hum.-Comput. Interact. 9, 7, Article CSCW232 (November 2025), 36 pages. https://doi.org/10.1145/3757413"
+			},
+			{
+				"cite": "<b>Lara Karki</b>, Dana Priest, James G. Dubose, Zajerria Godfrey, Annabel Rothschild, Ben Rydal Shapiro, and Betsy DiSalvo. 2025. A Window into DataWorks: Developing an Integrated Work-Training Curriculum for Novice Adults. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSETS 2025). Association for Computing Machinery, New York, NY, USA, 568–574. https://doi.org/10.1145/3641554.3701826"
+			},
+			{
+				"cite": "Carl DiSalvo, Annabel Rothschild, <b>Lara L. Schenck</b>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. https://doi.org/10.1145/3637433."
+			}
+		],
+		"posters": [
+			{
+				"cite": "<b>Lara L. Schenck</b> and Betsy DiSalvo. 2023. \"From Data Work to Data Science: Getting Past the Gatekeepers.\" In ICER 2023. <a href=\"https://doi.org/10.1145/3568812.3603468\">DOI</a>.",
+				"status": "Poster and Lightning Talk"
+			},
+			{
+				"cite": "<b>Lara L. Schenck</b> and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" IPaT Industry Innovation Day and the GVU Research Showcase. 2023.",
+				"status": "Poster"
+			}
+		]
+	},
+	"education": [
+		{
+			"position": "Ph.D. Human-Centered Computing",
+			"company": "Georgia Institute of Technology",
+			"summary": "<ul></li><li><b>Coursework:</b> Research Methods, Issues in Human-Centered Computing, Learning & Development, Social Studies of Technology, Prototyping Interactive Systems, Future of Work</li><li><b>Research:</b> Future of Work, Workforce Development, Human-Centered AI, Reskilling/Upskilling, AI Impact on Work</li></ul>",
+			"startDate": "2022",
+			"endDate": "Present"
+		},
+		{
+			"position": "Bachelor of Fine Arts",
+			"company": "School of the Museum of Fine Arts at Tufts University",
+			"summary": "<ul><li><b>Coursework</b>: Animation, Painting, Printmaking and Bookmaking, Game Design; Self-Directed Internship in Open Source Web Development</ul>",
+			"startDate": "2009",
+			"endDate": "2011"
+		}
+	],
+	"service": [
+		{
+			"position": "Conference Reviewing",
+			"summary": "SIGCSE 2025, CSCW 2024, SIGCSE 2024, ACM Transactions in Computing Education (2023), DIS 2023"
+		}
+	],
+	"skills": [
+		"<strong>Emerging Technologies:</strong> AI/ML (human-AI collaboration, gen AI, responsible AI, workforce impacts), theories of automation, Human-Robot Interaction",
+		"<strong>Development:</strong> Full-stack web engineering (PHP, JS, React, HTML/CSS), software architecture (design systems), Python (pandas)",
+		"<strong>Research:</strong> Applied research methods, ethnography, interviews and surveys, qualitative analysis, mixed-methods, impact evaluation, user research",
+		"<strong>Languages:</strong> English (Native), Nepali (Fluent), Spanish (Advanced Beginner)"
+	],
+	"hobbies": [
+		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",
+		"Learning Nepali language",
+		"Running",
+		"Biking",
+		"Hiking"
+	]
+}

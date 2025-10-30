@@ -11,9 +11,8 @@
 		<div class="">
 			<div class="lrv-u-flex lrv-u-align-items-center lrv-a-space-children-horizontal lrv-a-space-children--1">
 				<h1>{{ data.basics.name|raw }}</h1>
-				<em>{{ data.basics.label }}</em>
+				<em class="lrv-u-margin-t-050">{{ data.basics.label }}</em>
 			</div>
-			<p class="lrv-u-margin-tb-050">{{ data.basics.summary }}</p>
 			{% if data.basics.interests|length > 0 %}
 				<ul class="lrv-u-margin-t-00">
 					{% for item in data.basics.interests %}
@@ -21,17 +20,21 @@
 					{% endfor %}
 				</ul>
 			{% endif %}
-			<ul class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap">
+
+			<ul class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap lrv-u-margin-tb-050">
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{ data.basics.email }}</li>
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.phone}}</li>
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li>
-				<li class="">{{data.basics.website}}</li>
+				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.website}}</li>
+				<li class="">{{data.basics.linkedin}}</li>
 				{% if not hide_profiles %}
 					{% for profile in data.basics.profiles %}
 						<li class="lrv-a-icon-before {{ loop.index != data.basics.profiles|length ? 'lrv-a-icon-bullet' }}"><a href="{{profile.url}}">{{ profile.network }}</a></li>
 					{% endfor %}
 				{% endif %}
 			</ul>
+
+			<p class="lrv-u-font-size-14 lrv-u-margin-t-1 lrv-u-margin-b-00">{{ data.basics.summary }}</p>
 		</div>
 	</header>
 	
@@ -46,17 +49,23 @@
 			data: data.work,
 			title: data.work_title ?: 'Professional'
 		} %}
-
-		{% if data.research != [] %}
-			{% include "templates/cv/partials/section.twig" with {
-				data: data.research,
-				title: 'Research Experience'
-			} %}
-		{% endif %}
-
+		
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.volunteer,
+			title: 'Thought Leadership & Outreach'
+		} %}
+		
+		{% include "templates/cv/partials/section.twig" with {
+			data: data.skills,
+			title: 'Skills',
+			simple: true,
+			separator: ';'
+		} %}
+		
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.awards,
-			title: 'Awards'
+			title: 'Awards',
+			unspaced: true
 		} %}
 
 		{% include "templates/cv/partials/publications.twig" with {
@@ -64,45 +73,7 @@
 			title: data.publications_title ?: 'Publications'
 		} %}
 
-		{% if not hide_service %}
-			{% include "templates/cv/partials/section.twig" with {
-				data: data.service,
-				title: data.service_title ?: 'Service',
-				simple: false,
-				simple_spaced: true,
-				separator: ','
-			} %}
-		{% endif %}
-		
-		{% if data.speaking != [] %}
-			{% include "templates/cv/partials/section.twig" with {
-				data: data.speaking,
-				title: data.speaking_title ?: 'Speaking',
-				simple: true,
-				separator: ''
-			} %}
-		{% endif %}
-
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.skills,
-			title: 'Skills',
-			simple: true,
-			simple_spaced: true,
-			separator: ';'
-		} %}
-		
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.volunteer,
-			title: volunteer_title ?: 'Volunteer'
-		} %}
-		
-		{% include "templates/cv/partials/section.twig" with {
-			data: data.outreach,
-			title: data.outreach_title ?: 'Community Outreach',
-			simple: true,
-			separator: ';'
-		} %}
-		
+	
 		{% if not hide_hobbies %}
 			{% include "templates/cv/partials/section.twig" with {
 				data: data.hobbies,

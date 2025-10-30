@@ -4,14 +4,16 @@
 			<h3 class="lrv-u-text-transform-uppercase lrv-u-color-grey lrv-u-font-size-16">{{title}}</h3>
 		</header>
 		<div class="">
-			<h4>Peer-Reviewed Conference and Journal</h4>
-			{# <ol class="lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1"> #}
+			{% if data.posters != [] %}
+				<h4>Peer-Reviewed Conference and Journal</h4>
+			{% endif %}
+			<ol class="lrv-a-unstyle-list">
 				{% for item in data.peerReviewed %}
-					{# <li> #}
-						<p>{{item.cite|raw}} <br/><em>{{item.status}}</em></p>
-					{# </li> #}
+					<li>
+						<p class="lrv-u-margin-t-00">{{item.cite|raw}} <br/><em>{{item.status}}</em></p>
+					</li>
 				{% endfor %}
-			{# </ol> #}
+			</ol>
 			{% if data.posters != [] %}
 				<h4>Short Papers/Posters</h4>
 				<ol class="lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1">
