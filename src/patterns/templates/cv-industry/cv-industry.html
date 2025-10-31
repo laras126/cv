@@ -1,5 +1,5 @@
 <div class="lrv-a-wrapper lrv-u-margin-t-1 lrv-u-margin-b-2 lrv-u-padding-lr-1">
-	<header class="lrv-a-grid a-cols-content lrv-u-align-items-center">
+	<header class="a-cols-content lrv-u-align-items-center">
 		
 		<div class="lrv-u-width-200 a-cols-content-header">
 			{% if data.basics.picture != false %}
@@ -21,7 +21,7 @@
 				</ul>
 			{% endif %}
 
-			<ul class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap lrv-u-margin-tb-050 lrv-u-color-grey">
+			<ul class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap lrv-u-margin-tb-050">
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{ data.basics.email }}</li>
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.phone}}</li>
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li>
@@ -34,7 +34,7 @@
 				{% endif %}
 			</ul>
 
-			<p class="lrv-u-font-size-14 lrv-u-margin-t-1 lrv-u-margin-b-00">{{ data.basics.summary }}</p>
+			<p class="lrv-u-margin-t-1 lrv-u-margin-b-00">{{ data.basics.summary }}</p>
 		</div>
 	</header>
 	
@@ -52,7 +52,7 @@
 		
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.volunteer,
-			title: 'Thought Leadership & Outreach'
+			title: data.volunteer_title ?: 'Thought Leadership & Outreach'
 		} %}
 		
 		{% include "templates/cv/partials/section.twig" with {
