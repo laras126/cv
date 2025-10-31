@@ -1,6 +1,6 @@
-<section class="lrv-u-border-t-1 lrv-u-padding-t-050 lrv-u-border-color-brand-secondary lrv-u-margin-t-2 lrv-u-display-block">
-	<div class="a-cols-content">
-		<header class="a-cols-content-header">
+<section class="lrv-u-border-t-1 lrv-u-padding-t-050 lrv-u-border-color-brand-secondary lrv-u-margin-t-2 lrv-u-display-block lrv-u-padding-t-1">
+	<div class="">
+		<header class="lrv-u-margin-b-050">
 			<h3 class="lrv-u-text-transform-uppercase lrv-u-color-grey lrv-u-font-size-16">{{title}}</h3>
 		</header>
 		<div class="">
@@ -10,7 +10,7 @@
 			<ol class="lrv-a-unstyle-list">
 				{% for item in data.peerReviewed %}
 					<li>
-						<p class="lrv-u-margin-t-00">{{item.cite|raw}} <br/><em>{{item.status}}</em></p>
+						<p class="lrv-u-margin-t-00 lrv-u-font-size-15">{{item.cite|raw}} <br/><em>{{item.status}}</em></p>
 					</li>
 				{% endfor %}
 			</ol>

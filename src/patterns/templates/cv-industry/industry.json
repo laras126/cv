@@ -7,7 +7,7 @@
 		"linkedin": "linkedin.com/in/notlaura",
 		"label": "Human-Centered Computing Ph.D. Research Intern",
 		"phone": "(724) 244-2491",
-		"summary": "PhD candidate researching AI's impact on work, with proven ability to conduct applied research driving product innovation and adoption in industry settings. Translates complex technical and research concepts into actionable strategic recommendations.",
+		"summary": "Ph.D. candidate researching AI's impact on work, connecting technical teams, business units, and end users through applied research. Translates research across contexts to align key stakeholder needs and drive product innovation and adoption.",
 		"location": "Atlanta, GA",
 		"website": "larakarki.com",
 		"interests": [
@@ -32,10 +32,10 @@
 			"endDate": "",
 			"summary": "",
 			"highlights": [
-				"Delivered branded framework for conceptualizing human-centered approaches to AI product development across four domains (adoption, user empowerment, human-AI collaboration, governance), with actionable research agendas prioritized according to business impact; presented to department leadership and socialized across leaders in Animal Health and R&D",
-				"Conducted ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units, identifying adoption bottlenecks as a primary business challenge; translated findings into targeted research protocols and frameworks",
-				"Developed and integrated three research protocols into existing product initiatives: interview study assessing AI's impact on sales representative workflows; survey identifying target user segments for proof-of-concept product scaling; and validation survey to assess adoption barriers",
-				"Translated academic research on human-AI collaboration for a general audience, presenting to 150+ employees in Responsible AI interest group, facilitating cross-functional knowledge sharing"
+				"Delivered branded framework for conceptualizing human-centered approaches to AI product development across four domains (adoption, user empowerment, human-AI collaboration, governance); presented actionable research agendas prioritized according to business impact to department leadership and socialized across leaders in Animal Health and R&D",
+				"Conducted embedded ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units, identifying adoption bottlenecks as a primary business challenge; translated findings into targeted research protocols and frameworks",
+				"Developed and integrated three research protocols into existing product initiatives: interviews assessing AI's impact on sales representative work; survey identifying user segments for proof-of-concept scaling; and validation survey to assess adoption barriers",
+				"Translated academic research on human-AI collaboration for a general audience, presenting to 100+ employees in Responsible AI interest group, facilitating cross-functional knowledge sharing"
 			]
 		},
 		{
@@ -45,9 +45,9 @@
 			"endDate": "2024",
 			"summary": "",
 			"highlights": [
-				"Conducted applied research on emergent data work roles created by AI/ML technologies, developing integrated training and work-based learning program addressing skill gaps in technology-driven career transitions",
+				"Conducted applied research on emergent data work roles created by AI/ML technologies, developing integrated training and work-based learning program addressing skill gaps in technology-driven career transitions through embedded ethnographic research",
 				"Designed and implemented curriculum addressing emergent job search challenges and program gaps, increasing employment outcomes for participants by 50% through targeted skill development interventions",
-				"Formed research teams with program participants as co-researchers, increasing rigor of results by incorporating participants' first-person perspectives"
+				"Formed research teams with participants as co-researchers, increasing rigor by incorporating first-person perspectives"
 			]
 		},
 		{
@@ -57,9 +57,9 @@
 			"endDate": "2022",
 			"summary": "",
 			"highlights": [
-				"Conducted applied research study with 15+ stakeholders across product, design, and engineering to assess how emerging web technologies align with business challenges; translated findings into framework and recommendations for C-suite, securing CEO buy-in for platform innovation initiative and developing proof-of-concept prototypes",
-				"Initiated approach to a re-usable component system and platform architecture; increased productivity for re-platforming brand acquisitions by 60% and enabled engineering team to more rapidly address brand requests",
-				"Developed change management approach including documentation, training, collaboration tools, and communication channels supporting adoption across 80-person product and engineering department; aligned objectives between engineering, design, product, and brand stakeholders"
+				"Assessed emerging web technologies' potential to sovle business problems through study with 15+ stakeholders in product, design, and engineering; translated findings into proof-of-concept prototypes and recommendations for C-suite; secured buy-in for platform innovation initiative",
+				"Initiated a re-usable component system and innovative platform architecture; increased productivity for re-platforming brand acquisitions by 60% and enabled engineering to more rapidly address requests",
+				"Implemented change management with documentation, training, collaboration tools, and communication channels supporting adoption across 80-person product and engineering department; aligned objectives between multiple stakeholders"
 			]
 		},
 		{
@@ -104,8 +104,8 @@
 			"startDate": "2013",
 			"endDate": "present",
 			"highlights": [
-				"Presented research at academic conferences (CSCW, SIGCSE, ICER, STS Symposium), communicating findings across disciplines",
-				"Promoted novel and emerging development approaches with presentations delivered at 13 international industry conferences to audiences of 25-500+ attendees; recorded talks have 40k+ views"
+				"Presented research at academic conferences (e.g., ACM Computer Supported Cooperative Work), communicating findings across disciplines",
+				"Promoted novel and emerging development approaches with presentations delivered at 19 industry conferences to audiences of 500+ attendees; recorded talks have 40k+ views and invited guest on 5 podcasts"
 			]
 		},		
 		{
@@ -120,7 +120,7 @@
 		},
 		{
 			"company": "National",
-			"position": "Mentorship & Community Organizing",
+			"position": "Mentor & Community Organizer",
 			"website": "http://c4aa.org/",
 			"startDate": "2011",
 			"endDate": "Present",
@@ -204,16 +204,21 @@
 		{
 			"position": "Ph.D. Human-Centered Computing",
 			"company": "Georgia Institute of Technology",
-			"summary": "<ul></li><li><b>Coursework:</b> Research Methods, Issues in Human-Centered Computing, Learning & Development, Social Studies of Technology, Prototyping Interactive Systems, Future of Work</li><li><b>Research:</b> Future of Work, Workforce Development, Human-Centered AI, Reskilling/Upskilling, AI Impact on Work</li></ul>",
 			"startDate": "2022",
-			"endDate": "Present"
+			"endDate": "Present",
+			"highlights": [
+				"<b>Coursework:</b> Prototyping Interactive Systems, Research Methods, Issues in Human-Centered Computing, Learning & Development, Social Studies of Technology, Future of Work",
+				"<b>Dissertation:</b> \"The Search for Tech-Related Admin Jobs in Times of Technological Change\""
+			]
 		},
 		{
 			"position": "Bachelor of Fine Arts",
 			"company": "School of the Museum of Fine Arts at Tufts University",
-			"summary": "<ul><li><b>Coursework</b>: Animation, Painting, Printmaking and Bookmaking, Game Design; Self-Directed Internship in Open Source Web Development</ul>",
 			"startDate": "2009",
-			"endDate": "2011"
+			"endDate": "2011",
+			"highlights": [
+				"<b>Coursework</b>: Animation, Painting, Printmaking and Bookmaking, Game Design; Self-Directed Software Development Internship"
+			]
 		}
 	],
 	"service": [
