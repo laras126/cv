@@ -18,7 +18,7 @@ cv.data.basics.email = 'lschenck3@gatech.edu';
 cv.data.basics.interests = [];
 
 cv.data.work_title = "Work Experience";
-cv.data.volunteer_title = "Thought Leadership & Outreach";
+cv.data.volunteer_title = "Professional Activities";
 
 cv.data.publications_title = "Selected Publications";
 cv.data.publications.posters = [];
