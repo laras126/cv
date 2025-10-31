@@ -13,7 +13,6 @@ cv.hide_profiles = true;
 
 cv.data.basics.picture = false;
 cv.data.basics.email = 'lschenck3@gatech.edu';
-cv.data.basics.label = 'Graduate Research Intern';
 // cv.data.basics.summary = '';
 
 cv.data.basics.interests = [];

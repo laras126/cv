@@ -1,12 +1,13 @@
 {
 	"basics": {
-		"name": "Lara Karki <span class=\"lrv-u-color-grey\">(Schenck)</span>",
+		"name": "Lara Karki",
 		"label": "she/her",
 		"picture": "https://notlaura.com/wp-content/uploads/2021/07/lara.png",
 		"email": "lara@notlaura.com",
 		"linkedin": "linkedin.com/in/notlaura",
+		"label": "Human-Centered Computing Ph.D. Research Intern",
 		"phone": "(724) 244-2491",
-		"summary": "Researcher with a hybrid technical and social science background and proven track record of thought leadership, applied research initiatives resulting in product and process change addressing real world business challenges in multiple industries, translating research and technical challenges into executive communication and developing initiatives independently while embedded in team environments.",
+		"summary": "PhD candidate in Human-Centered Computing with proven ability to conduct applied research in industry settings, driving innovations in product, process, and adoption. Combines technical expertise (software engineering and AI/ML applications) with social science research methods to solve complex sociotechnical business problems, translating research and technical concepts into executive-level strategic recommendations.",
 		"location": "Atlanta, GA",
 		"website": "larakarki.com",
 		"interests": [
@@ -27,17 +28,14 @@
 		{
 			"company": "Merck",
 			"position": "Intern - Commercial AI Capabilities",
-			"startDate": "2025-05",
-			"endDate": "2025-08",
+			"startDate": "Summer 2025",
+			"endDate": "",
 			"summary": "",
 			"highlights": [
-				"Initiated efforts to expand approach to AI product development from a sole focus on automation to include human-AI collaboration",
-				"Identified business challenges through ethnographic participant-observation and interviews with 16 employees including product designers, data scientists, analysts, leadership, and sales management across business units",
-				"Delivered branded framework for conceptualizing human-centered approaches to AI products with accompanying research agendas across four verticals, developed according to interviews with 18 stakeholders and participant-observation of product meetings",
-				"Applied foundational research principles to theorize causes for adoption bottlenecks in generative AI products",
-				"Developed compliant survey and interview protocols to understand the impacts of gen AI products on the workforce and causes of adoption bottlenecks",
-				"Presented frameworks and approach to department leadership and expanded stakeholder groups across Merck, socializing approach with Animal Health and R&D",
-				"Translated academic perspectives on AI's effects on cognition for a general audience, presenting to 150 employees in Responsible AI interest group"
+				"Delivered branded framework for conceptualizing human-centered approaches to AI product development across four domains (adoption, user empowerment, human-AI collaboration, governance), with actionable research agendas prioritized according to business impact; presented to department leadership and socialized across leaders in Animal Health and R&D",
+				"Conducted ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units, identifying adoption bottlenecks as a primary business challenge; translated findings into targeted research protocols and frameworks",
+				"Developed and integrated three research protocols into existing product initiatives: interview study assessing AI's impact on sales representative workflows; survey identifying target user segments for proof-of-concept product scaling; and validation survey to assess adoption barriers",
+				"Translated academic research on human-AI collaboration for a general audience, presenting to 150+ employees in Responsible AI interest group, facilitating cross-functional knowledge sharing"
 			]
 		},
 		{
@@ -47,12 +45,9 @@
 			"endDate": "2024",
 			"summary": "",
 			"highlights": [
-				"Initiated and facilitated career development program for an upskilling/reskilling program in data work, supporting integrated skill development through work-based learning among career changing adults",
-				"Developed curriculum to address program gaps addressing job search skills; Increased employment outcomes for participants by 50%",
-				"Conducted interview and field notes research to evaluate qualitative program outcomes which include increased confidence, technical skill competency, and targeted career direction",
-				"Formed research teams with program participants as co-researchers, increasing rigor of results by incorporating participants' first-person perspectives",
-				"Conducted detailed investigation into LinkedIn to understand how aspects of the platform limited users' ability to build social capital",
-				"Published research in peer reviewed conferences and journals"
+				"Conducted applied research on emergent data work roles created by AI/ML technologies, developing integrated training and work-based learning program addressing skill gaps in technology-driven career transitions",
+				"Designed and implemented curriculum addressing emergent job search challenges and program gaps, increasing employment outcomes for participants by 50% through targeted skill development interventions",
+				"Formed research teams with program participants as co-researchers, increasing rigor of results by incorporating participants' first-person perspectives"
 			]
 		},
 		{
@@ -62,13 +57,9 @@
 			"endDate": "2022",
 			"summary": "",
 			"highlights": [
-				"Conducted applied research study with 18 stakeholders across product, design, and engineering to identify business challenges in brand re-platforming; translated findings into framework and recommendations for C-suite, securing CEO buy-in for platform innovation initiative",
-				"Aligned prototypes development with resource-constrained and deadline-driven engineering environment, evolving prototype into production code framework",
-				"Collaborated closely with engineering, design, and product to maintain product alignment",
-				"Developed continuous integration workflows to ensure code quality and reliable deployments",
-				"Integrated product-design-engineering processes through tools to streamline communication with brand stakeholders",
-				"Deployed component system across five brands, increasing productivity for re-platforming brand acquisitions by 60%",
-				"Developed documentation, training, and communication channels for ongoing support in using the platform on a team of 80 product and engineering"
+				"Conducted applied research study with 15+ stakeholders across product, design, and engineering to assess how emerging web technologies align with business challenges; translated findings into framework and recommendations for C-suite, securing CEO buy-in for platform innovation initiative and developing proof-of-concept prototypes",
+				"Initiated approach to a re-usable component system and platform architecture; increased productivity for re-platforming brand acquisitions by 60% and enabled engineering team to more rapidly address brand requests",
+				"Developed change management approach including documentation, training, collaboration tools, and communication channels supporting adoption across 80-person product and engineering department; aligned objectives between engineering, design, product, and brand stakeholders"
 			]
 		},
 		{
@@ -78,21 +69,21 @@
 			"endDate": "2018",
 			"summary": "",
 			"highlights": [
-				"Serviced a range of clients including the weather channel, barnes and noble, web development agencies, startups, and small businesses",
+				"Serviced a range of clients including The Weather Channel, Barnes and Noble, web development agencies, startups, and small businesses",
 				"Developed customized training plans and end-to-end product designs and builds",
 				"Implemented front-end component systems and design language to enable cross-functional design-development collaboration"
 			]
 		},
 		{
 			"company": "Pratt Institute",
-			"position": "Adjunct Instructor",
+			"position": "Adjunct Instructor - \"Prototyping in Code\"",
 			"startDate": "2014",
 			"endDate": "2016",
 			"summary": "",
 			"highlights": [
-				"Founding instructor of the 'UI/UX prototyping in code' continuing education certificate program",
-				"Developed curricula for two sequential classes to teach programming fundamentals and application of programming to prototyping and technical communication",
-				"Taught classes of 12-15 working professionals from areas include sales, graphic design, and marketing"
+				"Founding instructor of the UI/UX continuing education certificate program",
+				"Developed curricula for two sequential classes to in programming fundamentals and application of programming to UI prototyping and technical communication",
+				"Taught classes of 12-15 non-technical, working professionals from areas including sales, graphic design, and marketing"
 			]
 		},
 		{
@@ -102,9 +93,9 @@
 			"endDate": "2016",
 			"summary": "",
 			"highlights": [
-				"Facilitated 'Code in a Day' workshop targeting non-technical executives",
-				"Provided individualized support to executives to explain technical concepts",
-				"Explained the application of technical concepts to everyday business use cases and communication needs"
+				"Facilitated \"Code in a Day\" workshop targeting non-technical executives, with outcomes of improved technical communication and fundamental understanding of modern development concepts",
+				"Provided individualized support to executives to ensure effectiveness of curriculum",
+				"Translated technical concepts to everyday business use cases and communication needs, enabling understanding applicable to business problems"
 			]
 		}
 	],
@@ -116,10 +107,9 @@
 			"startDate": "2013",
 			"endDate": "present",
 			"highlights": [
-				"Developed conference talk to highlight gatekeeping culture around programming languages in industry",
-				"Presented at 13 conferences internationally to crowds between 25-500+ people",
-				"Recorded conference talks have upwards of 40k views",
-				"Presented research in academic conferences and industry communities"
+				"Developed conference talk to highlight emerging technologies in UI development and best practices, shaping the industry's disposition towards front-end development",
+				"Delivered presentation at 13 conferences internationally between 2017-2019 to crowds between 25-500+ people; recordings with 40k+ views",
+				"Presented research in academic conferences and industry communities, communicating research findings to academics in a variety of disciplines"
 			]
 		},
 		{
@@ -132,7 +122,7 @@
 				"Advised non-profit leadership on technical decision making for web platforms",
 				"Developed websites with the goal of reducing maintenance efforts as much as possible",
 				"Educated employees on website maintenance and usage"
-			]			
+			]
 		},
 		{
 			"company": "Microsoft TEALS",
@@ -153,8 +143,8 @@
 			"highlights": [
 				"Facilitated weekly Core CSS team meetings to oversee and contribute code to long-term projects improving the maintainability of the WordPress Core CSS code-base.",
 				"Contributed code updates to WordPress Core",
-				"Organized meetups and conferences vital to maintaining and growing the open-source community",
-				"Participated in conference planning and led volunteers for WordCamp Los Angeles"
+				"Presented at meetups and conferences vital to maintaining and growing the open-source community",
+				"Contributed to conference planning and led volunteers for WordCamp Los Angeles"
 			]
 		},
 		{
@@ -163,9 +153,10 @@
 			"website": "http://c4aa.org/",
 			"startDate": "2011",
 			"endDate": "Present",
-			"summary": "Development, ongoing maintenance, and technical advising for the C4AA on their WordPress website and donation platform.",
 			"highlights": [
-				""
+				"Co-founded mentorship program pairing senior PhD students with junior PhD students in GA Tech College of Computing (present)",
+				"Founded ongoing developer meetups in New York (CodePen meetup) and Los Angeles (CSS.la)",
+				"Co-organized and developed educational workshops for institutionally sponsored meetups (GirlDevelopIt, Write Speak Code, Global Diversity CFP Day, LearnTeachCode)"
 			]
 		}
 	],
@@ -262,9 +253,9 @@
 		}
 	],
 	"skills": [
-		"<strong>Emerging Technologies:</strong> AI/ML (human-AI collaboration, gen AI, responsible AI, workforce impacts), theories of automation, Human-Robot Interaction",
-		"<strong>Development:</strong> Full-stack web engineering (PHP, JS, React, HTML/CSS), software architecture (design systems), Python (pandas)",
-		"<strong>Research:</strong> Applied research methods, ethnography, interviews and surveys, qualitative analysis, mixed-methods, impact evaluation, user research",
+		"<strong>Human-Centered AI:</strong> AI/ML product design & development, human-AI collaboration, responsible AI, adoption, workforce impacts, integration into work practices",
+		"<strong>Development:</strong> Full-stack web engineering (PHP, Enterprise WordPress, JS, React, HTML/CSS), software architecture (design systems, MVC), software testing and CI/CD, data analysis (Python, pandas, matplotlib)",
+		"<strong>Research:</strong> Applied research methods, ethnography, interviews and surveys, qualitative analysis, mixed-methods, impact evaluation, user research, Dovetail, MAXQDA, UI prototyping and testing",
 		"<strong>Languages:</strong> English (Native), Nepali (Fluent), Spanish (Advanced Beginner)"
 	],
 	"hobbies": [
