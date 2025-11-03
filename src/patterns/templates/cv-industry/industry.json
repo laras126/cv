@@ -32,22 +32,22 @@
 			"endDate": "",
 			"summary": "",
 			"highlights": [
-				"<b>Business Insights:</b> Delivered branded framework for conceptualizing human-centered approaches to AI product development across four domains (adoption, user empowerment, human-AI collaboration, governance); presented actionable research agendas prioritized according to business impact to department leadership and socialized across leaders in Animal Health and R&D",
-				"<b>Research Design:</b> Conducted applied research through ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units, identifying adoption bottlenecks as a primary business challenge; translated findings into targeted research protocols and frameworks",
-				"Developed and integrated 3 research protocols into existing product initiatives: interviews assessing AI's impact on sales representative work; survey identifying user segments for proof-of-concept scaling; and survey to verify adoption barriers",
-				"Translated academic research on human-AI collaboration for a general audience, presenting to 100+ employees in Responsible AI interest group, facilitating cross-functional knowledge sharing"
+				"<b>Business Insights:</b> Understood business roadmap and AI opportunities to create an internal framework to understand how to look at Human-centered approaches for AI product development across domains, identifying four main areas of opportunity to maximize the value of AI for the organization: adoption, user empowerment, human-AI collaboration and governance. Recommended actionable research agendas prioritized against business impact, and presented to Leadership Teams across Merck divisions (Human Health, Animal Health and R&D).",
+				"<b>Research Design:</b> Designed and conducted applied research through ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units. Identified adoption bottlenecks as a primary business challenge; translated findings into additional targeted research protocols and frameworks.",
+				"<b>Technology Enablement:</b> Improved adoption of new Gen AI product to enhance field sales reps' customer engagement by developing research protocols to better understand main pain points and opportunities in current ways of working. Identified through surveys different user segments influencing adoption and scalability, interviewed users from each group to assess the impact of AI on sales reps' work, and proposed design to maximize adoption of the new solutions. ",
+				"<b>Knowledge Sharing:</b> Summarized, extracted and presented key insights from my academic research on human-AI collaboration to a broader internal audience. Delivered several presentations to the AI Leadership Team and internal Responsible AI group of 100+, facilitating cross-functional knowledge sharing."
 			]
 		},
 		{
-			"company": "Georgia Institute of Technology",
+			"company": "DataWorks at Georgia Institute of Technology",
 			"position": "Research Assistant",
 			"startDate": "2022",
 			"endDate": "2024",
 			"summary": "",
 			"highlights": [
-				"Implemented qualitative research methods to examine emergent data work roles created by AI/ML technologies, developing integrated training and work-based learning program addressing skill gaps in technology-driven career transitions",
-				"Designed and implemented curriculum addressing emergent job search challenges and program gaps, increasing employment outcomes for participants by 50% through targeted skill development interventions",
-				"Formed research teams with participants as co-researchers, increasing rigor by incorporating first-person perspectives"
+				"<b>Emerging Technology & Work:</b> Contributed to work-based training / reskilling program, focusing on emergent needs for middle-skill data work resulting from AI/ML technologies. Integrated critical perspectives on data ethics and computing literacy into technical skill development. Program's demonstrated value led to institutional adoption, evolving from research initiative to a permanent department within Georgia Tech.",
+				"<b>Training:</b> Identified key gap in training program through ethnographic observation and survey research. Designed and implemented curriculum addressing emergent job search challenges, increasing employment outcomes for participants by 50% through targeted skill development interventions, creating novel opportunities for participants' professional development in technology careers, and public release of the curriculum.",
+				"<b>Problem Solving & Collaboration:</b> Designed user study to uncover what technical aspects of job search platforms prevented program participants from completing key job search tasks. Formed research teams with program participants as co-researchers, increasing rigor of results by incorporating first-person perspectives and developing processes to circumvent the platform shortcomings."
 			]
 		},
 		{
@@ -57,13 +57,13 @@
 			"endDate": "2022",
 			"summary": "",
 			"highlights": [
-				"Assessed emerging web technologies' potential to sovle business problems through study with 15+ stakeholders in product, design, and engineering; translated findings into proof-of-concept prototypes and recommendations for C-suite; secured buy-in for platform innovation initiative",
-				"Initiated a re-usable component system and innovative platform architecture; increased productivity for migrating acquired brands to internal systems by 60% and enabled engineering to more rapidly address stakeholder requests",
-				"Implemented change management with documentation, training, collaboration tools, and communication channels supporting adoption across 80-person product and engineering department; aligned objectives between multiple stakeholders"
+				"<b>Applied Research:</b> Assessed observed stakeholder misalignment through a survey and interview study with 15+ stakeholders in product, design, and engineering. Identified business need to improve the customer experience of brand stakeholders via more reliable user interface development, the speed of replatforms, and ability to participate in product-related communication.",
+				"<b>Prototyping & Innovation:</b> Prototyped a technical solution to user interface quality and communications through an innovative design system architecture leveraging emerging web technologies; prototype was adopted in production across a network of 25+ brands, increasing productivity for migrating acquired brands to internal systems by 60%, enabling engineering to more rapidly address stakeholder requests, and creating more reliable user interfaces.",
+				"<b>Communication & Change Management:</b> Implemented change management to foster design system adoption through documentation, training, collaboration tools, and communication channels supporting adoption across 80-person product and engineering department. Collaboration tools created a shared language, enabling key stakeholders to align objectives."
 			]
 		},
 		{
-			"company": "Lara Schenck, LLC",
+			"company": "Independent Practice",
 			"position": "Founder & Technical Consultant",
 			"startDate": "2011",
 			"endDate": "2018",
@@ -107,7 +107,7 @@
 				"Presented research at academic conferences (e.g., ACM Computer Supported Cooperative Work), communicating findings across disciplines",
 				"Promoted novel and emerging development approaches with presentations delivered at 19 industry conferences to audiences of 500+ attendees; recorded talks have 40k+ views and invited guest on 5 podcasts"
 			]
-		},		
+		},
 		{
 			"company": "WordPress Core",
 			"position": "Open Source Contributor",
@@ -129,36 +129,6 @@
 				"Founded and co-organized ongoing developer meetups and conferences providing vital community support for new developers"
 			]
 		}
-	],
-	"speaking": [
-		"<em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021",
-		"<em>CSS Algorithms</em> at StrangeLoop – St. Louis, 2019",
-		"<em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019",
-		"<em>CSS Algorithms</em> at JS Conf US – San Diego, 2019",
-		"<em>Writing CSS Algorithms</em> at CSS Camp – Barcelona, 2019",
-		"<em>Algorithms of CSS</em> at CSS Day (invited) – Amsterdam, 2019",
-		"<em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019",
-		"<em>Bridging the Gap Between Design & Development</em> at WordCamp US – Nashville, 2018",
-		"<em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018",
-		"<em>The Algorithms of CSS</em> at js.la – Los Angeles, 2018",
-		"<em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018",
-		"<em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018",
-		"<em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018",
-		"<em>The Five-figure WordPress Website</em> at Abstractions – Pittsburgh, 2016",
-		"<em>Vetting and Choosing Themes</em> at WordCamp Pittsburgh – Pittsburgh, 2016",
-		"<em>Why the Designer Failed FizzBuzz</em> at SassConf – Austin, 2015",
-		"<em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014",
-		"<em>Freelancing, Real Talk</em> at WordCamp NYC – NYC, 2014"
-	],
-	"outreach": [
-		"<b>Mentor</b>, Learn Teach Code – Los Angeles and online, 2017-2021",
-		"<b>Co-Organizer</b>, Global Diversity CFP Day – Pittsburgh, 2019",
-		"<b>Mentor</b>, Write Speak Code – Los Angeles, 2017-2019",
-		"<b>Mentor</b>, Global Diversity CFP Day – Los Angeles, 2018",
-		"<b>Co-Organizer</b>, WordCamp LA – Los Angeles, 2018",
-		"<b>Founder and organizer</b>, CSS.la – Los Angeles, 2017-2019",
-		"<b>Founder and organizer</b>, CodePen Meetup NYC – NYC, 2014-2016",
-		"<b>Mentor, Presenter</b>, WordPress NYC Meetup – NYC, 2014-2016"
 	],
 	"awards": [
 		{
@@ -188,16 +158,6 @@
 			{
 				"cite": "Carl DiSalvo, Annabel Rothschild, <b>Lara L. Schenck</b>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. https://doi.org/10.1145/3637433."
 			}
-		],
-		"posters": [
-			{
-				"cite": "<b>Lara L. Schenck</b> and Betsy DiSalvo. 2023. \"From Data Work to Data Science: Getting Past the Gatekeepers.\" In ICER 2023. <a href=\"https://doi.org/10.1145/3568812.3603468\">DOI</a>.",
-				"status": "Poster and Lightning Talk"
-			},
-			{
-				"cite": "<b>Lara L. Schenck</b> and Betsy DiSalvo. \"Computational Work + Workplace Learning: A Pathway to Computing Careers for Adults.\" IPaT Industry Innovation Day and the GVU Research Showcase. 2023.",
-				"status": "Poster"
-			}
 		]
 	},
 	"education": [
@@ -221,23 +181,10 @@
 			]
 		}
 	],
-	"service": [
-		{
-			"position": "Conference Reviewing",
-			"summary": "SIGCSE 2025, CSCW 2024, SIGCSE 2024, ACM Transactions in Computing Education (2023), DIS 2023"
-		}
-	],
 	"skills": [
 		"<strong>Human-Centered AI:</strong> AI/ML product design & development, human-AI collaboration, responsible AI, adoption, workforce impacts, work practices integration",
 		"<strong>Development:</strong> Full-stack web engineering (PHP, Enterprise WordPress, JS, React, HTML/CSS), software architecture (design systems, MVC), software testing and CI/CD, data analysis (Python, pandas, matplotlib)",
 		"<strong>Research:</strong> Applied research methods, ethnography, interviews and surveys, qualitative analysis, mixed-methods, impact evaluation, user research, Dovetail, MAXQDA, UI prototyping and testing",
 		"<strong>Languages:</strong> English (Native), Nepali (Fluent), Spanish (Advanced Beginner)"
-	],
-	"hobbies": [
-		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",
-		"Learning Nepali language",
-		"Running",
-		"Biking",
-		"Hiking"
 	]
 }
