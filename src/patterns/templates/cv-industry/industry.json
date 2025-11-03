@@ -7,7 +7,7 @@
 		"linkedin": "linkedin.com/in/notlaura",
 		"label": "Human-Centered Computing Ph.D. Research Intern",
 		"phone": "(724) 244-2491",
-		"summary": "Ph.D. candidate researching AI's impact on work, connecting technical teams, business units, and end users through applied research. Translates research across contexts to align key stakeholder needs and drive product innovation and adoption.",
+		"summary": "Ph.D. candidate researching AI's impact on work. Connects technical teams, business units, and end users through applied research, translating research across contexts to align key stakeholder needs and drive product innovation and adoption.",
 		"location": "Atlanta, GA",
 		"website": "larakarki.com",
 		"interests": [
@@ -32,9 +32,9 @@
 			"endDate": "",
 			"summary": "",
 			"highlights": [
-				"Delivered branded framework for conceptualizing human-centered approaches to AI product development across four domains (adoption, user empowerment, human-AI collaboration, governance); presented actionable research agendas prioritized according to business impact to department leadership and socialized across leaders in Animal Health and R&D",
-				"Conducted embedded ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units, identifying adoption bottlenecks as a primary business challenge; translated findings into targeted research protocols and frameworks",
-				"Developed and integrated three research protocols into existing product initiatives: interviews assessing AI's impact on sales representative work; survey identifying user segments for proof-of-concept scaling; and validation survey to assess adoption barriers",
+				"<b>Business Insights:</b> Delivered branded framework for conceptualizing human-centered approaches to AI product development across four domains (adoption, user empowerment, human-AI collaboration, governance); presented actionable research agendas prioritized according to business impact to department leadership and socialized across leaders in Animal Health and R&D",
+				"<b>Research Design:</b> Conducted applied research through ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units, identifying adoption bottlenecks as a primary business challenge; translated findings into targeted research protocols and frameworks",
+				"Developed and integrated 3 research protocols into existing product initiatives: interviews assessing AI's impact on sales representative work; survey identifying user segments for proof-of-concept scaling; and survey to verify adoption barriers",
 				"Translated academic research on human-AI collaboration for a general audience, presenting to 100+ employees in Responsible AI interest group, facilitating cross-functional knowledge sharing"
 			]
 		},
@@ -45,7 +45,7 @@
 			"endDate": "2024",
 			"summary": "",
 			"highlights": [
-				"Conducted applied research on emergent data work roles created by AI/ML technologies, developing integrated training and work-based learning program addressing skill gaps in technology-driven career transitions through embedded ethnographic research",
+				"Implemented qualitative research methods to examine emergent data work roles created by AI/ML technologies, developing integrated training and work-based learning program addressing skill gaps in technology-driven career transitions",
 				"Designed and implemented curriculum addressing emergent job search challenges and program gaps, increasing employment outcomes for participants by 50% through targeted skill development interventions",
 				"Formed research teams with participants as co-researchers, increasing rigor by incorporating first-person perspectives"
 			]
@@ -58,7 +58,7 @@
 			"summary": "",
 			"highlights": [
 				"Assessed emerging web technologies' potential to sovle business problems through study with 15+ stakeholders in product, design, and engineering; translated findings into proof-of-concept prototypes and recommendations for C-suite; secured buy-in for platform innovation initiative",
-				"Initiated a re-usable component system and innovative platform architecture; increased productivity for re-platforming brand acquisitions by 60% and enabled engineering to more rapidly address requests",
+				"Initiated a re-usable component system and innovative platform architecture; increased productivity for migrating acquired brands to internal systems by 60% and enabled engineering to more rapidly address stakeholder requests",
 				"Implemented change management with documentation, training, collaboration tools, and communication channels supporting adoption across 80-person product and engineering department; aligned objectives between multiple stakeholders"
 			]
 		},
@@ -69,8 +69,8 @@
 			"endDate": "2018",
 			"summary": "",
 			"highlights": [
-				"Built and managed independent consulting business, serviced 30+ clients including The Weather Channel, Barnes and Noble, web development agencies, startups, and small businesses",
-				"Developed customized training plans and end-to-end product branding, prototypes, designs, and builds to meet business needs"
+				"Built and managed independent consulting business, providing development and consulting services to 30+ clients including The Weather Channel, Barnes and Noble, web development agencies, startups, and small businesses",
+				"Developed customized training plans and end-to-end product branding, prototypes, designs, and software builds to meet business needs"
 			]
 		},
 		{
@@ -81,7 +81,7 @@
 			"summary": "",
 			"highlights": [
 				"Founding instructor of UI/UX continuing education certificate program, developing two courses teaching programming fundamentals and technical communication to enable communication of ideas through prototyping",
-				"Taught 12-15 non-technical working professionals per cohort from diverse backgrounds including sales, graphic design, and marketing"
+				"Taught 12-15 non-technical working professionals per cohort from backgrounds including sales, graphic design, and marketing"
 			]
 		},
 		{

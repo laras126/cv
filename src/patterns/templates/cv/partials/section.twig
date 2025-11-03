@@ -1,13 +1,13 @@
 <section class="lrv-u-border-t-1 lrv-u-padding-t-050 lrv-u-border-color-brand-secondary lrv-u-margin-t-2 lrv-u-display-block lrv-u-padding-t-1">
 	<div class="">
 		<header class="lrv-u-margin-b-050">
-			<h3 class="lrv-u-text-transform-uppercase lrv-u-color-grey lrv-u-font-size-16">{{title}}</h3>
+			<h3 class="lrv-u-text-transform-uppercase lrv-u-color-grey lrv-u-font-size-20">{{title}}</h3>
 		</header>
 		
 		{% if simple %}
 			<ul class="lrv-a-unstyle-list lrv-a-space-children-vertical lrv-a-space-children--1">
 			{% for item in data %}
-				<li class="lrv-u-margin-tb-00 lrv-u-font-size-15 {{ simple_spaced ? 'lrv-u-display-inline' : 'lrv-u-margin-b-050'}}">{{item|raw}}{{ loop.index != data|length ? separator ~ ' ' }}</li>
+				<li class="lrv-u-margin-tb-00 lrv-u-font-size-18 {{ simple_spaced ? 'lrv-u-display-inline' : 'lrv-u-margin-b-050'}}">{{item|raw}}{{ loop.index != data|length ? separator ~ ' ' }}</li>
 			{% endfor %}
 			</ul>
 		{% else %}
@@ -15,8 +15,8 @@
 				{% for item in data %}
 					<li>
 						<div class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--1">
-							<h4 class="lrv-u-margin-b-025"><span class="lrv-u-font-size-15">{{item.position}}</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-15 lrv-u-font-weight-normal">{{item.company ? ' – ' ~ item.company : ''}}</span></h4>
-							<span class="lrv-u-margin-l-auto lrv-u-margin-t-025 lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-15">{{item.startDate}} {{item.endDate ? ' - ' ~ item.endDate : '' }}</span>
+							<h4 class="lrv-u-margin-b-025"><span class="lrv-u-font-size-18">{{item.position}}</span> <span class="lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-18 lrv-u-font-weight-normal">{{item.company ? ' – ' ~ item.company : ''}}</span></h4>
+							<span class="lrv-u-margin-l-auto lrv-u-margin-t-025 lrv-u-text-transform-uppercase lrv-u-color-grey-dark lrv-u-font-size-18">{{item.startDate}} {{item.endDate ? ' - ' ~ item.endDate : '' }}</span>
 						</div>
 						
 						{% if item.summary %}
@@ -26,7 +26,7 @@
 						{% if item.highlights %}
 							<ul class="lrv-u-padding-l-1">
 								{% for highlight in item.highlights %}
-									<li class="lrv-u-font-size-15">{{highlight|raw}}</li>
+									<li class="lrv-u-font-size-16">{{highlight|raw}}</li>
 								{% endfor %}
 							</ul>
 						{% endif %}

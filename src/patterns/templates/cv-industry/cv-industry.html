@@ -11,7 +11,7 @@
 		<div class="">
 			<div class="lrv-u-flex lrv-u-align-items-center lrv-a-space-children-horizontal lrv-a-space-children--1">
 				<h1>{{ data.basics.name|raw }}</h1>
-				<em class="lrv-u-margin-t-050">{{ data.basics.label }}</em>
+				<em class="lrv-u-margin-t-050 lrv-u-font-size-17">{{ data.basics.label }}</em>
 			</div>
 			{% if data.basics.interests|length > 0 %}
 				<ul class="lrv-u-margin-t-00">
@@ -21,7 +21,7 @@
 				</ul>
 			{% endif %}
 
-			<ul class="lrv-u-flex lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap lrv-u-margin-tb-050">
+			<ul class="lrv-u-flex lrv-u-font-weight-bold lrv-a-space-children-horizontal lrv-a-space-children--050 lrv-a-unstyle-list lrv-u-flex-wrap-wrap lrv-u-margin-tb-050">
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{ data.basics.email }}</li>
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.phone}}</li>
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li>
@@ -34,7 +34,7 @@
 				{% endif %}
 			</ul>
 
-			<p class="lrv-u-margin-t-1 lrv-u-margin-b-00">{{ data.basics.summary }}</p>
+			<p class="lrv-u-margin-t-1 lrv-u-margin-b-00 lrv-u-font-style-italic">{{ data.basics.summary }}</p>
 		</div>
 	</header>
 	
