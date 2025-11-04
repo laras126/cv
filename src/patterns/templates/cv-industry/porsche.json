@@ -1,13 +1,12 @@
 {
 	"basics": {
 		"name": "Lara Karki",
-		"label": "she/her",
 		"picture": "",
 		"email": "lara@notlaura.com",
 		"linkedin": "linkedin.com/in/notlaura",
 		"label": "Human-Centered AI Ph.D. Research Intern",
 		"phone": "(724) 244-2491",
-		"summary": "Ph.D. candidate researching AI's impact on work with proven ability to drive AI integration and transformation across business functions. Hybrid background in software engineering and social science research enables translation across technical teams, business units, and end users to align stakeholder needs and deliver value through innovation, efficiency, and adoption.",
+		"summary": "Ph.D. candidate researching AI's impact on work with proven ability to drive AI integration and transformation across business functions. Hybrid background in software engineering and social science research enables communication across technical teams, business units, and end-users to align stakeholder needs and deliver value through innovation, efficiency, and adoption.",
 		"location": "Atlanta, GA",
 		"website": "larakarki.com",
 		"profiles": []
@@ -22,7 +21,7 @@
 			"highlights": [
 				"<b>AI Integration & Strategy:</b> Developed internal framework to drive AI transformation across domains through human-centered approaches, identifying four key opportunities to unlock value: adoption, user empowerment, human-AI collaboration, and governance. Created actionable research agendas prioritized by business impact and presented to Leadership Teams across Merck divisions (Human Health, Animal Health and R&D).",
 				"<b>Research Design:</b> Designed and conducted applied research through ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units. Identified adoption bottlenecks as a primary business challenge; translated findings into additional targeted research protocols and frameworks.",
-				"<b>AI Product Enablement:</b> Improved adoption of new Gen AI product to enhance field sales reps' customer engagement by developing research protocols to understand pain points and opportunities in current workflows. Identified user segments through surveys, assessed AI impact on work practices, and proposed design solutions to maximize adoption and scalability.",
+				"<b>AI Product Enablement:</b> Improved adoption of new Gen AI product to enhance field sales reps' customer engagement by developing research protocols to understand pain points and opportunities in current workflows. Identified user segments through surveys, assessed AI impact on work practices, and proposed design solutions to maximize adoption, scalability, and data-driven intelligence.",
 				"<b>Stakeholder Communication:</b> Summarized, extracted and presented key insights from my academic research on human-AI collaboration to a broader internal audience. Delivered several presentations to the AI Leadership Team and internal Responsible AI group of 100+, facilitating cross-functional knowledge sharing."
 			]
 		},
@@ -57,7 +56,7 @@
 			"endDate": "2018",
 			"summary": "",
 			"highlights": [
-				"Built and managed independent consulting business, providing design, development, and strategy services to 30+ clients including The Weather Channel, Barnes and Noble, web development agencies, startups, and small businesse.",
+				"Built and managed independent consulting business, providing design, development, and strategy services to 30+ clients including The Weather Channel, Barnes and Noble, web development agencies, startups, and small businesses.",
 				"Developed customized training plans and end-to-end product branding, prototypes, designs, and software builds to meet a variety of business needs in multiple industries."
 			]
 		},
