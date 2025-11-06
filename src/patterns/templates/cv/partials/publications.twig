@@ -5,7 +5,7 @@
 		</header>
 		<div class="">
 			{% if data.posters != [] %}
-				<h4>Peer-Reviewed Conference and Journal</h4>
+				<h4 class="lrv-u-font-style-italic lrv-u-margin-b-1">Peer-Reviewed Conference and Journal</h4>
 			{% endif %}
 			<ol class="lrv-a-unstyle-list">
 				{% for item in data.peerReviewed %}
@@ -15,11 +15,11 @@
 				{% endfor %}
 			</ol>
 			{% if data.posters != [] %}
-				<h4>Short Papers/Posters</h4>
-				<ol class="lrv-a-space-children-vertical lrv-a-space-children--1 lrv-u-width-100p lrv-u-margin-r-1">
+				<h4 class="lrv-u-font-style-italic lrv-u-margin-b-1">Short Papers and Posters</h4>
+				<ol class="lrv-a-unstyle-list">
 					{% for item in data.posters %}
 						<li>
-							<p>{{item.cite|raw}}</p>
+							<p class="lrv-u-margin-t-00 lrv-u-font-size-16">{{item.cite|raw}}</p>
 						</li>
 					{% endfor %}
 				</ol>
