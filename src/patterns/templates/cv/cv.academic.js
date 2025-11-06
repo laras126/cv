@@ -2,7 +2,7 @@ const clonedeep = require( 'lodash.clonedeep' );
 
 const cv_prototype = require( './cv.prototype-orig' );
 const cv = clonedeep( cv_prototype );
-
+cv.data = require( './academic.json');
 cv.variant = 'academic';
 
 
