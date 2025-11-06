@@ -1,0 +1,178 @@
+{
+	"basics": {
+		"name": "Lara Karki",
+		"picture": "",
+		"email": "lara@notlaura.com",
+		"linkedin": "linkedin.com/in/notlaura",
+		"label": "Human-Centered AI Integration & Strategy Intern",
+		"phone": "(724) 244-2491",
+		"summary": "Ph.D. candidate researching AI's impact on work with proven ability to drive innovation strategy and transformation across business functions. Hybrid background in software engineering and social science research enables translation of visionary ideas into actionable roadmaps, aligning technical teams, business units, and end-users to deliver value through strategic prioritization, cross-functional coordination, and adoption.",
+		"location": "Atlanta, GA",
+		"website": "larakarki.com",
+		"profiles": []
+	},
+	"work": [
+		{
+			"company": "Merck",
+			"position": "Intern - Commercial AI Capabilities",
+			"startDate": "Summer 2025",
+			"endDate": "",
+			"summary": "",
+			"highlights": [
+				"<b>Strategic Prioritization & Innovation Framework:</b> Understood business roadmap to create an internal framework to drive AI transformation across domains through human-centered approaches, identifying four key opportunities to unlock value: adoption, user empowerment, human-AI collaboration, and governance. Created actionable research agendas prioritized by business impact and presented to Leadership Teams across Merck divisions (Human Health, Animal Health and R&D).",
+				"<b>Research & Insight Collection:</b> Designed and conducted applied research through ethnographic observation and interviews with 25+ stakeholders including product designers, data scientists, analysts, leadership, and sales management across business units. Identified adoption bottlenecks as a primary business challenge; translated findings into actionable startegies to inform product design and future OKRs.",
+				"<b>AI Product Enablement:</b> Improved adoption of new Gen AI product to enhance field sales reps' customer engagement by developing research protocols to understand pain points and opportunities in current workflows. Identified user segments through surveys, assessed AI impact on work practices, and proposed design solutions to maximize adoption and scalability.",
+				"<b>Executive Communication & Thought Leadership:</b> Summarized, extracted and presented key insights from academic research on human-AI collaboration to broader internal audiences. Delivered presentations to the AI Leadership Team and internal Responsible AI group of 100+, facilitating cross-functional knowledge sharing."
+			]
+		},
+		{
+			"company": "DataWorks at Georgia Institute of Technology",
+			"position": "Research Assistant",
+			"startDate": "2022",
+			"endDate": "2025",
+			"summary": "",
+			"highlights": [
+				"<b>Emerging Tech & Market Trends:</b> Contributed to work-based training/reskilling program addressing emergent needs for middle-skill data work resulting from AI/ML technologies. Integrated data ethics and computing literacy into technical skill development and work practices. Program's demonstrated value led to institutional adoption, evolving from research initiative to a permanent department within Georgia Tech.",
+				"<b>Project Support:</b> Identified training gap through ethnographic observation and survey research. Designed and implemented curriculum addressing job search challenges, increasing employment outcomes by 50% through targeted skill development interventions and creating novel professional development opportunities in technology careers.",
+				"<b>Research & Analysis:</b> Designed user study to uncover technical platform barriers preventing participants from completing key tasks. Formed research teams with program participants as co-researchers, increasing rigor by incorporating stakeholder perspectives and developing solutions to platform shortcomings."
+			]
+		},
+		{
+			"company": "Penske Media Corporation",
+			"position": "Principal Software Engineer",
+			"startDate": "2018",
+			"endDate": "2022",
+			"summary": "",
+			"highlights": [
+				"<b>Stakeholder Engagement & Business Insight Collection:</b> Conducted survey and interview study with 15+ stakeholders across product, design, and engineering to assess alignment issues. Identified business need to improve customer experience through more reliable user interface development, faster replatforms, and enhanced cross-functional communication.",
+				"<b>Innovation & Prototyping:</b> Prototyped technical solution leveraging emerging web technologies; solution adopted in production across 25+ brands, increasing productivity for brand migrations by 60%, enabling rapid response to stakeholder requests, and creating more reliable user experiences.",
+				"<b>Pipeline Management:</b> Implemented pipeline management through documentation, training, and communication channels supporting adoption across 80-person product and engineering department. Collaboration tools created shared language enabling stakeholder alignment, value creation, and transparent project timelines."
+			]
+		},
+		{
+			"company": "Independent Practice",
+			"position": "Founder & Technical Consultant",
+			"startDate": "2011",
+			"endDate": "2018",
+			"summary": "",
+			"highlights": [
+				"Built and managed independent consulting business, providing design, development, and strategy services to 30+ clients including The Weather Channel, Barnes and Noble, web development agencies, startups, and small businesses. Balanced multiple projects, bids, and deadlines simultaneously.",
+				"Developed customized training plans and end-to-end product branding, prototypes, designs, and software builds to meet a variety of business needs in multiple industries."
+			]
+		},
+		{
+			"company": "Pratt Institute",
+			"position": "Adjunct Instructor - \"Prototyping in Code\"",
+			"startDate": "2014",
+			"endDate": "2016",
+			"summary": "",
+			"highlights": [
+				"Founding instructor of UI/UX continuing education certificate program, developing two courses teaching programming fundamentals and technical communication to enable communication of ideas through prototyping",
+				"Taught 12-15 non-technical working professionals per cohort from backgrounds including sales, graphic design, and marketing"
+			]
+		},
+		{
+			"company": "Decoded",
+			"position": "Executive Education Facilitator",
+			"startDate": "2014",
+			"endDate": "2016",
+			"summary": "",
+			"highlights": [
+				"Facilitated 'Code in a Day' workshops for non-technical executives, improving their technical communication and understanding of modern development concepts",
+				"Provided individualized support adapting curriculum to executives' specific business contexts and communication needs"
+			]
+		}
+	],
+	"volunteer": [
+		{
+			"company": "International",
+			"position": "Conference Speaker",
+			"website": "https://supremenetwork.org",
+			"startDate": "2013",
+			"endDate": "present",
+			"highlights": [
+				"Presented research at academic conferences (e.g., ACM Computer Supported Cooperative Work), communicating findings across disciplines",
+				"Promoted novel and emerging development approaches with presentations delivered at 19 industry conferences to audiences of 500+ attendees; recorded talks have 40k+ views and invited guest on 5 podcasts"
+			]
+		},
+		{
+			"company": "WordPress Core",
+			"position": "Open Source Contributor",
+			"website": "https://make.wordpress.org/core/tag/core-css/",
+			"startDate": "2011",
+			"endDate": "2022",
+			"highlights": [
+				"Contributed to WordPress Core open-source project, contributing code, facilitating and organizing team meetings, and presenting at conferences and meetups to support vital community growth"
+			]
+		},
+		{
+			"company": "National",
+			"position": "Mentor & Community Organizer",
+			"website": "http://c4aa.org/",
+			"startDate": "2011",
+			"endDate": "Present",
+			"highlights": [
+				"Co-founded mentorship program pairing senior PhD students with junior PhD students in computing",
+				"Founded and co-organized ongoing developer meetups and conferences providing vital community support for new developers"
+			]
+		}
+	],
+	"awards": [
+		{
+			"position": "Pathbreakers Fellowship",
+			"company": "Georgia Institute of Technology",
+			"startDate": "2024"
+		},
+		{
+			"position": "Graduate Research Fellowship",
+			"company": "National Science Foundation",
+			"startDate": "2023"
+		},
+		{
+			"position": "President's Fellowship",
+			"company": "Georgia Institute of Technology",
+			"startDate": "2022"
+		}
+	],
+	"publications": {
+		"peerReviewed": [
+			{
+				"cite": "<b>Lara Karki</b>, Kayla Uleah, Carl DiSalvo, Sierra Traynail Ross, Jadin Butler, Selamawit Husen, Emanuel Bryant, Dana Priest, Justin Booker, and Betsy DiSalvo. 2025.  'I get hives when I come on here': Persisting Through Platform-Delivered Microaggressions on LinkedIn. Proc. ACM Hum.-Comput. Interact. 9, 7, Article CSCW232 (November 2025), 36 pages. https://doi.org/10.1145/3757413"
+			},
+			{
+				"cite": "<b>Lara Karki</b>, Dana Priest, James G. Dubose, Zajerria Godfrey, Annabel Rothschild, Ben Rydal Shapiro, and Betsy DiSalvo. 2025. A Window into DataWorks: Developing an Integrated Work-Training Curriculum for Novice Adults. In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSETS 2025). Association for Computing Machinery, New York, NY, USA, 568–574. https://doi.org/10.1145/3641554.3701826"
+			},
+			{
+				"cite": "Carl DiSalvo, Annabel Rothschild, <b>Lara L. Schenck</b>, Ben Rydal Shapiro, and Betsy DiSalvo. 2024. When Workers Want to Say No: A View into Critical Consciousness and Workplace Democracy in Data Work. Proc. ACM Hum.-Comput. Interact. 8, CSCW1, Article 156 (April 2024), 24 pages. https://doi.org/10.1145/3637433."
+			}
+		]
+	},
+	"education": [
+		{
+			"position": "Ph.D. Human-Centered Computing",
+			"company": "Georgia Institute of Technology",
+			"startDate": "2022",
+			"endDate": "Present",
+			"highlights": [
+				"<b>Coursework:</b> Prototyping Interactive Systems, Research Methods, Issues in Human-Centered Computing, Learning & Development, Social Studies of Technology, Future of Work",
+				"<b>Dissertation:</b> \"The Search for Tech-Related Admin Jobs in Times of Technological Change\""
+			]
+		},
+		{
+			"position": "Bachelor of Fine Arts",
+			"company": "School of the Museum of Fine Arts at Tufts University",
+			"startDate": "2009",
+			"endDate": "2011",
+			"highlights": [
+				"<b>Coursework</b>: Animation, Painting, Printmaking and Bookmaking, Game Design; Self-Directed Software Development Internship"
+			]
+		}
+	],
+    "skills": [
+		"<strong>AI Integration & Transformation:</strong> AI/ML product design & development, human-AI collaboration, responsible AI, adoption strategies, workforce impacts, work practices integration, organizational change management",
+		"<strong>Research & Analytics:</strong> Applied research methods, ethnography, interviews and surveys, qualitative/quantitative analysis, mixed-methods, impact evaluation, user research",
+		"<strong>Technical Development:</strong> Full-stack web engineering (PHP, Enterprise WordPress, JS, React, HTML/CSS), software architecture (design systems, MVC), testing and CI/CD, Python (pandas, matplotlib), rapid prototyping and testing",
+		"<strong>Software Proficiency:</strong> LLMs (Claude, ChatGPT, Gemini), Microsoft Office Suite (Excel, Word, PowerPoint), qualitative analysis software (Dovetail, MAXQDA), Adobe Creative Suite",
+		"<strong>Spoken Languages:</strong> English (Native), Nepali (Fluent), Spanish (Advanced Beginner)"
+	]
+}

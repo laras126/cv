@@ -73,15 +73,6 @@
 			title: data.publications_title ?: 'Publications'
 		} %}
 
-	
-		{% if not hide_hobbies %}
-			{% include "templates/cv/partials/section.twig" with {
-				data: data.hobbies,
-				title: 'Hobbies',
-				simple: true,
-				separator: ','
-			} %}
-		{% endif %}
 	</div>
 </div>
 
