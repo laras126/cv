@@ -7,7 +7,8 @@
 		"phone": "(724) 244-2491",
 		"summary": "Artist and software developer now researching nontraditional pathways to computing careers.",
 		"location": "Atlanta, GA",
-		"website": "larakarki.com | notlaura.com",
+		"website": "larakarki.com",
+		"linkedin": "linkedin.com/in/notlaura",
 		"interests": [
 			"Broadening participation in computing",
 			"Workforce development and communities of practice"
@@ -89,7 +90,7 @@
 	"teaching": [
 		{
 			"company": "Georgia Institute of Technology",
-			"position": "Teaching Assistant - CS 7001 Educational Game Design",
+			"position": "Graduate Teaching Assistant - CS 7001 Educational Game Design",
 			"startDate": "2025",
 			"endDate": "Present",
 			"summary": "Support instruction and deliver guest lectures.",
@@ -98,6 +99,20 @@
 				"CS 7001 Intro to PhD Studies (Fall 2025)"
 
 			]
+		},
+		{
+			"company": "IC Buddies @ GA Tech",
+			"position": "Mentor",
+			"startDate": "Fall 2025",
+			"endDate": "Present",
+			"summary": "Provide mentorship to incoming PhD Students."
+		},
+		{
+			"company": "DataWorks @ GA Tech",
+			"position": "Career Dev Coordinator",
+			"startDate": "Fall 2022",
+			"endDate": "Spring 2025",
+			"summary": "Founded, designed, and facilitateed career development program for career changing adults in a work-training program."
 		},
 		{
 			"company": "",
@@ -147,23 +162,19 @@
 		}
 	],
 	"speaking": [
-		"<em>Generative Art With FizzBuzz in CSS</em> (invited) at CodeDay – online, 2021",
+		"<em>Platform Delivered Microaggressions on LinkedIn</em> (invited) - CSCW 2025 - Bergen, 2025",
+		"<em>A Window into DataWorks</em> (invited) - SIGCSE TS 2025 - Pittsburgh, 2025",
+		"<em>Research Presentation</em> (invited) - Critical Computing Group at Georgia Tech, Spring 2024",
+		"<em>Research Presentation</em> (invited) - STS Symposium at Georgia Tech, Fall 2023",
 		"<em>CSS Algorithms</em> at StrangeLoop – St. Louis, 2019",
 		"<em>Is CSS a Programming Language?</em> at Abstractions – Pittsburgh, 2019",
 		"<em>CSS Algorithms</em> at JS Conf US – San Diego, 2019",
 		"<em>Writing CSS Algorithms</em> at CSS Camp – Barcelona, 2019",
 		"<em>Algorithms of CSS</em> at CSS Day (invited) – Amsterdam, 2019",
-		"<em>CSS is a Programming Language</em> at WordCamp Montclair (invited) – Montclair, NJ, 2019",
 		"<em>Bridging the Gap Between Design & Development</em> at WordCamp US – Nashville, 2018",
-		"<em>Understanding Today’s CSS with Algorithms</em> at SIGNAL (invited) – San Francisco, 2018",
-		"<em>The Algorithms of CSS</em> at js.la – Los Angeles, 2018",
 		"<em>The Algorithms of CSS</em> at CSSConf EU – Berlin, 2018",
 		"<em>Let’s Build A Gutenberg Block Workshop</em> at WordCamp EU – Belgrade, 2018",
-		"<em>Let’s Build A Gutenberg Block</em> at WordCamp San Diego – San Diego, 2018",
-		"<em>The Five-figure WordPress Website</em> at Abstractions – Pittsburgh, 2016",
-		"<em>Vetting and Choosing Themes</em> at WordCamp Pittsburgh – Pittsburgh, 2016",
 		"<em>Why the Designer Failed FizzBuzz</em> at SassConf – Austin, 2015",
-		"<em>Sassy WordPress</em> at WordCamp Montreal – Montreal, 2014",
 		"<em>Freelancing, Real Talk</em> at WordCamp NYC – NYC, 2014"
 	],
 	"outreach": [
@@ -220,7 +231,7 @@
 		{
 			"position": "Georgia Institute of Technology",
 			"company": "Ph.D. Human-Centered Computing",
-			"summary": "<ul><li>Advisor: Dr. Betsy DiSalvo</li></li><li>Focus: learning sciences, broadening participation in computing, workforce development</li></ul>",
+			"summary": "<ul><li>Advisor: Dr. Betsy DiSalvo</li></li><li>Focus: future of work, computing workforce development, employment, workplace tools, AI impacts on work</li></ul>",
 			"startDate": "2022",
 			"endDate": "Present"
 		},
@@ -240,9 +251,10 @@
 	],
 	"skills": [
 		"<strong>Artificial Intelligence:</strong> Responsible AI, human-centered AI, AI product adoption and applications, workforce impacts",
-		"<br><strong>Development:</strong> Full-stack web engineering (PHP, JS, React, HTML/CSS), software architecture (design systems), Python (pandas)",
-		"<br><strong>Research:</strong> Applied research, qualitative analysis, mixed-methods, ethnography, engaged scholarship",
-		"<br><strong>Languages:</strong> English (Native), Nepali (Fluent), Spanish (Advanced Beginner)"
+		"<strong>Development:</strong> Full-stack web engineering (PHP, JS, React, HTML/CSS), software architecture (design systems), Python (pandas)",
+		"<strong>Research:</strong> Applied research, qualitative analysis, mixed-methods, ethnography, engaged scholarship",
+		"<strong>Professional:</strong> Project management, public speaking, executive communication, organizational change, learning and development",
+		"<strong>Languages:</strong> English (Native), Nepali (Fluent), Spanish (Advanced Beginner)"
 	],
 	"hobbies": [
 		"<a href=\"https://notlaura.com/monsters/\">Illustrating monsters</a>",

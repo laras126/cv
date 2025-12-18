@@ -27,11 +27,6 @@
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.location}}</li>
 				<li class="lrv-a-icon-after lrv-a-icon-bullet">{{data.basics.website}}</li>
 				<li class="">{{data.basics.linkedin}}</li>
-				{% if not hide_profiles %}
-					{% for profile in data.basics.profiles %}
-						<li class="lrv-a-icon-before {{ loop.index != data.basics.profiles|length ? 'lrv-a-icon-bullet' }}"><a href="{{profile.url}}">{{ profile.network }}</a></li>
-					{% endfor %}
-				{% endif %}
 			</ul>
 
 			<p class="lrv-u-margin-t-1 lrv-u-margin-b-00 lrv-u-font-style-italic">{{ data.basics.summary }}</p>
@@ -63,7 +58,9 @@
 
 		{% include "templates/cv/partials/section.twig" with {
 			data: data.speaking,
-			title: 'Selected Speaking Engagements'
+			title: 'Selected Speaking Engagements',
+			simple: true,
+			simple_spaced: false
 		} %}
 
 		{% include "templates/cv/partials/section.twig" with {
